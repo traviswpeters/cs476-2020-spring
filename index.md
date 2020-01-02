@@ -40,11 +40,6 @@ If you have any questions, please contact me.
 
 Feedback is always appreciated regarding typos, suggestions for more detailed explanations, additional examples, etc.
 
-<span class="lead font-italic">Schedule Coming Soon...</span>
-{:.alert .alert-primary .text-white .text-center}
-
-{% comment %}
-
 {:.table .table-hover .table-striped .table-bordered .table-sm}
 | Date          | Topics & Lectures                                                                                                                                                                      | Reading                                      | Assignments                                  |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
@@ -60,7 +55,6 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | **Week 4**    | <span class="note"></span>                                                                                                                                                             | <span class="note"></span>
 |               |                                                                                                                                                                                        |
 |               |                                                                                                                                                                                        |
-{% endcomment %}
 
 <!-- code examples, provided code, etc. -->
 [Makefile]: {{site.data.settings.code}}/Makefile

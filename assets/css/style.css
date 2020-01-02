@@ -11,10 +11,7 @@
    width: auto;
  */
 
-   /* font-family: 'Assistant', sans-serif; */
-   /* font-family: 'Quattrocento Sans', sans-serif; */
-   font-family: 'Quicksand', sans-serif;
-   /* font-family: 'Work Sans', sans-serif; */
+  font-family: 'Assistant', sans-serif;
 }
 
 .container, .container-sm, .container-xl {
@@ -35,7 +32,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /* font-family: 'Roboto', sans-serif; */
   font-family: 'Proza Libre', sans-serif;
   color: #333;
   padding: 0px;
