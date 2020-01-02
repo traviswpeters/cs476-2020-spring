@@ -1,0 +1,8 @@
+<div id="coursetitle">
+    <h1>{{ site.data.settings.titlenum }}: {{ site.data.settings.title }}</h1>
+    <span style="font-weight:200; font-size:1.0rem; font-style: italic;">{{ site.data.settings.school }}, {{ site.data.settings.term }}</span>
+    {% include menu.html %}
+</div>
+
+{% capture announcements %}{% include announcements.md %}{% endcapture %}
+{{ announcements | markdownify }}

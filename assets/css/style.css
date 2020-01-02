@@ -1,0 +1,178 @@
+* {
+    /* debug */
+    /* outline: 1px solid red; */
+    /* margin: 0px; */
+    /* padding: 0px; */
+    /* border: 0px; */
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    /* width: auto; */
+    /* width: auto; */
+}
+
+body {
+  /* font-family: "Quattrocento Sans", "Georgia", "Times New Roman", sans-serif; */
+  /* font-family: 'Quattrocento Sans', sans-serif; */
+  /* font-weight:400; */
+  /* font-style:normal; */
+  font-size: 14px;
+  /* color: #515151; */
+  /* overflow-x: hidden; */
+  padding-top: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: "Quattrocento Sans", sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* color: #333; */
+  /* padding: 0px; */
+  /* margin: 0px; */
+  /* margin-bottom: 5px; */
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#coursetitle {
+    text-align: center;
+    padding:40px;
+    /* font-size: 3em; */
+    font-weight: 800;
+}
+h2 {
+  /* Add horizontal line under each h2 with padding above and below */
+  border-bottom: 0.75px solid #999;
+
+  /* fix weird issues where top of in-page anchor target gets cut off. */
+  padding-top: 60px;
+  margin-top: -60px;
+}
+h3 {
+    /* font-size: 1.5rem; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+}
+h6 {
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+}
+.subpage-header {
+  margin: 25px 0px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.25rem;
+}
+
+a {
+  /* text-decoration: none; */
+  /* font-size: 1.01rem; */
+  font-weight: 500;
+  color: rgb(24, 107, 188); /* MSU Blue */
+}
+
+/*
+ Pretty-ify the collapsable elements
+ Thanks @ https://codepen.io/tmg/pen/PQVBGB
+ */
+[data-toggle="collapse"] .fa:before {
+  content: "\f139";
+}
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f13a";
+}
+
+img {
+  height: auto;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+blockquote {
+  border-left: 0.1rem solid #ccc;
+  font-style: italic;
+  color: #999;
+  padding: 2px 20px;
+}
+blockquote p {
+  display: inline;
+}
+
+span {
+
+}
+.titlenote {
+    font-size: 0.85rem;
+    font-style: italic;
+    font-weight: 600;
+    color: #777;
+}
+.note {
+    /* font-size: 0.75rem; */
+    font-style: italic;
+    font-weight: 100;
+    color: #999;
+}
+.timestamp {
+  color: #ddf;
+  font-size: 0.65rem;
+  font-style: italic;
+  font-weight: 100;
+  padding-left: 5px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #999;
+}
+footer * {
+    display: inline;
+}
+
+footer a {
+  color: #555;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+footer a:hover {
+  color: #333;
+}
+.footer {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Code */
+
+pre,
+code {
+    font-size: 0.8rem;
+    border-radius: 3px;
+    background-color: #eee;
+    padding: 1px 10px;
+    font-family: "Andale Mono", "Source Code Pro", sans-serif;
+}
+
+.menu {
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-top: 0.5px solid lightgrey;
+    border-bottom: 0.5px solid lightgrey;
+}
+.menu {
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu a {
+    margin: 0px 20px;
+    font-size: 1.1rem;
+}

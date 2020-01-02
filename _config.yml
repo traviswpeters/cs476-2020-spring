@@ -1,0 +1,11 @@
+baseurl: /cs460-2019-fall
+livereload: true
+profile: true
+
+markdown: kramdown # use <TAG markdown="1"> to render markdown within HTML tags!
+mathjax: true
+defaults:
+    - scope:
+        path: "code"
+      values:
+        code: true

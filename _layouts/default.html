@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+<div class="container">
+
+<section class="main-content">
+
+<section class="page-header" markdown="1">
+{% include header.html %}
+</section>
+
+{{ content }}
+
+{% include footer.html %}
+
+</section>
+
+</div>
+
+<!-- <a href="https://github.com/you"><img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_white_ffffff.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a> -->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/3c804f8737.js" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+    /*
+     * class hacking: add bootstrap/bootswatch class labels to my custom classes (notes, slides, etc.)
+     */
+    // site asset stles
+    $('.notes').addClass('badge badge-pill badge-info');
+    $('.slides').addClass('badge badge-pill badge-warning');
+    $('.code').addClass('badge badge-pill badge-danger');
+    $('.exam').addClass('badge badge-pill badge-success');
+    // project-specific styles
+    $('.proposal').addClass('badge badge-pill badge-info');
+    $('.report').addClass('badge badge-pill badge-success');
+    // admin styles
+    $('.new').addClass('badge badge-pill badge-primary');
+    $('.announcement').addClass('alert alert-primary').prepend('<h4 class="alert-heading">Class Announcement!</h4>');
+    $('.timestamp').prepend('&mdash;Posted ');
+});
+</script>
+{% include mathjax.html %}
+</body>
+
+</html>

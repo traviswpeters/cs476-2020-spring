@@ -1,0 +1,31 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "hashicorp/bionic64"
+  config.vm.hostname = "osbox"
+
+  # Share an additional folder to the guest VM. The first argument is
+  # the path on the host to the actual folder. The second argument is
+  # the path on the guest to mount the folder. And the optional third
+  # argument is a set of non-required options.
+  #
+  # Here, I sync the current directory (".") on my host machine with the VM (which can be located at "/home/vagrant/os")
+  config.vm.synced_folder ".", "/home/vagrant/os-cs460"
+
+  # Enable provisioning with a shell script.
+  config.vm.provision "shell", inline: <<-SHELL
+    export DEBIAN_FRONTEND=noninteractive
+    apt-get update
+    apt-get upgrade -y
+
+    # some useful installs
+    apt-get install vim  #editor
+    apt-get install git  #VCS
+    apt-get install tree #enhanced commandline output
+
+    # surpress login banner w/ motd
+    touch ~/.hushlogin
+  SHELL
+  config.vm.provision "shell", inline: "echo All done! Now run: vagrant ssh"
+end

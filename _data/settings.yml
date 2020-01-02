@@ -1,0 +1,127 @@
+# Website Settings
+# site.data.settings.XXXXXXXXX
+title: Operating Systems
+titleshort: OS 460
+titlenum: CS 460 #CSCI 460
+titlenumshort: CS 460
+school: Montana State University
+term: Fall 2019
+lectures: "Barnard Hall 108 | Monday, Wednesday, Friday 8:00–8:50 a.m."
+officehours: "NAH 253A | Monday, Wednesday, Friday 9:00&ndash;10:00 a.m. and by appointment."
+textbook: "Operating Systems: Internals and Design Principles (9th Edition), by William Stallings"
+textbooklink: "[(Amazon)](https://www.amazon.com/Operating-Systems-Internals-Design-Principles/dp/0134670957)"
+instructor: Dr. Travis Peters
+img: assets/peters-sq.png
+office: NAH 253A
+officephone: "x4296" # extension
+email: travis.peters1@montana.edu
+
+# --> baseurl set in _config.yml
+url: https://traviswpeters.github.io/cs460-2019-fall/
+homeurl: https://traviswpeters.github.io/
+githuburl: https://github.com/traviswpeters/cs460-2019-fall
+
+Questionnaire: https://forms.gle/Krmco3bNsbPRjSca7
+d2l: https://ecat.montana.edu/d2l/home/553509
+Gradescope: https://www.gradescope.com/
+
+# locations of things (notes, slides, etc.)
+slides: "notes"
+notes: "notes"
+solutions: "solutions"
+code: "code"
+reading: "notes"
+projectfiles: 'project'
+
+menu:
+- {name: 'Syllabus', url: ''}
+- {name: 'Schedule', url: '#schedule'}
+- {name: 'Exams', url: '#exams'}
+- {name: 'Assignments', url: '#assignments'}
+- {name: 'Project', url: '#project'}
+- {name: 'Extra Credit', url: 'xc'}
+# - {name: 'Code', url: 'code'}
+
+homeworks:
+  hw1:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW1'
+    due: 'Due 09/13'
+    show: True
+  hw2:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW2'
+    due: 'Due 10/11'
+    show: True
+  hw3:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW3'
+    due: 'Due 10/18'
+    show: True
+  hw4:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW4'
+    due: 'Due 10/25'
+    show: True
+  hw5:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW5'
+    due: 'Due 11/01'
+    show: True
+  hw6:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW6'
+    due: 'Due 11/08'
+    show: True
+
+assignments:
+  a1:
+    shortname: 'PA1'
+    longname: 'Assignment 1: Concurrency'
+    url: 'a1'
+    due: 'Due 10/16'
+    timedue: '@10pm'
+    duecheckpoint: 'Friday, October 4th, 2019 @10pm'
+    duelong: 'Wednesday, October 16th, 2019 @10pm'
+    show: True # show on schedule?
+  a2:
+    shortname: 'PA2'
+    longname: 'Assignment 2: Scheduling'
+    url: 'a2'
+    due: 'Due 11/11'
+    timedue: '@10pm'
+    duelong: 'Monday, November 11th, 2019 @10pm'
+    show: True # show on schedule?
+  a3:
+    shortname: 'PA3'
+    longname: 'Assignment 3: Peer Project Review'
+    url: 'a3'
+    due: '~~Due 12/07~~ **Due 12/12**{:.text-danger}'
+    timedue: '@10pm'
+    duelong: '~~Saturday, December 7th, 2019 @10pm~~ **Thursday, December 12th, 2019 @10pm**{:.text-danger}'
+    show: True # show on schedule?
+
+project:
+  pages:
+    details: "Project Details"
+    schedule: "Project Teams & Schedule"
+  infolink:   'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
+  signuplink: 'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
+  attendance: 'https://docs.google.com/spreadsheets/d/1ViB-YF5SGXbf1jsXAIPJ-kK7-b3QskZJt4G-cYMuH9s/edit?usp=sharing'
+  rubric:     'https://docs.google.com/spreadsheets/d/1-i5t_Pu6qY2crSkh_R75qNOcRqQeNVmiTlRtsDGFDd0/edit?usp=sharing'
+  rubricpdf:  'rubric.pdf'
+  due-proposal: 'Friday, November 1st, 2019 @10pm'
+  due-final: '~~Friday, December 6th, 2019 @10pm~~ **Thursday, December 12th, 2019 @10pm**{:.text-danger}'
+
+exams:
+  files: "notes"
+  exam1:
+    name: 'Exam 1'
+    date: '10/07/2019'
+    url: '#exams'
+    show: True # show on schedule?
+  exam1:
+    name: 'Exam 2'
+    date: '11/08/2019'
+    url: '#exams'
+    show: False # show on schedule?
