@@ -3,6 +3,7 @@
 ###
 
 # NOTE: Access variables here with: site.data.settings.XXXXXXXXX
+siteauthor: 'Travis Peters'
 
 # Instructor-specific variables
 school: 'Montana State University'

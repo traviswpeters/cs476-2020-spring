@@ -40,8 +40,8 @@ If you have any questions, please contact me.
 
 Feedback is always appreciated regarding typos, suggestions for more detailed explanations, additional examples, etc.
 
-***Schedule Coming Soon...***
-{:.lead .alert-primary .text-white .text-center}
+<span class="lead font-italic">Schedule Coming Soon...</span>
+{:.alert .alert-primary .text-white .text-center}
 
 {% comment %}
 
@@ -65,7 +65,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 <!-- code examples, provided code, etc. -->
 [Makefile]: {{site.data.settings.code}}/Makefile
 [Vagrantfile]: {{site.data.settings.code}}/Vagrantfile
-[uid.c]: {{site.data.settings.code}}/fork_bomb.c
+[uid.c]: {{site.data.settings.code}}/uid.c
 
 <!-- slides -->
 [slides01]: {{site.data.settings.slides}}/cs476-01-intro.pdf
