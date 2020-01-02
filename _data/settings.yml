@@ -1,8 +1,7 @@
 ###
 ### Website Settings
+### => NOTE: Access variables here with: site.data.settings.XXXXXXXXX
 ###
-
-# NOTE: Access variables here with: site.data.settings.XXXXXXXXX
 siteauthor: '[Travis Peters](https://www.traviswpeters.com/)'
 
 # Instructor-specific variables
@@ -10,8 +9,7 @@ school: 'Montana State University'
 instructor: '<i class="fas fa-user-circle"></i> [Travis Peters](https://www.traviswpeters.com/)'
 img: 'assets/me.png'
 office: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=342"><i class="fas fa-map-pin"></i> NAH 253A</a>'
-officephone: '<i class="fas fa-phone"></i>‭ 406-994-**4296‬**'
-officephoneext: "x4296" # extension
+officephone: '<a target="_blank" href="tel:4069944296‬"><i class="fas fa-phone"></i> 406-994-**4296‬**</a>'
 email: '<i class="fas fa-envelope"></i> [travis.peters1@montana.edu](mailto:travis.peters1@montana.edu?subject=CS 476 Help)'
 
 # Course-specific variables
@@ -22,6 +20,8 @@ dates: 'Jan 13, 2020 - May 08, 2020'
 lectures: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=9"><i class="fas fa-map-pin"></i> Reid Hall 103</a> | Tuesday/Thursday 3:05 pm &ndash; 4:20 pm'
 officehours: "Tuesday/Thursday 4:30 pm &ndash; 6:00 pm and by appointment."
 textbook: "[Computer & Internet Security: A Hands-on Approach (2nd Edition)](https://www.handsonsecurity.net), by Wenliang Du"
+finalexamdate: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=9"><i class="fas fa-map-pin"></i> Reid Hall 103</a> | May 8, 2020 (2:00 &ndash; 3:50 pm)'
+
 
 # --> baseurl set in _config.yml
 homeurl: https://traviswpeters.github.io/

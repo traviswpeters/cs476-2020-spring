@@ -21,15 +21,19 @@ If you do not have any of the above prerequisites, you should touch base with me
 
 ## Logistics
 
-**Professor:** {{ site.data.settings.instructor }} | {{site.data.settings.email}} | {{site.data.settings.office}} | {{site.data.settings.officephone}} <br/>
-**Professor Office Hours:** {{site.data.settings.office}} | {{ site.data.settings.officehours }} <br/>
-**Grader/Office Hours:** TBD / TBD <br/>
 **Lectures:** {{ site.data.settings.lectures }} <br/>
+<!-- **Final Exam:** {{ site.data.settings.finalexamdate }} <br/> -->
 **Textbook:** {{ site.data.settings.textbook }} <br/>
 **Course Links:**
 {{site.data.settings.d2l}}
 {{site.data.settings.gradescope}}
 {{site.data.settings.ssc}}
+
+##### Teaching Team
+
+**Professor:** {{ site.data.settings.instructor }} | {{site.data.settings.email}} | {{site.data.settings.office}} | {{site.data.settings.officephone}} <br/>
+**Professor Office Hours:** {{site.data.settings.office}} | {{ site.data.settings.officehours }} <br/>
+**Grader/Office Hours:** TBD / TBD <br/>
 
 ## Schedule <span class="note">This is a tentative schedule that is subject to change with minimal notice</span>
 
