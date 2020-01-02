@@ -1,86 +1,72 @@
 * {
-    /* debug */
-    /* outline: 1px solid red; */
-    /* margin: 0px; */
-    /* padding: 0px; */
-    /* border: 0px; */
-    /* margin-right: auto; */
-    /* margin-left: auto; */
-    /* width: auto; */
-    /* width: auto; */
+   /* debug */
+   /* outline: 1px solid red; */
+
+/*
+   margin: 0px;
+   padding: 0px;
+   border: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   width: auto;
+ */
+
+   /* font-family: 'Assistant', sans-serif; */
+   /* font-family: 'Quattrocento Sans', sans-serif; */
+   font-family: 'Quicksand', sans-serif;
+   /* font-family: 'Work Sans', sans-serif; */
+}
+
+.container, .container-sm, .container-xl {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 25px;
 }
 
 body {
-  /* font-family: "Quattrocento Sans", "Georgia", "Times New Roman", sans-serif; */
-  /* font-family: 'Quattrocento Sans', sans-serif; */
-  /* font-weight:400; */
-  /* font-style:normal; */
-  font-size: 14px;
-  /* color: #515151; */
-  /* overflow-x: hidden; */
-  padding-top: 20px;
+  background-color: #F2F2F2;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  /* font-family: "Quattrocento Sans", sans-serif; */
-  /* font-family: 'Montserrat', sans-serif; */
-  /* color: #333; */
-  /* padding: 0px; */
-  /* margin: 0px; */
-  /* margin-bottom: 5px; */
-}
-h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-}
 #coursetitle {
     text-align: center;
     padding:40px;
     /* font-size: 3em; */
     font-weight: 800;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Proza Libre', sans-serif;
+  color: #333;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {}
+
 h2 {
   /* Add horizontal line under each h2 with padding above and below */
-  border-bottom: 0.75px solid #999;
-
-  /* fix weird issues where top of in-page anchor target gets cut off. */
-  padding-top: 60px;
-  margin-top: -60px;
-}
-h3 {
-    /* font-size: 1.5rem; */
-    /* padding-top: 10px; */
-    /* padding-bottom: 10px; */
-}
-h6 {
-    /* padding-top: 10px; */
-    /* padding-bottom: 10px; */
-}
-.subpage-header {
-  margin: 25px 0px;
+  border-bottom: 1.0px solid #CCC;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 p {
+    padding: 0px;
+    margin: 0px;
     margin-bottom: 15px;
     line-height: 1.25rem;
 }
 
 a {
-  /* text-decoration: none; */
-  /* font-size: 1.01rem; */
-  font-weight: 500;
   color: rgb(24, 107, 188); /* MSU Blue */
+  text-decoration: none;
+  /* font-weight: 600; */
 }
 
-/*
- Pretty-ify the collapsable elements
- Thanks @ https://codepen.io/tmg/pen/PQVBGB
- */
-[data-toggle="collapse"] .fa:before {
-  content: "\f139";
-}
-[data-toggle="collapse"].collapsed .fa:before {
-  content: "\f13a";
+a:hover {
+  text-decoration: none;
+  /* font-weight: 600; */
 }
 
 img {
@@ -89,19 +75,25 @@ img {
   margin-left: 10px;
 }
 
+.card {}
+
+.navbar-brand {
+  font-size: 2.0rem;
+  font-weight: 600;
+}
+
 blockquote {
-  border-left: 0.1rem solid #ccc;
+  border-left: 0.2rem solid #ccc;
   font-style: italic;
   color: #999;
-  padding: 2px 20px;
+  margin: 10px 0px;
+  padding: 5px 10px;
 }
-blockquote p {
-  display: inline;
-}
+blockquote strong { color: #777; }
+blockquote p { display: inline; }
 
-span {
+/* OLD? STILL BEING USED? */
 
-}
 .titlenote {
     font-size: 0.85rem;
     font-style: italic;
@@ -109,7 +101,7 @@ span {
     color: #777;
 }
 .note {
-    /* font-size: 0.75rem; */
+    font-size: 0.95rem;
     font-style: italic;
     font-weight: 100;
     color: #999;
@@ -124,27 +116,45 @@ span {
 
 /* FOOTER */
 
-footer {
-    text-align: center;
-    font-size: 0.75rem;
-    color: #999;
-}
-footer * {
-    display: inline;
+.copyright {}
+
+footer {}
+
+.footer {
+  color: #999;
+  margin: 75px 0px 0px 0px;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.75rem;
 }
 
-footer a {
-  color: #555;
+.footer a {
+  color: #111;
   text-decoration: none;
-  font-size: 0.9rem;
 }
-footer a:hover {
-  color: #333;
+
+.footer a:hover {
+  font-weight: 700;
 }
-.footer {
-    margin-top: 50px;
-    margin-bottom: 20px;
+
+/* POSTS */
+
+.posts {
+  margin-bottom: 3rem;
+  padding: 0px;
+  list-style: none;
+  width: 100%;
+}
+.posts p.posts-teaser-text {
     font-style: italic;
+    margin-bottom: 5px;
+}
+.post-date {
+  display: block;
+  margin-top:0px;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+  font-size:0.8rem;
 }
 
 /* Code */
@@ -158,21 +168,180 @@ code {
     font-family: "Andale Mono", "Source Code Pro", sans-serif;
 }
 
-.menu {
-    margin-top: 40px;
-    margin-left: 200px;
-    margin-right: 200px;
-    border-top: 0.5px solid lightgrey;
-    border-bottom: 0.5px solid lightgrey;
-}
-.menu {
-    display: block;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.highlight .lineno {
+    color: #aaa;
+    display:inline-block;
+    padding: 0 0px;
+    border-right:0.5px solid #ccc;
 }
 
-.menu a {
-    margin: 0px 20px;
-    font-size: 1.1rem;
+.highlight pre code {
+    display: block;
+    white-space: pre;
+    overflow-x: auto;
+    word-wrap: normal;
+}
+
+.rouge-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.rouge-gutter {
+    width: 0px;
+    padding-right: 20px;
+}
+
+.rouge-code {
+    padding-left: 10px;
+}
+
+/* Tables
+ - TRY ME (RESPONSIVE TABLE): http://lea.verou.me/2018/05/responsive-tables-revisited/
+ */
+
+.travis-table table {
+    margin: 0px auto;
+ 	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+.travis-table table th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+.travis-table table td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+/* Social media icons */
+
+.fab {color: #444;}
+.fas {color: #444;}
+
+.fa-envelope {
+  padding: 5px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+}
+
+.fa-envelope:hover {
+	color: #f39c12;
+}
+
+.fa-twitter {
+  padding: 5px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+}
+
+.fa-twitter:hover {
+	color: #00aced;
+}
+
+.fa-instagram {
+  padding: 5px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+}
+
+.fa-instagram:hover {
+	color: #375989;
+}
+
+.fa-github {
+  padding: 5px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+}
+
+.fa-github:hover {
+	color: #343434;
+}
+
+.fa-linkedin {
+  padding: 5px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+}
+
+.fa-linkedin:hover {
+	color: #0073a4;
+}
+
+.fa-facebook {
+  padding: 5px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+}
+
+.fa-facebook:hover {
+	color: #3d5b99;
+}
+
+.fa-medium {
+  padding: 5px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+}
+
+.fa-medium:hover {
+	color: #00AB6C;
+}
+
+.fa-codepen {
+  padding: 5px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+}
+
+.fa-codepen:hover {
+	color: black;
+}
+
+.fa-rss-square {
+  padding: 5px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+}
+
+.fa-rss-square:hover {
+	color: #ff6600;
 }
