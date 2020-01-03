@@ -101,6 +101,8 @@ blockquote p { display: inline; }
     font-style: italic;
     font-weight: 100;
     color: #999;
+    margin: 0rem;
+    padding: 0rem;
 }
 .timestamp {
   color: #ddf;
