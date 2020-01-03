@@ -1,5 +1,6 @@
 ---
 layout: default
+published: false
 ---
 
 ## [SEED Labs](https://seedsecuritylabs.org)
