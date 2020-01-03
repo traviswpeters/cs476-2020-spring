@@ -45,42 +45,6 @@ If you have any questions, please contact me.
 
 Feedback is always appreciated regarding typos, suggestions for more detailed explanations, additional examples, etc.
 
-{:.table .table-hover .table-striped .table-bordered .table-sm}
-| Date          | Topics & Lectures                                                                                                                                                                      | Reading                                      | Assignments                                  |
-| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| **Week 1**    | <span class="note">Introduction & Basics</span>                                                                                                                                        | <span class="note"></span>
-|               |                                                                                                                                                                                        |
-|               |                                                                                                                                                                                        |
-| **Week 2**    | <span class="note"></span>                                                                                                                                                             | <span class="note"></span>
-|               |                                                                                                                                                                                        |
-|               |                                                                                                                                                                                        |
-| **Week 3**    | <span class="note"></span>                                                                                                                                                             | <span class="note"></span>
-|               |                                                                                                                                                                                        |
-|               |                                                                                                                                                                                        |
-| **Week 4**    | <span class="note"></span>                                                                                                                                                             | <span class="note"></span>
-|               |                                                                                                                                                                                        |
-|               |                                                                                                                                                                                        |
 
-<!-- code examples, provided code, etc. -->
-[Makefile]: {{site.data.settings.code}}/Makefile
-[Vagrantfile]: {{site.data.settings.code}}/Vagrantfile
-[uid.c]: {{site.data.settings.code}}/uid.c
-
-<!-- slides -->
-[slides01]: {{site.data.settings.slides}}/cs476-01-intro.pdf
-
-<!-- exams -->
-[Sample Exam Coversheet]: {{site.data.settings.exams.files}}/exam-coversheet-sample.pdf
-
-## Articles
-
-- [How to Create a Password That is Actually Secure](https://www.freecodecamp.org/news/actually-secure-passwords/)
-- [The Greatest Hits in Side Channel Attacks](https://noorsiddiqui.com/greatest-hits-in-sidechannel-attacks/)
-
-## Papers
-
-- [Small world with high risks: a study of security threats in the npm ecosystem](https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman)
-- [in-toto: Providing farm-to-table guarantees for bits and bytes](in-toto: Providing farm-to-table guarantees for bits and bytes)
-- [Detecting and Characterizing Lateral Phishing at Scale](https://www.usenix.org/conference/usenixsecurity19/presentation/ho)
-- [Invisible Mask: Practical Attacks on Face Recognition with Infrared](https://arxiv.org/abs/1803.04683)
-- ["I was told to buy a software or lose my computer. I ignored it": A study of ransomware](https://www.usenix.org/conference/soups2019/presentation/simoiu)
+_Scheduling Coming Soon..._
+{:.alert .alert-primary}
