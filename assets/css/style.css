@@ -47,6 +47,20 @@ h2 {
   margin-bottom: 5px;
 }
 
+.titletext {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.subtitletext {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-style: italic;
+    /* font-size: 0.95rem; */
+    /* font-weight: 600; */
+    color: #777;
+    color: #999;
+}
+
 p {
     padding: 0px;
     margin: 0px;
@@ -63,6 +77,15 @@ a {
 a:hover {
   text-decoration: none;
   /* font-weight: 600; */
+}
+
+ul {
+  /* margin: 0px; */
+  /* padding: 0px; */
+}
+li {
+  /* margin: 0px; */
+  /* padding: 0px; */
 }
 
 img {
