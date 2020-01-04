@@ -21,20 +21,27 @@ If you do not have any of the above prerequisites, you should touch base with me
 
 ## Logistics
 
+##### Course Details
+{:.pt-2}
+
 **Lectures:** {{ site.data.settings.lectures }} <br/>
-<!-- **Final Exam:** {{ site.data.settings.finalexamdate }} <br/> -->
 **Textbook:** {{ site.data.settings.textbook }} <br/>
-**Course Links:**
-{{site.data.settings.d2l}}
-{{site.data.settings.piazza}}
-{{site.data.settings.gradescope}}
-{{site.data.settings.ssc}}
+<!-- **Final Exam:** {{ site.data.settings.finalexamdate }} <br/> -->
 
 ##### Teaching Team
 
 **Professor:** {{ site.data.settings.instructor }} | {{site.data.settings.email}} | {{site.data.settings.office}} | {{site.data.settings.officephone}} <br/>
 **Professor Office Hours:** {{site.data.settings.office}} | {{ site.data.settings.officehours }} <br/>
 **Grader/Office Hours:** TBD / TBD <br/>
+
+##### Course Links
+
+- {{site.data.settings.d2l}} *>> For submitting assignments, tracking course grades, etc.*{:.text-muted}
+<!-- - {{site.data.settings.campuswire}} ({{site.data.settings.campuswirecode}}) *>> For **all** course-related communications*{:.text-muted} -->
+<!-- - {{site.data.settings.slackjoin}} *>> For **all** course-related communications*{:.text-muted} -->
+<!-- - {{site.data.settings.piazza}} *>> For **all** course-related communications*{:.text-muted} -->
+- {{site.data.settings.gradescope}} *>> For grading exams, etc.*{:.text-muted}
+- {{site.data.settings.ssc}} *>> Get help from TAs and peers*{:.text-muted}
 
 ## Schedule <span class="note">This is a tentative schedule that is subject to change with minimal notice</span>
 
@@ -46,4 +53,35 @@ If you have any questions, please contact me.
 Feedback is always appreciated regarding typos, suggestions for more detailed explanations, additional examples, etc.
 
 _Schedule Coming Soon..._
-{:.alert .alert-primary}
+{:.alert .alert-primary .text-center}
+
+{% comment %}
+
+{:.table .table-hover .table-striped .table-bordered .table-sm}
+| Date          | Topics & Lectures                                                                                                                                                                      | Reading                                      | Assignments                                  |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
+| **Week 1**    | <span class="note">Introduction & Basics</span>                                                                                                                                        | <span class="note"></span>
+|               |                                                                                                                                                                                        |
+|               |                                                                                                                                                                                        |
+| **Week 2**    | <span class="note"></span>                                                                                                                                                             | <span class="note"></span>
+|               |                                                                                                                                                                                        |
+|               |                                                                                                                                                                                        |
+| **Week 3**    | <span class="note"></span>                                                                                                                                                             | <span class="note"></span>
+|               |                                                                                                                                                                                        |
+|               |                                                                                                                                                                                        |
+| **Week 4**    | <span class="note"></span>                                                                                                                                                             | <span class="note"></span>
+|               |                                                                                                                                                                                        |
+|               |                                                                                                                                                                                        |
+
+<!-- code examples, provided code, etc. -->
+[Makefile]: {{site.data.settings.code}}/Makefile
+[Vagrantfile]: {{site.data.settings.code}}/Vagrantfile
+[uid.c]: {{site.data.settings.code}}/uid.c
+
+<!-- slides -->
+[slides01]: {{site.data.settings.slides}}/cs476-01-intro.pdf
+
+<!-- exams -->
+[Sample Exam Coversheet]: {{site.data.settings.exams.files}}/exam-coversheet-sample.pdf
+
+{% endcomment %}
