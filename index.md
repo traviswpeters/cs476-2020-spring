@@ -45,6 +45,5 @@ If you have any questions, please contact me.
 
 Feedback is always appreciated regarding typos, suggestions for more detailed explanations, additional examples, etc.
 
-
-_Scheduling Coming Soon..._
+_Schedule Coming Soon..._
 {:.alert .alert-primary}
