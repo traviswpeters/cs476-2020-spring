@@ -120,7 +120,7 @@ blockquote p { display: inline; }
     color: #777;
 }
 .note {
-    font-size: 0.95rem;
+    /* font-size: 0.95rem; */
     font-style: italic;
     font-weight: 100;
     color: #999;

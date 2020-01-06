@@ -24,9 +24,16 @@ If you do not have any of the above prerequisites, you should touch base with me
 ##### Course Details
 {:.pt-2}
 
-**Lectures:** {{ site.data.settings.lectures }} <br/>
+**Lectures:** {{ site.data.settings.lectures }} _>> Course dates: {{ site.data.settings.dates }}_{:.text-muted} <br/>
 **Textbook:** {{ site.data.settings.textbook }} <br/>
 <!-- **Final Exam:** {{ site.data.settings.finalexamdate }} <br/> -->
+
+**Optional/Recommended Textbooks:**
+{:.p-0 .m-0}
+- [Security in Computing - 5th Edition](https://www.amazon.com/Security-Computing-5th-Charles-Pfleeger/dp/0134085043/ref=sr_1_1?keywords=Security+in+Computing&qid=1578348388&s=books&sr=1-1). Pfleeger, Pfleeger, and Margulies (2015).
+- [The Craft of System Security - 1st Edition](https://www.amazon.com/Craft-System-Security-Sean-Smith/dp/0321434838). Sean Smith (2007).
+- [Applied Cryptography: Protocols, Algorithms, and Source Code in C - 2nd Edition](http://www.amazon.com/Applied-Cryptography-Protocols-Algorithms-Source/dp/0471117099/ref=sr_1_1?ie=UTF8&s=books&qid=1233440847&sr=1-1). Bruce Schneier (1996).
+- [Computer-Related Risks - 1st Edition](https://www.amazon.com/Computer-Related-Risks-Press-Peter-Neumann/dp/020155805X/ref=sr_1_1?ie=UTF8&s=books&qid=1233440795&sr=1-1). Peter G. Neumann (1995).
 
 ##### Teaching Team
 
@@ -36,14 +43,22 @@ If you do not have any of the above prerequisites, you should touch base with me
 
 ##### Course Links
 
-- {{site.data.settings.d2l}} *>> For submitting assignments, tracking course grades, etc.*{:.text-muted}
-<!-- - {{site.data.settings.campuswire}} ({{site.data.settings.campuswirecode}}) *>> For **all** course-related communications*{:.text-muted} -->
-<!-- - {{site.data.settings.slackjoin}} *>> For **all** course-related communications*{:.text-muted} -->
-<!-- - {{site.data.settings.piazza}} *>> For **all** course-related communications*{:.text-muted} -->
-- {{site.data.settings.gradescope}} *>> For grading exams, etc.*{:.text-muted}
-- {{site.data.settings.ssc}} *>> Get help from TAs and peers*{:.text-muted}
+{{site.data.settings.d2l}} *>> For submitting assignments, tracking course grades, etc.*{:.text-muted} <br/>
+<!-- - {{site.data.settings.campuswire}} ({{site.data.settings.campuswirecode}}) *>> For **all** course-related communications*{:.text-muted} <br/> -->
+<!-- - {{site.data.settings.slackjoin}} *>> For **all** course-related communications*{:.text-muted} <br/> -->
+<!-- - {{site.data.settings.piazza}} *>> For **all** course-related communications*{:.text-muted} <br/> -->
+{{site.data.settings.gradescope}} *>> For grading exams, providing student feedback, etc.*{:.text-muted} <br/>
+{{site.data.settings.ssc}} *>> Get help from TAs and peers*{:.text-muted} <br/>
 
-## Schedule <span class="note">This is a tentative schedule that is subject to change with minimal notice</span>
+##### Tools
+
+<i class="fas fa-external-link-alt"></i> [VirtualBox](https://www.virtualbox.org) <br/>
+<i class="fas fa-external-link-alt"></i> [Wireshark](https://www.wireshark.org) <br/>
+
+## Schedule
+{:.titletext}
+This is a tentative schedule that is subject to change with minimal notice
+{:.subtitletext}
 
 Below is the calendar for this course.
 It is the responsibility of the students to frequently check this web-page for schedule, readings, and assignment changes.
@@ -54,34 +69,3 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 
 _Schedule Coming Soon..._
 {:.alert .alert-primary .text-center}
-
-{% comment %}
-
-{:.table .table-hover .table-striped .table-bordered .table-sm}
-| Date          | Topics & Lectures                                                                                                                                                                      | Reading                                      | Assignments                                  |
-| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| **Week 1**    | <span class="note">Introduction & Basics</span>                                                                                                                                        | <span class="note"></span>
-|               |                                                                                                                                                                                        |
-|               |                                                                                                                                                                                        |
-| **Week 2**    | <span class="note"></span>                                                                                                                                                             | <span class="note"></span>
-|               |                                                                                                                                                                                        |
-|               |                                                                                                                                                                                        |
-| **Week 3**    | <span class="note"></span>                                                                                                                                                             | <span class="note"></span>
-|               |                                                                                                                                                                                        |
-|               |                                                                                                                                                                                        |
-| **Week 4**    | <span class="note"></span>                                                                                                                                                             | <span class="note"></span>
-|               |                                                                                                                                                                                        |
-|               |                                                                                                                                                                                        |
-
-<!-- code examples, provided code, etc. -->
-[Makefile]: {{site.data.settings.code}}/Makefile
-[Vagrantfile]: {{site.data.settings.code}}/Vagrantfile
-[uid.c]: {{site.data.settings.code}}/uid.c
-
-<!-- slides -->
-[slides01]: {{site.data.settings.slides}}/cs476-01-intro.pdf
-
-<!-- exams -->
-[Sample Exam Coversheet]: {{site.data.settings.exams.files}}/exam-coversheet-sample.pdf
-
-{% endcomment %}

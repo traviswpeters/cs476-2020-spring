@@ -1,7 +1,22 @@
 ---
 layout: default
-published: false
+published: true
 ---
+
+## Roadmap
+
+Myself and others at Montana State University have a vision of expanding the cybersecurity-related course offerings,
+  as well as creating a Cybersecurity Masters program.
+Currently, however, we have only a single course---Computer Security---to cover this fascinating area.
+
+As a first step, I am selecting a subset of topics that have been covered in courses by
+  [Wenliang (Kevin) Du](http://www.cis.syr.edu/~wedu/),
+  [Charles Palmer](https://www.cs.dartmouth.edu/~ccpalmer/), and
+  [Sean Smith](https://cs.dartmouth.edu/~sws/)---we are all greatly indebted to them.
+I am primarily adopting topics from Kevin Du's [Computer & Internet Security: A Hands-on Approach (2nd Edition)](https://www.handsonsecurity.net) and the [SEED Labs](https://seedsecuritylabs.org)
+  because I admire all of the work towards creating hands-on lessons for security education.
+
+Below is a collection of topics modified from related courses that I envision for future courses at MSU.
 
 <!-- Row 1 -->
 <div class="row">

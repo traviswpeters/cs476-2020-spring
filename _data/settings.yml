@@ -20,8 +20,7 @@ dates: 'Jan 13, 2020 - May 08, 2020'
 lectures: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=9"><i class="fas fa-map-pin"></i> Reid Hall 103</a> | Tuesday/Thursday 3:05 pm &ndash; 4:20 pm'
 officehours: "Tuesday/Thursday 4:30 pm &ndash; 6:00 pm and by appointment."
 textbook: "[Computer & Internet Security: A Hands-on Approach (2nd Edition)](https://www.handsonsecurity.net), by Wenliang Du"
-finalexamdate: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=9"><i class="fas fa-map-pin"></i> Reid Hall 103</a> | May 8, 2020 (2:00 &ndash; 3:50 pm)'
-
+finalexamdate: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=9"><i class="fas fa-map-pin"></i> Reid Hall 103</a> - May 8, 2020 (2:00 &ndash; 3:50 pm)'
 
 # --> baseurl set in _config.yml
 homeurl: https://traviswpeters.github.io/
@@ -30,10 +29,17 @@ githuburl: https://github.com/traviswpeters/cs476
 
 # COURSE LINKS
 d2l: '<i class="fas fa-external-link-alt"></i> [D2L](https://ecat.montana.edu/d2l/home/576326)'
+campuswire: '<i class="fas fa-external-link-alt"></i> [Campuswire](https://campuswire.com/p/GFCEDCB39)'
+campuswirecode: 'Class Join Code: 6671'
+slack: '<i class="fas fa-external-link-alt"></i> [Slack (CSCI 476 - Spring 2020)](https://csci476-sp2020.slack.com)'
+slackjoin: '<i class="fas fa-external-link-alt"></i> [Slack (CSCI 476 - Spring 2020)](https://join.slack.com/t/csci476-sp2020/shared_invite/enQtODgyOTc3NDk2NTEzLTg2NmU0M2ZhMDJhODlkYjJkZTY3NjkyMjVmZmNhZGVkMDc1MDY1ZjY2OWM2NTE3YWJjZDk0MWI1MjdkNGM4OGQ)'
 piazza: '<i class="fas fa-external-link-alt"></i> [Piazza](https://piazza.com/class/k4xcvl4uuv42f2?cid=4#)'
 gradescope: '<i class="fas fa-external-link-alt"></i> [Gradescope](https://www.gradescope.com/courses/78110)'
 ssc: '<i class="fas fa-external-link-alt"></i> [Student Success Center](https://www.cs.montana.edu/student-success-center.html)'
 questionnaire: '<i class="fas fa-external-link-alt"></i> [Questionnaire](https://forms.gle/Krmco3bNsbPRjSca7)'
+
+# SEED LINKS
+seedcode: 'https://github.com/traviswpeters/BookCode' # my fork
 
 # locations of things (notes, slides, etc.)
 slides: "notes"
@@ -46,13 +52,15 @@ projectfiles: 'project'
 menu:
 # - {name: 'Syllabus', url: ''}
 # - {name: 'Logistics', url: '#logistics'}
-# - {name: 'Resources', url: '#resources'}
 # - {name: 'Schedule', url: '#schedule'}
+# - {name: 'Roadmap', url: 'roadmap'}
 # - {name: 'Exams', url: '#exams'}
 # - {name: 'Assignments', url: '#assignments'}
 # - {name: 'Project', url: '#project'}
 # - {name: 'Extra Credit', url: 'xc'}
 # - {name: 'Code', url: 'code'}
+# - {name: 'Labs', url: 'labs'}
+# - {name: 'Resources', url: 'resources'}
 
 assignments:
   a0:
