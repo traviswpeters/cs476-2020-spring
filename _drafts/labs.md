@@ -3,80 +3,40 @@ layout: default
 published: true
 ---
 
+Setup
+- [Lab 00: Setting Up The Lab Environment](labs/lab00)
+
+Software Security
+- [Lab 01: Environment Variable and Set-UID Program Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/) *>> Software Security (Exploration)*{:.text-muted}
+- [Lab 02: Buffer Overflow Vulnerability Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Buffer_Overflow/) *>> Software Security (Attack)*{:.text-muted} --- [CVE-2015-7547](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-7547)
+- [Lab 03: Return-to-libc Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Return_to_Libc/) and Return-Oriented Programming (ROP) *>> Software Security (Attack)*{:.text-muted}
+- [Lab 04: Format-String Vulnerability Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Format_String_Server/) *>> Software Security (Attack)*{:.text-muted}
+- [Lab 05: Shellshock Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Shellshock/) *>> Software Security (Attack)*{:.text-muted} [CVE-2014-6271](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271)
+
+Network & Web Security
+- [Lab 06: SQL Injection Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Web/Web_SQL_Injection/) *>> Web Security*{:.text-muted}
+- [Lab 07: Packet Sniffing and Spoofing Lab](https://seedsecuritylabs.org/Labs_16.04/Networking/Sniffing_Spoofing/) *>> Network Security (Exploration)*{:.text-muted}
+- [Lab 08: TCP/IP Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Networking/TCP_Attacks/) *>> Network Security (Attack)*{:.text-muted}
+<!-- - [Linux Firewall Exploration Lab](https://seedsecuritylabs.org/Labs_16.04/Networking/Firewall/) *>> Network Security (Exploration)*{:.text-muted} -->
+
+Crypto
+- [Lab 09: Secret-Key Encryption](https://seedsecuritylabs.org/Labs_16.04/Crypto/Crypto_Encryption/) *>> Crypto*{:.text-muted}
+- [Lab 10: RSA Public-Key Encryption & Signature Lab](https://seedsecuritylabs.org/Labs_16.04/Crypto/Crypto_RSA/) *>> Crypto*{:.text-muted}
+
+Recent Topics in Security
+- [Lab 11: Heartbleed Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Networking/Heartbleed/) *>> Network Security (Attack)*{:.text-muted} --- [Official Website](http://heartbleed.com), [CVE-2014-0160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2014-0160)
+- [Lab 12: Meltdown Attack Lab / Spectre Attack Lab](https://seedsecuritylabs.org/Labs_16.04/System/) *>> System Security*{:.text-muted} --- [Official Website](https://meltdownattack.com)
+
+
+----------------------------------------------------------------------------------------------------
+
 <!-- links -->
 [VirtualBox 6.0.4]: https://www.virtualbox.org/wiki/Download_Old_Builds_6_0
 [SEED Labs User Manual]: https://seedsecuritylabs.org/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf
 [SEEDUbuntu16.04 virtual machine image]: https://seedsecuritylabs.org/lab_env.html
 [SEED Labs]: https://seedsecuritylabs.org
 
-## SEED Labs
-
-In this class, you will work through lab assignments---hands-on exercises to guide you through real, practical activities related to a class topic.
-Just like a Physics or Chemistry classes, you follow the instructions and produce a lab report.
-You will submit your lab reports as a **PDF** through **D2L**.
-
-The labs we will use this term are from the [SEED Labs] project at Syracuse University in New York.
-Started in 2002, funded by a total of 1.3 million dollars from NSF, and now used by over a thousand educational institutes worldwide,
-  the SEED project's objective is to develop hands-on laboratory exercises (called SEED labs)
-  for computer and information security education,
-  and to help instructors adopt these labs in their curricula at no charge.
-We, along with over a thousand other educational institutions around the world, thank Professor Wenliang Du for this superb effort.
-
-
-## Notes About Labs
-
-- **Labs:**
-  All labs are individual labs. You are encourage to discuss with others, but each student must independently carry out the tasks in the labs.
-  You cannot copy code from other students. Any violation will be punished and reported to the university authority.
-<!-- - **CTF (Capture The Flag) competition:**
-  For these competitions (group based), grades will be based on the rankings of each group. -->
-- **Lab Report:**
-  For all labs, You should submit a hardcopy of your lab report before the class on the due day.
-  We may ask (randomly) selected students to give a demonstration.
-
-
 # Computer & Internet Security (Part I)
-
-## Extra Credit Write-up - NCUR 2020
-{:.titletext}
-
-<!-- Motivated by https://guides.lib.montana.edu/c.php?g=915151&p=6594096 -->
-
-Attend one session at the NCUR conference and write a 1-2 page reflection paper.
-The session should be one you think you might be interested in and does not need to be related to this course (though it would be awesome if it were).
-Even if the topic is not directly related to our course, there can be value in learning about topics that you are less familiar with.
-
-Include in your paper:
-- The title of the presentation and the speaker's name.
-- Why you decided to attend the session.
-- Why the presenter said they selected this topic to research (i.e., what is the motivation for their work?).
-- What you found most interesting about the presentation.
-- What (if any) connections can you make between this presentation and a topic (or topics) in our course?
-- What do you think the presenter did well?  This can include items such as "spoke clearly, concise, polished, enthusiastic" and so forth.
-- What do you think the presenter could improve upon?  
-- What you think would be the most challenging thing about presenting at a conference? How could a person prepare for this challenge?   
-<!-- - In thinking about the potential of you making a presentation, how do you think practicing would play a part of an effective presentation? -->
-
-## Lab 0: Setting Up The Lab Environment
-{:.titletext}
-SEED Lab: A Hands-on Lab for Security Education
-{:.subtitletext}
-
-- **Virtual Machine Software:**
-  Install [VirtualBox 6.0.4]. _Please stay away from the newer versions, because they have some issues with the SEED Labs VM._
-- **Ubuntu 16.04 Virtual Machine Image:**
-  Download the pre-built Ubuntu 16.04 virtual machine image.
-  All the Linux labs use this image.
-  To use this image, do the following:
-  - Download the [SEEDUbuntu16.04 virtual machine image].
-  - Unzip it, and you should be able to see a folder.
-  - Follow the [SEED Labs User Manual] to run the VM on VirtualBox.
-
-_**Note:**
-For the lab setup, you do not need to submit anything.
-However, we strongly urge you to get the environment set up as soon as possible, and start getting familiar with the environment.
-For those who are not familiar with the Linux operating system, you may need to spend some extra time._
-
 
 ## Environment Variable and Set-UID Program Lab
 {:.titletext}

@@ -28,6 +28,8 @@ url: https://traviswpeters.github.io/cs476/
 githuburl: https://github.com/traviswpeters/cs476
 
 # COURSE LINKS
+questionnaire: '<i class="fas fa-external-link-alt"></i> [Questionnaire](https://forms.gle/bEMav7XE9h5Nuybg7)'
+
 d2l: '<i class="fas fa-external-link-alt"></i> [D2L](https://ecat.montana.edu/d2l/home/576326)'
 campuswire: '<i class="fas fa-external-link-alt"></i> [Campuswire](https://campuswire.com/p/GFCEDCB39)'
 campuswirecode: 'Class Join Code: 6671'
@@ -36,7 +38,6 @@ slackjoin: '<i class="fas fa-external-link-alt"></i> [Slack (CSCI 476 - Spring 2
 piazza: '<i class="fas fa-external-link-alt"></i> [Piazza](https://piazza.com/class/k4xcvl4uuv42f2?cid=4#)'
 gradescope: '<i class="fas fa-external-link-alt"></i> [Gradescope](https://www.gradescope.com/courses/78110)'
 ssc: '<i class="fas fa-external-link-alt"></i> [Student Success Center](https://www.cs.montana.edu/student-success-center.html)'
-questionnaire: '<i class="fas fa-external-link-alt"></i> [Questionnaire](https://forms.gle/Krmco3bNsbPRjSca7)'
 
 # SEED LINKS
 seedcode: 'https://github.com/traviswpeters/BookCode' # my fork
@@ -51,15 +52,15 @@ projectfiles: 'project'
 
 menu:
 # - {name: 'Syllabus', url: ''}
-# - {name: 'Logistics', url: '#logistics'}
-# - {name: 'Schedule', url: '#schedule'}
+- {name: 'Logistics', url: '#logistics'}
+- {name: 'Schedule', url: '#schedule'}
 # - {name: 'Roadmap', url: 'roadmap'}
 # - {name: 'Exams', url: '#exams'}
 # - {name: 'Assignments', url: '#assignments'}
 # - {name: 'Project', url: '#project'}
 # - {name: 'Extra Credit', url: 'xc'}
 # - {name: 'Code', url: 'code'}
-# - {name: 'Labs', url: 'labs'}
+- {name: 'Labs', url: 'labs'}
 # - {name: 'Resources', url: 'resources'}
 
 assignments:

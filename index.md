@@ -14,9 +14,12 @@ Through these labs, students can enhance their understanding of the principles, 
 ##### Prerequisites
 
 Prior to taking this course, you should have fulfilled the following CSCI prerequisites:
-[CSCI 232 (required)](http://catalog.montana.edu/search/?P=CSCI%20232),
-[CSCI 460 (strongly recommended)](http://catalog.montana.edu/search/?P=CSCI%20460), and
-[CSCI 466 (strongly recommended)](http://catalog.montana.edu/search/?P=CSCI%20466).
+{:.p-0 .m-0}
+- [CSCI 232 (required)](http://catalog.montana.edu/search/?P=CSCI%20232)
+- [CSCI 460 (strongly recommended)](http://catalog.montana.edu/search/?P=CSCI%20460)
+- [CSCI 466 (strongly recommended)](http://catalog.montana.edu/search/?P=CSCI%20466)
+{:.m-0}
+
 If you do not have any of the above prerequisites, you should touch base with me as soon as possible.
 
 ## Logistics
@@ -67,5 +70,362 @@ If you have any questions, please contact me.
 
 Feedback is always appreciated regarding typos, suggestions for more detailed explanations, additional examples, etc.
 
-_Schedule Coming Soon..._
+<!-- Thanks! https://idratherbewriting.com/documentation-theme-jekyll/mydoc_tables.html -->
+<table class="table table-hover table-striped table-bordered table-sm">
+<colgroup>
+<col width="10%" />
+<col width="55%" />
+<col width="35%" />
+</colgroup>
+
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Topics & Lectures</th>
+<th>Assignments & Reading</th>
+</tr>
+</thead>
+
+<tbody>
+
+<!-- Week 01  -->
+
+<tr>
+<td markdown="span">**Week 01**</td>
+<td markdown="span" class="note">Introduction & Security Overview</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">01/14/2020</td>
+<td markdown="span">Class Introduction (syllabus, policies, course tools, labs, etc.)</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">01/16/2020</td>
+<td markdown="span">
+Overview of Computer Security + Unix Security Basics
+  <br/> >> _Users and Groups._
+  <br/> >> _File Permissions: access control, umask, chmod, chown, chgrp, Set-UID_
+</td>
+<td markdown="span">**{{ site.data.settings.questionnaire }} Due**</td>
+</tr>
+
+<!-- Week 02  -->
+
+<tr>
+<td markdown="span">**Week 02**</td>
+<td markdown="span" class="note">Software Security</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">01/21/2020</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">01/23/2020</td>
+<td markdown="span"></td>
+<td markdown="span">**[Lab 00] Due**</td>
+</tr>
+
+<!-- Week 03  -->
+
+<tr>
+<td markdown="span">**Week 03**</td>
+<td markdown="span" class="note">Software Security (cont.)</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">01/28/2020</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">01/30/2020</td>
+<td markdown="span"></td>
+<td markdown="span">**[Lab 01] Due**</td>
+</tr>
+
+
+<!-- Week 04  -->
+
+<tr>
+<td markdown="span">**Week 04**</td>
+<td markdown="span" class="note">Software Security (cont.)</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">02/04/2020</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">02/06/2020</td>
+<td markdown="span"></td>
+<td markdown="span">**[Lab 02] Due**</td>
+</tr>
+
+<!-- Week 05  -->
+
+<tr>
+<td markdown="span">**Week 05**</td>
+<td markdown="span" class="note">Software Security (cont.)</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">02/11/2020</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">02/13/2020</td>
+<td markdown="span"></td>
+<td markdown="span">**[Lab 03] Due**</td>
+</tr>
+
+<!-- Week 06  -->
+
+<tr>
+<td markdown="span">**Week 06**</td>
+<td markdown="span" class="note">Software Security (cont.)</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">02/18/2020</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">02/20/2020</td>
+<td markdown="span"></td>
+<td markdown="span">**[Lab 04] Due**</td>
+</tr>
+
+{% comment %}
+
+<!-- Week 07  -->
+
+<tr>
+<td markdown="span">**Week 07**</td>
+<td markdown="span" class="note">Network & Web Security</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">02/25/2020</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">02/27/2020</td>
+<td markdown="span"></td>                     <!-- Travis Traveling to DC - talk to TA about class coverage -->
+<td markdown="span">**[Lab 05] Due**</td>
+</tr>
+
+<!-- Week 08  -->
+
+<tr>
+<td markdown="span">**Week 08**</td>
+<td markdown="span" class="note">Network & Web Security (cont.)</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">03/03/2020</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">03/05/2020</td>
+<td markdown="span"></td>
+<td markdown="span">**[Lab 06] Due**</td>
+</tr>
+
+<!-- Week 09  -->
+
+<tr>
+<td markdown="span">**Week 09**</td>
+<td markdown="span" class="note">Network & Web Security (cont.)</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">03/10/2020</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">03/12/2020</td>
+<td markdown="span"></td>
+<td markdown="span">**[Lab 07] Due**</td>
+</tr>
+
+<!-- Week 10  -->
+
+<tr>
+<td markdown="span">**Week 10**</td>
+<td markdown="span" class="note"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">03/17/2020</td>
+<td markdown="span">**No Class. Spring Break!**</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">03/19/2020</td>
+<td markdown="span">**No Class. Spring Break!**</td>
+<td markdown="span"></td>
+</tr>
+
+<!-- Week 11  -->
+
+<tr>
+<td markdown="span">**Week 11**</td>
+<td markdown="span" class="note">Crypto</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">03/24/2020</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">03/26/2020</td>
+<td markdown="span">**No Class. [NCUR 2020 @ MSU --- please attend!](http://www.cur.org/what/events/students/ncur/2020/ncur2020scheduleataglance)**</td>
+<td markdown="span">**[Lab 08] Due**</td>
+</tr>
+
+<!-- Week 12  -->
+
+<tr>
+<td markdown="span">**Week 12**</td>
+<td markdown="span" class="note">Crypto (cont.)</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">03/31/2020</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">04/02/2020</td>
+<td markdown="span"></td>
+<td markdown="span">**[NCUR 2020 Extra Credit Write-up] Due**</td>
+</tr>
+
+<!-- Week 13  -->
+
+<tr>
+<td markdown="span">**Week 13**</td>
+<td markdown="span" class="note">Crypto (cont.)</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">04/07/2020</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">04/09/2020</td>
+<td markdown="span"></td>
+<td markdown="span">**[Lab 09] Due**</td>
+</tr>
+
+<!-- Week 14  -->
+
+<tr>
+<td markdown="span">**Week 14**</td>
+<td markdown="span" class="note">Recent Topics in Security</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">04/14/2020</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">04/16/2020</td>
+<td markdown="span"></td>
+<td markdown="span">**[Lab 10] Due**</td>
+</tr>
+
+<!-- Week 15  -->
+
+<tr>
+<td markdown="span">**Week 15**</td>
+<td markdown="span" class="note">Recent Topics in Security (cont.)</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">04/21/2020</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">04/23/2020</td>
+<td markdown="span"></td>
+<td markdown="span">**[Lab 11] Due**</td>
+</tr>
+
+<!-- Week 16  -->
+
+<tr>
+<td markdown="span">**Week 16**</td>
+<td markdown="span" class="note">Recent Topics in Security (cont.)</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">04/28/2020</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">04/30/2020</td>
+<td markdown="span">Final Exam Review — _Come with questions and topics you’d like to review!_{:.text-muted}</td>
+<td markdown="span">**[Lab 12] Due**</td>
+</tr>
+
+<!-- Week 17  -->
+
+<tr>
+<td markdown="span">**Week 17**</td>
+<td markdown="span" class="note">Finals Week</td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">05/08/2020</td>
+<td markdown="span">**Final Exam** - {{site.data.settings.finalexamdate}}</td>
+<td markdown="span"></td>
+</tr>
+
+{% endcomment %}
+
+</tbody>
+</table>
+
+_More Schedule Details Coming Soon..._
 {:.alert .alert-primary .text-center}
+
+[Lab 00]: labs/lab00
+[Lab 01]: #
+[Lab 02]: #
+[Lab 03]: #
+[Lab 04]: #
+[Lab 05]: #
+[Lab 06]: #
+[Lab 07]: #
+[Lab 08]: #
+[Lab 09]: #
+[Lab 10]: #
+[Lab 11]: #
+[Lab 12]: #
+[NCUR 2020 Extra Credit Write-up]: labs/xc-ncur
+
+<!-- code examples, provided code, etc. -->
+[Makefile]: {{site.data.settings.code}}/Makefile
+[Vagrantfile]: {{site.data.settings.code}}/Vagrantfile
+[uid.c]: {{site.data.settings.code}}/uid.c
+
+<!-- slides -->
+[slides01]: {{site.data.settings.slides}}/cs476-01-intro.pdf
+
+<!-- exams -->
+[Sample Exam Coversheet]: {{site.data.settings.exams.files}}/exam-coversheet-sample.pdf
