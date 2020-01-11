@@ -58,6 +58,12 @@ If you do not have any of the above prerequisites, you should touch base with me
 <i class="fas fa-external-link-alt"></i> [VirtualBox](https://www.virtualbox.org) <br/>
 <i class="fas fa-external-link-alt"></i> [Wireshark](https://www.wireshark.org) <br/>
 
+##### Other Resources
+{:.pt-2}
+
+- [CSCI 460: Operating Systems, Fall 2019 --- Taught by Travis Peters (me :-))](https://www.traviswpeters.com/cs460-2019-fall/)
+- [CSCI 466: Computer Networks, Fall 2019 --- Taught by Seraj Mostafa (our TA!)](https://docs.google.com/document/d/e/2PACX-1vSToCOvQShCN07u-9DrPyQN8cQCMv1iCgMoDx_0oLqyhqzk430dSkx_UXNP3FvHA9YFXNpv_jd6epVm/pub)
+
 ## Schedule
 {:.titletext}
 This is a tentative schedule that is subject to change with minimal notice
