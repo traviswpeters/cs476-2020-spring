@@ -50,19 +50,13 @@ If you do not have any of the above prerequisites, you should touch base with me
 <!-- - {{site.data.settings.campuswire}} ({{site.data.settings.campuswirecode}}) *>> For **all** course-related communications*{:.text-muted} <br/> -->
 <!-- - {{site.data.settings.slackjoin}} *>> For **all** course-related communications*{:.text-muted} <br/> -->
 <!-- - {{site.data.settings.piazza}} *>> For **all** course-related communications*{:.text-muted} <br/> -->
-{{site.data.settings.gradescope}} *>> For grading exams, providing student feedback, etc.*{:.text-muted} <br/>
+{{site.data.settings.gradescope}} (code: M675Z6) *>> For grading exams, providing student feedback, etc.*{:.text-muted} <br/>
 {{site.data.settings.ssc}} *>> Get help from TAs and peers*{:.text-muted} <br/>
 
 ##### Tools
 
 <i class="fas fa-external-link-alt"></i> [VirtualBox](https://www.virtualbox.org) <br/>
 <i class="fas fa-external-link-alt"></i> [Wireshark](https://www.wireshark.org) <br/>
-
-##### Other Resources
-{:.pt-2}
-
-- [CSCI 460: Operating Systems, Fall 2019 --- Taught by Travis Peters (me :-))](https://www.traviswpeters.com/cs460-2019-fall/)
-- [CSCI 466: Computer Networks, Fall 2019 --- Taught by Seraj Mostafa (our TA!)](https://docs.google.com/document/d/e/2PACX-1vSToCOvQShCN07u-9DrPyQN8cQCMv1iCgMoDx_0oLqyhqzk430dSkx_UXNP3FvHA9YFXNpv_jd6epVm/pub)
 
 ## Schedule
 {:.titletext}
@@ -104,7 +98,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 <tr>
 <td markdown="span">01/14/2020</td>
 <td markdown="span">Class Introduction (syllabus, policies, course tools, labs, etc.)</td>
-<td markdown="span"></td>
+<td markdown="span">Get familiar with the course website</td>
 </tr>
 <tr>
 <td markdown="span">01/16/2020</td>
@@ -121,7 +115,7 @@ Overview of Computer Security + Unix Security Basics
 <tr>
 <td markdown="span">**Week 02**</td>
 <td markdown="span" class="note">Software Security</td>
-<td markdown="span"></td>
+<td markdown="span" class="note">**Reading:** Chapters 1 & 2</td>
 </tr>
 <tr>
 <td markdown="span">01/21/2020</td>
@@ -139,7 +133,7 @@ Overview of Computer Security + Unix Security Basics
 <tr>
 <td markdown="span">**Week 03**</td>
 <td markdown="span" class="note">Software Security (cont.)</td>
-<td markdown="span"></td>
+<td markdown="span" class="note">**Reading:** Chapter 4</td>
 </tr>
 <tr>
 <td markdown="span">01/28/2020</td>
@@ -158,7 +152,7 @@ Overview of Computer Security + Unix Security Basics
 <tr>
 <td markdown="span">**Week 04**</td>
 <td markdown="span" class="note">Software Security (cont.)</td>
-<td markdown="span"></td>
+<td markdown="span" class="note">**Reading:** Chapter 5</td>
 </tr>
 <tr>
 <td markdown="span">02/04/2020</td>
@@ -176,7 +170,7 @@ Overview of Computer Security + Unix Security Basics
 <tr>
 <td markdown="span">**Week 05**</td>
 <td markdown="span" class="note">Software Security (cont.)</td>
-<td markdown="span"></td>
+<td markdown="span" class="note">**Reading:** Chapter 6</td>
 </tr>
 <tr>
 <td markdown="span">02/11/2020</td>
@@ -194,7 +188,7 @@ Overview of Computer Security + Unix Security Basics
 <tr>
 <td markdown="span">**Week 06**</td>
 <td markdown="span" class="note">Software Security (cont.)</td>
-<td markdown="span"></td>
+<td markdown="span" class="note">**Reading:** Chapter 3</td>
 </tr>
 <tr>
 <td markdown="span">02/18/2020</td>
@@ -435,3 +429,24 @@ _More Schedule Details Coming Soon..._
 
 <!-- exams -->
 [Sample Exam Coversheet]: {{site.data.settings.exams.files}}/exam-coversheet-sample.pdf
+
+## Grading
+{:.titletext}
+These are tentative details that are subject to change with minimal notice
+{:.subtitletext}
+
+I am always happy to answer questions, but I don't pre-grade assignments.
+
+I do not curve grades. The score you earn is the score you receive.
+
+- **Participation:** 10% _>> Engage in class/online discussions, ask questions, come to office hours, etc._{:.text-muted}
+- **Final Exam:** 25% _>> I'll share a practice exam as we get closer to the end of the term._{:.text-muted}
+- **Labs:** 65% _>> Labs (i.e., hands-on exercises) are the emphasis in this course. Start early, try stuff, talk with others... Most importantly, do them!_{:.text-muted}
+
+## Submitting Work
+
+Submit assignments in **D2L**.
+
+Assignments are **due @ 3:00pm** on the due date. (Due dates are Thursdays this semester, so this deadline should give you time to get to class on time :-)
+
+You can submit an assignment an unlimited number of times. Graders will only grade your most recent submission.

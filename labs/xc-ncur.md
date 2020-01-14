@@ -2,7 +2,7 @@
 title: 'Extra Credit Write-up - NCUR 2020'
 layout: default
 tags: [extra-credit]
-published: False
+published: True
 ---
 
 ## {{page.title}}

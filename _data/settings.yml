@@ -61,7 +61,7 @@ menu:
 # - {name: 'Extra Credit', url: 'xc'}
 # - {name: 'Code', url: 'code'}
 - {name: 'Labs', url: 'labs'}
-# - {name: 'Resources', url: 'resources'}
+- {name: 'Resources', url: 'resources'}
 
 assignments:
   a0:

@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<!-- links -->
+[SEED Labs]: https://seedsecuritylabs.org
+
 ## SEED Labs
 
 In this class, you will work through lab assignments---hands-on exercises to guide you through real, practical activities related to a class topic.
