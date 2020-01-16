@@ -1,3 +1,7 @@
+# A super simple Makefile for buidling the probe program from class.
+#
+# You should remove the .txt extension for this file (that is just for friendly viewing in the browswer).
+#
 # A good Makefile reference: http://www.csheeet.com/en/latest/notes/c_make.html
 
 CC = gcc

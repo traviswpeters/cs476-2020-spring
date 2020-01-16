@@ -6,8 +6,8 @@ layout: default
 
 This course introduces students to introductory topics in computer and network security.
 
-Students will study a variety of attacks on computer software and hardware.
-These attacks are caused by the vulnerabilities in the design and implementation of computer systems.
+Students will study a variety of exploration tools, system defenses, and attacks on computer software and hardware.
+<!-- These attacks are caused by the vulnerabilities in the design and implementation of computer systems. -->
 The course emphasizes "learning by doing," and requires students to conduct a series of lab exercises.
 Through these labs, students can enhance their understanding of the principles, and be able to apply those principles to solve real problems.
 
@@ -40,15 +40,17 @@ If you do not have any of the above prerequisites, you should touch base with me
 
 ##### Teaching Team
 
-**Professor:** {{ site.data.settings.instructor }} | {{site.data.settings.email}} | {{site.data.settings.office}} | {{site.data.settings.officephone}} <br/>
-**Professor Office Hours:** {{site.data.settings.office}} | {{ site.data.settings.officehours }} <br/>
-**Grader/Office Hours:** TBD / TBD <br/>
+**Professor:** {{ site.data.settings.instructor }} \| {{site.data.settings.email}} \| {{site.data.settings.office}} \| {{site.data.settings.officephone}} <br/>
+**Professor Office Hours:** {{site.data.settings.office}} \| {{ site.data.settings.officehours }} <br/>
+
+**TA:** <i class="fas fa-user-circle"></i> [Seraj Mostafa](https://www.linkedin.com/in/sammbd/) \| <i class="fas fa-envelope"></i> [serajmostafa@montana.edu](mailto:serajmostafa@montana.edu?subject=CS 476 Help) <br/>
+**TA Office Hours:** <a href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> BH 259 </a> \| TBA
 
 ##### Course Links
 
 {{site.data.settings.d2l}} *>> For submitting assignments, tracking course grades, etc.*{:.text-muted} <br/>
 <!-- - {{site.data.settings.campuswire}} ({{site.data.settings.campuswirecode}}) *>> For **all** course-related communications*{:.text-muted} <br/> -->
-<!-- - {{site.data.settings.slackjoin}} *>> For **all** course-related communications*{:.text-muted} <br/> -->
+{{site.data.settings.slackjoin}} *>> For **all** course-related communications*{:.text-muted} <br/>
 <!-- - {{site.data.settings.piazza}} *>> For **all** course-related communications*{:.text-muted} <br/> -->
 {{site.data.settings.gradescope}} (code: M675Z6) *>> For grading exams, providing student feedback, etc.*{:.text-muted} <br/>
 {{site.data.settings.ssc}} *>> Get help from TAs and peers*{:.text-muted} <br/>
@@ -97,15 +99,16 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 </tr>
 <tr>
 <td markdown="span">01/14/2020</td>
-<td markdown="span">Class Introduction (syllabus, policies, course tools, labs, etc.)</td>
+<td markdown="span">Class Introduction (syllabus, policies, course tools, labs, etc.) + Overview of Computer Security [slides][slides01]{:.slides}</td>
 <td markdown="span">Get familiar with the course website</td>
 </tr>
 <tr>
 <td markdown="span">01/16/2020</td>
 <td markdown="span">
-Overview of Computer Security + Unix Security Basics
-  <br/> >> _Users and Groups._
-  <br/> >> _File Permissions: access control, umask, chmod, chown, chgrp, Set-UID_
+Review + Unix Security Basics [slides][slides02]{:.slides} [probe.c]{:.code} [Makefile]{:.code}
+  <!-- <br/> >> _Basic model of a computer; layout of a program._ -->
+  <!-- <br/> >> _Users and Groups._ -->
+  <!-- <br/> >> _File Permissions: access control, umask, chmod, chown, chgrp, Set-UID_ -->
 </td>
 <td markdown="span">**{{ site.data.settings.questionnaire }} Due**</td>
 </tr>
@@ -404,6 +407,11 @@ Overview of Computer Security + Unix Security Basics
 _More Schedule Details Coming Soon..._
 {:.alert .alert-primary .text-center}
 
+<!-- slides -->
+[slides01]: files/cs476-01-intro2sec.pdf
+[slides02]: files/cs476-02-intro2sec.pdf
+
+<!-- labs -->
 [Lab 00]: labs/lab00
 [Lab 01]: #
 [Lab 02]: #
@@ -420,15 +428,37 @@ _More Schedule Details Coming Soon..._
 [NCUR 2020 Extra Credit Write-up]: labs/xc-ncur
 
 <!-- code examples, provided code, etc. -->
-[Makefile]: {{site.data.settings.code}}/Makefile
-[Vagrantfile]: {{site.data.settings.code}}/Vagrantfile
-[uid.c]: {{site.data.settings.code}}/uid.c
-
-<!-- slides -->
-[slides01]: {{site.data.settings.slides}}/cs476-01-intro.pdf
+[probe.c]: code/probe.c
+[Makefile]: code/Makefile.txt
+<!-- [Makefile]: {{site.data.settings.code}}/Makefile -->
+<!-- [Vagrantfile]: {{site.data.settings.code}}/Vagrantfile -->
 
 <!-- exams -->
 [Sample Exam Coversheet]: {{site.data.settings.exams.files}}/exam-coversheet-sample.pdf
+
+## Communication
+
+We will use [Slack](https://slack.com) for all course communication (except for sensitive stuff like grades!).
+> **Why?** Two reasons:
+> (1) Because the majority of you indicated that you'd prefer to use Slack over other options, and
+> (2) Most students will not use a proper learning management system (LMS) such as Brightspace/D2L, Blackboard, or Canvas after they receive their diplomas.
+> On the other hand, students will almost certainly use a new collaboration tool at some point in their careers.
+> Why not introduce one of the most powerful and popular ones while you are still in school?
+
+Please **do** recall the link from above to sign up for our class's slack: {{site.data.settings.slackjoin}}
+
+Please **do not** send me messages via D2L.
+
+Please **do not** use e-mail *unless you absolutely have to*.
+
+I typically won't respond to emails or Slack direct messages (DMs) past 7 p.m.
+Generally speaking, I will not respond on weekends and certainly not immediately.
+Please do not expect an instant answer if you send me an email or DM in Slack.
+I sometimes go off the grid to focus---something that [a great deal of research suggests](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202) you do too.
+
+I definitely recommend using an appropriate channel (e.g., _**#labs**_) to discuss amongst yourselves.
+
+Don't know how to use slack? [Thank goodness for the Internet](https://www.youtube.com/results?search_query=how+to+use+slack), am I right?
 
 ## Grading
 {:.titletext}
@@ -450,3 +480,67 @@ Submit assignments in **D2L**.
 Assignments are **due @ 3:00pm** on the due date. (Due dates are Thursdays this semester, so this deadline should give you time to get to class on time :-)
 
 You can submit an assignment an unlimited number of times. Graders will only grade your most recent submission.
+
+<!--
+#### Late Penalties
+
+You are allowed **at most one late submission (up to 48 hours) with no penalty** &ndash; no excuse required.
+
+To use your free late pass, indicate in your submission that you are electing to use your free pass.
+
+Note that you cannot change this decision later.
+
+Once your pass is used (or you fail to indicate that you are using your free pass), the penalties for late submissions are as follows:
+
+* &lt;     8 hours: 10%
+* &lt;    24 hours: 20%
+* &lt;    48 hours: 40%
+* &#8805; 48 hours: no credit.
+ -->
+<!-- **Note:** this cannot be used to receive full credit on any assignment checkpoints. -->
+
+## Getting help
+
+You are _**always**_ welcome to come to my office hours as often as you like.
+
+To get the most out of office hours, you might like reading [How To Ask Questions The Smart Way, by Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html).
+
+Note: I won't merely provide answers to assignments.
+I believe in the [Socratic method](https://en.wikipedia.org/wiki/Socratic_method)
+  and often [answer students' questions with questions](https://www.philsimon.com/blog/higher-education/analytics-students/).
+
+All of this is to say: come ready to chat :-)
+
+## Course Expectations
+
+The expectations for the course are that students will attend every class, do any readings assigned for class, and actively and constructively participate in class discussions.
+Class participation will be a measure of contributing to the discourse both in class, through discussion and questions, and outside of class through contributing and responding to class forums.
+
+*Out of respect for your classmates, I ask that you turn off all laptops, tablets, and phone screens when they aren't needed for in-class activities!*
+
+When we aren't using computers for in-class activities, I recommend (and research supports) that you write notes by hand.
+> There is recent research that attests to the [negative impacts of learning and
+> retention when multitasking](http://www.creativitypost.com/psychology/why_learning_and_multitasking_dont_mix).
+> It has also been shown that [writing notes by hand rather than on a laptop](http://pss.sagepub.com/content/25/6/1159)
+> engages different cognitive processes and has direct (positive) consequences
+> for learning.
+
+## Academic Honesty
+
+Please review [MSU's Code of Conduct, Policies, Regulations, & Reports](http://catalog.montana.edu/code-conduct-policies-regulations-reports/).
+
+A couple of clarifications and additions:
+- Although you may discuss and design with others, the work you hand in (e.g., code, write-ups) must be entirely your own.
+- Anything you submit that did not originate from you must be accompanied by attribution.
+- Also, please do not share solutions or detailed information about solutions (e.g., specific code) with others.
+
+## Religious Observances
+
+Some students may wish to take part in religious observances that occur during this academic term.
+If you have a religious observance that conflicts with your participation in the course, please meet with me as soon as possible to discuss appropriate accommodations.
+
+## Accommodations & Disabilities
+
+If you have a documented disability (including "invisible" disabilities such as chronic diseases and learning disabilities) for which you are or may be requesting any accommodation(s),
+I encourage you to reach out to me and the [Office of Disability Services (ODS)](http://www.montana.edu/disabilityservices/) as soon as possible.
+If you have a need for accommodations on exams, please see information on the [MSU's Testing Services website](http://www.montana.edu/testing/).

@@ -29,7 +29,6 @@ githuburl: https://github.com/traviswpeters/cs476
 
 # COURSE LINKS
 questionnaire: '<i class="fas fa-external-link-alt"></i> [Questionnaire](https://forms.gle/bEMav7XE9h5Nuybg7)'
-
 d2l: '<i class="fas fa-external-link-alt"></i> [D2L](https://ecat.montana.edu/d2l/home/576326)'
 campuswire: '<i class="fas fa-external-link-alt"></i> [Campuswire](https://campuswire.com/p/GFCEDCB39)'
 campuswirecode: 'Class Join Code: 6671'
@@ -43,46 +42,25 @@ ssc: '<i class="fas fa-external-link-alt"></i> [Student Success Center](https://
 seedcode: 'https://github.com/traviswpeters/BookCode' # my fork
 
 # locations of things (notes, slides, etc.)
-slides: "notes"
-notes: "notes"
-solutions: "solutions"
+slides: "files"
+notes: "files"
 code: "code"
-reading: "notes"
-projectfiles: 'project'
+reading: "files"
+solutions: "files"
 
 menu:
 # - {name: 'Syllabus', url: ''}
 - {name: 'Logistics', url: '#logistics'}
 - {name: 'Schedule', url: '#schedule'}
-# - {name: 'Roadmap', url: 'roadmap'}
-# - {name: 'Exams', url: '#exams'}
-# - {name: 'Assignments', url: '#assignments'}
-# - {name: 'Project', url: '#project'}
-# - {name: 'Extra Credit', url: 'xc'}
-# - {name: 'Code', url: 'code'}
 - {name: 'Labs', url: 'labs'}
 - {name: 'Resources', url: 'resources'}
-
-assignments:
-  a0:
-    shortname: 'A0'
-    longname: 'Assignment 0: Questionnaire & VM Setup'
-    url: 'a0'
-    # due: 'Due 01/30'
-    # timedue: '@10pm'
-    # duecheckpoint: 'Friday, October 4th, 2019 @10pm'
-    # duelong: 'Wednesday, October 16th, 2019 @10pm'
-    show: False # show on schedule?
+# - {name: 'Exams', url: '#exams'}
+# - {name: 'Code', url: 'code'}
 
 exams:
-  files: "notes"
-  exam1:
-    name: 'Exam 1'
-    date: 'XX/XX/2020'
-    url: '#exams'
-    show: False # show on schedule?
-  exam1:
-    name: 'Exam 2'
+  files: "files"
+  finalexam:
+    name: 'Final Exam'
     date: 'XX/XX/2020'
     url: '#exams'
     show: False # show on schedule?

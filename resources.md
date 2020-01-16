@@ -11,6 +11,26 @@ I'll also try to post links here to any relevant resources you share with me.
 
 **There is nothing required here (unless of course I assign you a particular reading).**
 
+## Technical References
+{:.titletext}
+Great reference materials for labs and programming
+{:.subtitletext}
+
+- [Browse the Linux Source Code *(thanks @bootlin!)*](https://elixir.bootlin.com/linux/latest/source)
+- [Linux man pages](http://man7.org/linux/man-pages/dir_all_alphabetic.html)
+- [The C Cheat Sheet](files/the-C-cheat-sheet.pdf)
+- [A Tiny Guide to Programming in 32-bit x86 Assembly Language]({{site.data.settings.reading}}/tiny-guide-to-x86-assembly.pdf)
+
+<!-- - [x86 and amd64 instruction reference](https://www.felixcloutier.com/x86/) -->
+<!-- - [System Programming Overview / Programming in C Refresher](http://www.lysator.liu.se/c/bwk-tutor.html) *#SysProgramming*{:.text-muted} *#Programming*{:.text-muted} -->
+<!-- - [C and C++ in 5 days]({{site.data.settings.reading}}/C-in-5-days.pdf) *#Programming*{:.text-muted} -->
+<!-- - [An Introduction to C Programming for Java Programmers]({{site.data.settings.reading}}/intro-to-C-for-java-programmers.pdf) *#Programming*{:.text-muted} -->
+<!-- - [A Nice `Makefile` Tutorial](https://gist.github.com/isaacs/62a2d1825d04437c6f08) *#Programming*{:.text-muted} -->
+<!-- - [The Linux Kernel Module Programming Guide]({{site.data.settings.reading}}/readme-linux-kernel-programming-lkmpg.pdf) *#SysProgramming*{:.text-muted} -->
+<!-- - [PLT and GOT - the key to code sharing and dynamic libraries](https://www.technovelty.org/linux/plt-and-got-the-key-to-code-sharing-and-dynamic-libraries.html) *#SysProgramming*{:.text-muted} -->
+<!-- - [POSIX Threads Programming](https://computing.llnl.gov/tutorials/pthreads/) *#Assignment1*{:.text-muted} -->
+<!-- - [The 101 of ELF files on Linux: Understanding and Analysis](https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/) -->
+
 ## Related Courses
 {:.titletext}
 Good for brushing up on topics as needed
