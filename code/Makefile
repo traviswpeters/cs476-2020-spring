@@ -1,17 +1,12 @@
-# A good Makefile reference: http://www.csheeet.com/en/latest/notes/c_make.html
-
-CC = gcc
-CFLAGS = -Wall -std=c99 -ggdb
-EXECS = probe
+# CFLAGS: Extra flags to give to the C compiler
+CFLAGS   += -Wall -O2 -g #-Werror 
+SRC       = $(wildcard *.c)
+OBJ       = $(SRC:.c=.o)
+EXE       = $(subst .c,,$(SRC))
 
 .PHONY: all clean
 
-all: probe 
-
-# targets
-probe: probe.c
-	$(CC) $(CFLAGS) probe.c -o $@
+all: $(OBJ) $(EXE)
 
 clean:
-	rm -f $(EXECS)
-	rm -rf *.dSYM/
+	rm -rf *.o *.so *.a *.la $(EXE)

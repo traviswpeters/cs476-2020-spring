@@ -4,8 +4,6 @@
 
 extern char **environ;
 
-char cstring[100];
-
 int main(int argc, char *argv[], char* envp[]) {
 
     int i;
@@ -17,10 +15,10 @@ int main(int argc, char *argv[], char* envp[]) {
     }
 
     // iterate over GLOBAL VARIABLE for environment
-    i = 0;
-    while (environ[i] != NULL) {
-        printf("%s\n", environ[i++]);
-    }
+    // i = 0;
+    // while (environ[i] != NULL) {
+    //     printf("%s\n", environ[i++]);
+    // }
 
     return 42;
 }
