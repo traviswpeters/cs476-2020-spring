@@ -40,11 +40,53 @@ If you do not have any of the above prerequisites, you should touch base with me
 
 ##### Teaching Team
 
-**Professor:** {{ site.data.settings.instructor }} \| {{site.data.settings.email}} \| {{site.data.settings.office}} \| {{site.data.settings.officephone}} <br/>
-**Professor Office Hours:** {{site.data.settings.office}} \| {{ site.data.settings.officehours }} <br/>
+<div class="row mb-3 mt-3">
 
-**TA:** <i class="fas fa-user-circle"></i> [Seraj Mostafa](https://www.linkedin.com/in/sammbd/) \| <i class="fas fa-envelope"></i> [serajmostafa@montana.edu](mailto:serajmostafa@montana.edu?subject=CS 476 Help) <br/>
-**TA Office Hours:** <a href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> BH 259 </a> \| TBA
+  <div class="col-sm-12">
+    <div class="card border-0">
+      <div class="row no-gutters">
+        <div class="col-sm-2 my-auto">
+          <img src="assets/me.png" class="card-img rounded-circle my-auto" alt="..." style="max-width: 125px;">
+        </div>
+        <div class="col-sm-10">
+          <div class="card-body">
+          <h5 class="card-title">Professor</h5>
+          <p class="card-text" markdown="1">
+            {{ site.data.settings.instructor }} <br/>
+            {{site.data.settings.email}} <br/>
+            **Office Hours:**
+            {{site.data.settings.office}} \|
+            {{ site.data.settings.officehours }}
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12">
+    <div class="card border-0">
+      <div class="row no-gutters">
+        <div class="col-sm-2 my-auto">
+          <img src="assets/ta.png" class="card-img rounded-circle my-auto" alt="..." style="max-width: 125px;">
+        </div>
+        <div class="col-sm-10">
+          <div class="card-body">
+          <h5 class="card-title">TA</h5>
+          <p class="card-text" markdown="1">
+            <i class="fas fa-user-circle"></i> [Seraj Mostafa](https://www.linkedin.com/in/sammbd/) <br/>
+            <i class="fas fa-envelope"></i> [serajmostafa@montana.edu](mailto:serajmostafa@montana.edu?subject=CS 476 Help) <br/>
+            **Office Hours:**
+            <a href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> BH 259 </a> \|
+            Friday 10:00 pm &ndash; 12:00 pm and by appointment.
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 ##### Course Links
 
