@@ -21,6 +21,10 @@ Great reference materials for labs and programming
 - [The C Cheat Sheet](files/the-C-cheat-sheet.pdf)
 - [A Tiny Guide to Programming in 32-bit x86 Assembly Language]({{site.data.settings.reading}}/tiny-guide-to-x86-assembly.pdf)
 
+##### VirtualBox
+
+- [VirtualBox Networking Explained - NAT & Port Forwarding, Bridged, Internal, Host-Only](https://youtu.be/cDF4X7RmV4Q)
+
 <!-- - [x86 and amd64 instruction reference](https://www.felixcloutier.com/x86/) -->
 <!-- - [System Programming Overview / Programming in C Refresher](http://www.lysator.liu.se/c/bwk-tutor.html) *#SysProgramming*{:.text-muted} *#Programming*{:.text-muted} -->
 <!-- - [C and C++ in 5 days]({{site.data.settings.reading}}/C-in-5-days.pdf) *#Programming*{:.text-muted} -->
