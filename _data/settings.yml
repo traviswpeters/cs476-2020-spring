@@ -39,6 +39,7 @@ gradescope: '<i class="fas fa-external-link-alt"></i> [Gradescope](https://www.g
 ssc: '<i class="fas fa-external-link-alt"></i> [Student Success Center](https://www.cs.montana.edu/student-success-center.html)'
 
 # SEED LINKS
+seedlabs: 'https://seedsecuritylabs.org/Labs_16.04/'
 seedcode: 'https://github.com/traviswpeters/BookCode' # my fork
 
 # locations of things (notes, slides, etc.)
