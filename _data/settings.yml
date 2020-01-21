@@ -40,7 +40,8 @@ ssc: '<i class="fas fa-external-link-alt"></i> [Student Success Center](https://
 
 # SEED LINKS
 seedlabs: 'https://seedsecuritylabs.org/Labs_16.04/'
-seedcode: 'https://github.com/traviswpeters/BookCode' # my fork
+# seedcode: 'https://github.com/traviswpeters/csci476-code' # my fork
+seedcode: '<i class="fas fa-external-link-alt"></i> [CSCI 476 Code](https://github.com/traviswpeters/csci476-code)'
 
 # locations of things (notes, slides, etc.)
 slides: "files"
