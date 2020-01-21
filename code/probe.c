@@ -1,4 +1,5 @@
 // A simple program to review some C programming concepts. 
+// Inspired by a code example from Sean Smith's OS course @ Dartmouth---thanks!
 
 // To build the program: 
 //     gcc probe.c -o probe
