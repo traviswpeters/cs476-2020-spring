@@ -57,7 +57,7 @@ menu:
 - {name: 'Labs', url: 'labs'}
 - {name: 'Resources', url: 'resources'}
 # - {name: 'Exams', url: '#exams'}
-# - {name: 'Code', url: 'code'}
+# - {name: 'Code', url: 'https://github.com/traviswpeters/csci476-code'}
 
 exams:
   files: "files"

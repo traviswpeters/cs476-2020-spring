@@ -90,6 +90,7 @@ If you do not have any of the above prerequisites, you should touch base with me
 
 ##### Course Links
 
+{{site.data.settings.seedcode}} *>> Code from the textbook, class examples, etc.*{:.text-muted} <br/>
 {{site.data.settings.d2l}} *>> For submitting assignments, tracking course grades, etc.*{:.text-muted} <br/>
 <!-- - {{site.data.settings.campuswire}} ({{site.data.settings.campuswirecode}}) *>> For **all** course-related communications*{:.text-muted} <br/> -->
 {{site.data.settings.slackjoin}} *>> For **all** course-related communications*{:.text-muted} <br/>
@@ -113,6 +114,9 @@ I will attempt to announce any change to the class, but this web-page should be 
 If you have any questions, please contact me.
 
 Feedback is always appreciated regarding typos, suggestions for more detailed explanations, additional examples, etc.
+
+**Code from class and from the textbook can be found inline below and/or in this public GitHub repository: <br/> {{site.data.settings.seedcode}}**
+{:.text-center}
 
 <!-- Thanks! https://idratherbewriting.com/documentation-theme-jekyll/mydoc_tables.html -->
 <table class="table table-hover table-striped table-bordered table-sm">
@@ -159,17 +163,21 @@ Review + Unix Security Basics [slides][slides02]{:.slides} [probe.c]{:.code} [Ma
 
 <tr>
 <td markdown="span">**Week 02**</td>
-<td markdown="span" class="note">Software Security</td>
+<td markdown="span" class="note">Software Security --- Privileged Programs & Attacks via Program Inputs</td>
 <td markdown="span" class="note">**Reading:** Chapters 1 & 2</td>
 </tr>
 <tr>
 <td markdown="span">01/21/2020</td>
-<td markdown="span"></td>
+<td markdown="span">
+The Set-UID Mechanism & Environment Variables (Part I) [slides][slides03]{:.slides}
+</td>
 <td markdown="span"></td>
 </tr>
 <tr>
 <td markdown="span">01/23/2020</td>
-<td markdown="span"></td>
+<td markdown="span">
+<!-- The Set-UID Mechanism & Environment Variables (Part II) [slides][slides03]{:.slides} -->
+</td>
 <td markdown="span">**[Lab 00] Due**</td>
 </tr>
 
@@ -452,6 +460,9 @@ _More Schedule Details Coming Soon..._
 <!-- slides -->
 [slides01]: files/cs476-01-intro2sec.pdf
 [slides02]: files/cs476-02-intro2sec.pdf
+
+[slides03]: files/cs476-03-setuid-envvars-1.pdf
+[slides04]: files/cs476-03-setuid-envvars-2.pdf
 
 <!-- labs -->
 [Lab 00]: labs/lab00
