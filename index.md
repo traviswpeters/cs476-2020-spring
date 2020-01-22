@@ -171,12 +171,14 @@ Review + Unix Security Basics [slides][slides02]{:.slides} [probe.c]{:.code} [Ma
 <td markdown="span">
 The Set-UID Mechanism & Environment Variables (Part I) [slides][slides03]{:.slides}
 </td>
-<td markdown="span"></td>
+<td markdown="span">
+Extra: [Linux File Permissions Complete Guide](https://devconnected.com/linux-file-permissions-complete-guide/)
+</td>
 </tr>
 <tr>
 <td markdown="span">01/23/2020</td>
 <td markdown="span">
-<!-- The Set-UID Mechanism & Environment Variables (Part II) [slides][slides03]{:.slides} -->
+<!-- The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.slides} -->
 </td>
 <td markdown="span">**[Lab 00] Due**</td>
 </tr>
@@ -461,8 +463,8 @@ _More Schedule Details Coming Soon..._
 [slides01]: files/cs476-01-intro2sec.pdf
 [slides02]: files/cs476-02-intro2sec.pdf
 
-[slides03]: files/cs476-03-setuid-envvars-1.pdf
-[slides04]: files/cs476-03-setuid-envvars-2.pdf
+[slides03]: files/cs476-03-setuid-envvars.pdf
+[slides04]: files/cs476-04-setuid-envvars.pdf
 
 <!-- labs -->
 [Lab 00]: labs/lab00
