@@ -16,10 +16,11 @@ I'll also try to post links here to any relevant resources you share with me.
 Great reference materials for labs and programming
 {:.subtitletext}
 
-- [Browse the Linux Source Code *(thanks @bootlin!)*](https://elixir.bootlin.com/linux/latest/source)
-- [Linux man pages](http://man7.org/linux/man-pages/dir_all_alphabetic.html)
+- [Linux `man` pages](http://man7.org/linux/man-pages/dir_all_alphabetic.html)
 - [The C Cheat Sheet](files/the-C-cheat-sheet.pdf)
+- [Bash scripting cheatsheet](https://devhints.io/bash)
 - [A Tiny Guide to Programming in 32-bit x86 Assembly Language]({{site.data.settings.reading}}/tiny-guide-to-x86-assembly.pdf)
+- [Browse the Linux Source Code *(thanks @bootlin!)*](https://elixir.bootlin.com/linux/latest/source)
 
 ##### VirtualBox
 
