@@ -4,7 +4,7 @@ localurl: './SEEDLab_Environment_Variable_and_SetUID.pdf'
 seedurl: 'https://seedsecuritylabs.org/Labs_16.04/PDF/Environment_Variable_and_SetUID.pdf'
 layout: default
 tags: [labs, seed]
-published: False
+published: True
 ---
 
 ## {{page.title}}
