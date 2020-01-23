@@ -163,7 +163,7 @@ Review + Unix Security Basics [slides][slides02]{:.slides} [probe.c]{:.code} [Ma
 
 <tr>
 <td markdown="span">**Week 02**</td>
-<td markdown="span" class="note">Software Security --- Privileged Programs & Attacks via Program Inputs</td>
+<td markdown="span" class="note">Software Security --- Privileged Programs, Environment Variables, and Attacks via Program Inputs</td>
 <td markdown="span" class="note">**Reading:** Chapters 1 & 2</td>
 </tr>
 <tr>
@@ -178,7 +178,7 @@ Extra: [Linux File Permissions Complete Guide](https://devconnected.com/linux-fi
 <tr>
 <td markdown="span">01/23/2020</td>
 <td markdown="span">
-<!-- The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.slides} -->
+The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.slides}
 </td>
 <td markdown="span">**[Lab 00] Due**</td>
 </tr>
@@ -468,7 +468,7 @@ _More Schedule Details Coming Soon..._
 
 <!-- labs -->
 [Lab 00]: labs/lab00
-[Lab 01]: #
+[Lab 01]: labs/lab01
 [Lab 02]: #
 [Lab 03]: #
 [Lab 04]: #
