@@ -21,9 +21,9 @@ int main(int argc, char *argv[], char* envp[]) {
     pid = getpid();
     printf("\nHi, I am process %d! Thanks for running me :-)\n", pid);
 
-    sprintf(cstring,"pmap -X %d\n", pid);
-    printf("\nRunning pmap....\n\n");
-    system(cstring);
+    // sprintf(cstring,"pmap -X %d\n", pid);
+    // printf("\nRunning pmap....\n\n");
+    // system(cstring);
 
     stackaddr = (void *) &localv; 
     globaladdr = (void *) &globalv; 
