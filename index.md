@@ -31,13 +31,6 @@ If you do not have any of the above prerequisites, you should touch base with me
 **Textbook:** {{ site.data.settings.textbook }} <br/>
 <!-- **Final Exam:** {{ site.data.settings.finalexamdate }} <br/> -->
 
-**Optional/Recommended Textbooks:**
-{:.p-0 .m-0}
-- [Security in Computing - 5th Edition](https://www.amazon.com/Security-Computing-5th-Charles-Pfleeger/dp/0134085043/ref=sr_1_1?keywords=Security+in+Computing&qid=1578348388&s=books&sr=1-1). Pfleeger, Pfleeger, and Margulies (2015).
-- [The Craft of System Security - 1st Edition](https://www.amazon.com/Craft-System-Security-Sean-Smith/dp/0321434838). Sean Smith (2007).
-- [Applied Cryptography: Protocols, Algorithms, and Source Code in C - 2nd Edition](http://www.amazon.com/Applied-Cryptography-Protocols-Algorithms-Source/dp/0471117099/ref=sr_1_1?ie=UTF8&s=books&qid=1233440847&sr=1-1). Bruce Schneier (1996).
-- [Computer-Related Risks - 1st Edition](https://www.amazon.com/Computer-Related-Risks-Press-Peter-Neumann/dp/020155805X/ref=sr_1_1?ie=UTF8&s=books&qid=1233440795&sr=1-1). Peter G. Neumann (1995).
-
 ##### Teaching Team
 
 <div class="row mb-0 mt-0">
@@ -46,7 +39,7 @@ If you do not have any of the above prerequisites, you should touch base with me
     <div class="card border-0 m-0 p-0">
       <!-- <div class="row no-gutters"> -->
         <!-- <div class="col-sm-2 my-auto"> -->
-          <!-- <img src="assets/me.png" class="card-img rounded-circle my-auto" alt="..." style="max-width: 125px;"> -->
+          <!-- <img src="assets/me.png" class="card-img rounded-circle my-auto" alt="..." style="max-width: 75;"> -->
         <!-- </div> -->
         <!-- <div class="col-sm-10"> -->
           <div class="card-body mt-0 mb-0">
@@ -68,7 +61,7 @@ If you do not have any of the above prerequisites, you should touch base with me
     <div class="card border-0 m-0 p-0">
       <!-- <div class="row no-gutters"> -->
         <!-- <div class="col-sm-2 my-auto"> -->
-          <!-- <img src="assets/ta.png" class="card-img rounded-circle my-auto" alt="..." style="max-width: 125px;"> -->
+          <!-- <img src="assets/ta.png" class="card-img rounded-circle my-auto" alt="..." style="max-width: 75;"> -->
         <!-- </div> -->
         <!-- <div class="col-sm-10"> -->
           <div class="card-body pt-0">
@@ -78,7 +71,7 @@ If you do not have any of the above prerequisites, you should touch base with me
             <i class="fas fa-envelope"></i> [serajmostafa@montana.edu](mailto:serajmostafa@montana.edu?subject=CS 476 Help) <br/>
             **Office Hours:**
             <a href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> BH 259 </a> \|
-            Friday 10:00 pm &ndash; 12:00 pm and by appointment.
+            Friday 10:00 am &ndash; 12:00 pm and by appointment.
           </p>
           </div>
         <!-- </div> -->
@@ -180,7 +173,7 @@ Extra: [Linux File Permissions Complete Guide](https://devconnected.com/linux-fi
 <td markdown="span">
 The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.slides}
 </td>
-<td markdown="span">**[Lab 00] Due**</td>
+<td markdown="span">**[Lab 00] "Due"**</td>
 </tr>
 
 <!-- Week 03  -->
@@ -520,9 +513,11 @@ Don't know how to use slack? [Thank goodness for the Internet](https://www.youtu
 These are tentative details that are subject to change with minimal notice
 {:.subtitletext}
 
-I am always happy to answer questions, but I don't pre-grade assignments.
+I am always happy to answer questions, but I do not pre-grade assignments.
 
 I do not curve grades. The score you earn is the score you receive.
+
+The grade breakdown is as follows:
 
 - **Participation:** 10% _>> Engage in class/online discussions, ask questions, come to office hours, etc._{:.text-muted}
 - **Final Exam:** 25% _>> I'll share a practice exam as we get closer to the end of the term._{:.text-muted}
@@ -532,26 +527,25 @@ I do not curve grades. The score you earn is the score you receive.
 
 Submit assignments in **D2L**.
 
-Assignments are **due @ 3:00pm** on the due date. (Due dates are Thursdays this semester, so this deadline should give you time to get to class on time :-)
+Assignments are **due @ 3:00pm** on the due date. _>> Due dates are before class starts on Thursdays this semester; this deadline should give you time to get to class on time :-)_{:.text-muted}
 
 You can submit an assignment an unlimited number of times. Graders will only grade your most recent submission.
 
-<!--
 #### Late Penalties
 
-You are allowed **at most one late submission (up to 48 hours) with no penalty** &ndash; no excuse required.
-
+This course moves _fast_, and your evaluation is primarily based on completing the lab assignments.
+As such, we take timely submissions seriously.
+I also understand, however, that extreme circumstances arise.
+For this reason, you are allowed **at most one late submission (up to 48 hours) with no penalty** &ndash; no excuse required.
 To use your free late pass, indicate in your submission that you are electing to use your free pass.
-
 Note that you cannot change this decision later.
+Once your one free late pass is used (or you fail to indicate that you are using your free pass), the penalties for late submissions are as follows:
 
-Once your pass is used (or you fail to indicate that you are using your free pass), the penalties for late submissions are as follows:
+<!-- * &lt;  8 hours: 10% -->
+* &lt; 24 hours: 25%
+* &lt; 48 hours: 50%
+* &ge; 48 hours: no credit.
 
-* &lt;     8 hours: 10%
-* &lt;    24 hours: 20%
-* &lt;    48 hours: 40%
-* &#8805; 48 hours: no credit.
- -->
 <!-- **Note:** this cannot be used to receive full credit on any assignment checkpoints. -->
 
 ## Getting help

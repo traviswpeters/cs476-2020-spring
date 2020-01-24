@@ -11,6 +11,20 @@ I'll also try to post links here to any relevant resources you share with me.
 
 **There is nothing required here (unless of course I assign you a particular reading).**
 
+## Textbooks
+{:.titletext}
+The primary reference materials for classes and labs
+{:.subtitletext}
+
+###### Required Textbook(s)
+- {{ site.data.settings.textbook }} <br/>
+
+###### Optional/Recommended Textbook(s)
+- [Security in Computing - 5th Edition](https://www.amazon.com/Security-Computing-5th-Charles-Pfleeger/dp/0134085043/ref=sr_1_1?keywords=Security+in+Computing&qid=1578348388&s=books&sr=1-1). Pfleeger, Pfleeger, and Margulies (2015).
+- [The Craft of System Security - 1st Edition](https://www.amazon.com/Craft-System-Security-Sean-Smith/dp/0321434838). Sean Smith (2007).
+- [Applied Cryptography: Protocols, Algorithms, and Source Code in C - 2nd Edition](http://www.amazon.com/Applied-Cryptography-Protocols-Algorithms-Source/dp/0471117099/ref=sr_1_1?ie=UTF8&s=books&qid=1233440847&sr=1-1). Bruce Schneier (1996).
+- [Computer-Related Risks - 1st Edition](https://www.amazon.com/Computer-Related-Risks-Press-Peter-Neumann/dp/020155805X/ref=sr_1_1?ie=UTF8&s=books&qid=1233440795&sr=1-1). Peter G. Neumann (1995).
+
 ## Technical References
 {:.titletext}
 Great reference materials for labs and programming
@@ -22,7 +36,7 @@ Great reference materials for labs and programming
 - [A Tiny Guide to Programming in 32-bit x86 Assembly Language]({{site.data.settings.reading}}/tiny-guide-to-x86-assembly.pdf)
 - [Browse the Linux Source Code *(thanks @bootlin!)*](https://elixir.bootlin.com/linux/latest/source)
 
-##### VirtualBox
+###### VirtualBox
 
 - [VirtualBox Networking Explained - NAT & Port Forwarding, Bridged, Internal, Host-Only](https://youtu.be/cDF4X7RmV4Q)
 
