@@ -167,7 +167,7 @@ Review + Unix Security Basics [slides][slides02]{:.slides} [probe.c]{:.code} [Ma
 The Set-UID Mechanism & Environment Variables (Part I) [slides][slides03]{:.slides}
 </td>
 <td markdown="span">
-Extra: [Linux File Permissions Complete Guide](https://devconnected.com/linux-file-permissions-complete-guide/)
+[Linux File Permissions Complete Guide](https://devconnected.com/linux-file-permissions-complete-guide/)
 </td>
 </tr>
 <tr>
@@ -183,12 +183,14 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <tr>
 <td markdown="span">**Week 03**</td>
 <td markdown="span" class="note">Software Security --- The Shellshock Attack</td>
-<td markdown="span" class="note">**Reading:** Chapter 3</td>
+<td markdown="span" class="note">**Reading:** Chapters 3 & 9, [CVE-2014-6271](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271)</td>
 </tr>
 <tr>
 <td markdown="span">01/28/2020</td>
-<td markdown="span"></td>
-<td markdown="span"></td>
+<td markdown="span">The Shellshock Attack (Part I)</td>
+<td markdown="span">
+<!-- [CVE-2014-6271](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271) -->
+</td>
 </tr>
 <tr>
 <td markdown="span">01/30/2020</td>
@@ -257,7 +259,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <tr>
 <td markdown="span">**Week 07**</td>
 <td markdown="span" class="note">Network & Web Security --- SQL Injection Attacks & Countermeasures</td>
-<td markdown="span"></td>
+<td markdown="span" class="note">**Reading:** Chapter 12</td>
 </tr>
 <tr>
 <td markdown="span">02/25/2020</td>
@@ -275,7 +277,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <tr>
 <td markdown="span">**Week 08**</td>
 <td markdown="span" class="note">Network & Web Security --- Packet Sniffing and Spoofing</td>
-<td markdown="span"></td>
+<td markdown="span" class="note">**Reading:** Chapter 15</td>
 </tr>
 <tr>
 <td markdown="span">03/03/2020</td>
@@ -293,7 +295,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <tr>
 <td markdown="span">**Week 09**</td>
 <td markdown="span" class="note">Network & Web Security --- Attacks on the TCP Protocol</td>
-<td markdown="span"></td>
+<td markdown="span" class="note">**Reading:** Chapter 16</td>
 </tr>
 <tr>
 <td markdown="span">03/10/2020</td>
@@ -329,7 +331,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <tr>
 <td markdown="span">**Week 11**</td>
 <td markdown="span" class="note">Crypto --- Secret-Key Encryption</td>
-<td markdown="span"></td>
+<td markdown="span" class="note">**Reading:** Chapter 21</td>
 </tr>
 <tr>
 <td markdown="span">03/24/2020</td>
@@ -347,7 +349,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <tr>
 <td markdown="span">**Week 12**</td>
 <td markdown="span" class="note">Crypto --- Secret-Key Encryption (cont.)</td>
-<td markdown="span"></td>
+<td markdown="span" class="note">**Reading:** Chapter 21</td>
 </tr>
 <tr>
 <td markdown="span">03/31/2020</td>
@@ -365,7 +367,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <tr>
 <td markdown="span">**Week 13**</td>
 <td markdown="span" class="note">Crypto --- Public Key Cryptography</td>
-<td markdown="span"></td>
+<td markdown="span" class="note">**Reading:** Chapter 23</td>
 </tr>
 <tr>
 <td markdown="span">04/07/2020</td>
@@ -383,7 +385,8 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <tr>
 <td markdown="span">**Week 14**</td>
 <td markdown="span" class="note">Recent Topics in Security --- The Heartbleed Bug and Attack</td>
-<td markdown="span"></td>
+<td markdown="span" class="note">**Reading:** Chapter 20, [Official Website](http://heartbleed.com), [CVE-2014-0160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2014-0160)
+</td>
 </tr>
 <tr>
 <td markdown="span">04/14/2020</td>
@@ -401,7 +404,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <tr>
 <td markdown="span">**Week 15**</td>
 <td markdown="span" class="note">Recent Topics in Security --- The Meltdown and Spectre Attacks</td>
-<td markdown="span"></td>
+<td markdown="span" class="note">**Reading:** Chapters 13 & 14, [Official Website](https://meltdownattack.com)</td>
 </tr>
 <tr>
 <td markdown="span">04/21/2020</td>
