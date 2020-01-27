@@ -27,7 +27,7 @@ We, along with over a thousand other educational institutions around the world, 
 ## Notes About Labs
 
 - **Labs:**
-  All labs are individual labs. You are encourage to discuss with others, but each student must independently carry out the tasks in the labs.
+  All labs are individual labs. You are encouraged to discuss with others, but each student must independently carry out the tasks in the labs.
   You cannot copy code from other students. Any violation will be punished and reported to the university authority.
 <!-- - **CTF (Capture The Flag) competition:**
   For these competitions (group based), grades will be based on the rankings of each group. -->
