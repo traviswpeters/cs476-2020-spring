@@ -32,7 +32,7 @@ We, along with over a thousand other educational institutions around the world, 
 <!-- - **CTF (Capture The Flag) competition:**
   For these competitions (group based), grades will be based on the rankings of each group. -->
 - **Lab Report:**
-  For all labs, You should submit a hardcopy of your lab report before the class on the due day.
+  For all labs, you should submit your lab report to D2L before the class on the due day.
   We may ask (randomly) selected students to give a demonstration.
 
 ## Labs
@@ -70,10 +70,10 @@ Setup
 
 Software Security
 - [Lab 01: Environment Variable and Set-UID Program Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/) *>> Software Security (Exploration)*{:.text-muted}
-- [Lab 02: Buffer Overflow Vulnerability Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Buffer_Overflow/) *>> Software Security (Attack)*{:.text-muted} --- [CVE-2015-7547](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-7547)
-- [Lab 03: Return-to-libc Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Return_to_Libc/) and Return-Oriented Programming (ROP) *>> Software Security (Attack)*{:.text-muted}
-- [Lab 04: Format-String Vulnerability Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Format_String_Server/) *>> Software Security (Attack)*{:.text-muted}
-- [Lab 05: Shellshock Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Shellshock/) *>> Software Security (Attack)*{:.text-muted} [CVE-2014-6271](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271)
+- [Lab 02: Shellshock Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Shellshock/) *>> Software Security (Attack)*{:.text-muted} [CVE-2014-6271](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271)
+- [Lab 03: Buffer Overflow Vulnerability Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Buffer_Overflow/) *>> Software Security (Attack)*{:.text-muted} --- [CVE-2015-7547](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-7547)
+- [Lab 04: Return-to-libc Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Return_to_Libc/) and Return-Oriented Programming (ROP) *>> Software Security (Attack)*{:.text-muted}
+- [Lab 05: Format-String Vulnerability Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Format_String_Server/) *>> Software Security (Attack)*{:.text-muted}
 
 Network & Web Security
 - [Lab 06: SQL Injection Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Web/Web_SQL_Injection/) *>> Web Security*{:.text-muted}
@@ -83,11 +83,12 @@ Network & Web Security
 
 Crypto
 - [Lab 09: Secret-Key Encryption](https://seedsecuritylabs.org/Labs_16.04/Crypto/Crypto_Encryption/) *>> Crypto*{:.text-muted}
-- [Lab 10: RSA Public-Key Encryption & Signature Lab](https://seedsecuritylabs.org/Labs_16.04/Crypto/Crypto_RSA/) *>> Crypto*{:.text-muted}
+- [Lab 10: Hashing](...)
+- [Lab 11: RSA Public-Key Encryption & Signature Lab](https://seedsecuritylabs.org/Labs_16.04/Crypto/Crypto_RSA/) *>> Crypto*{:.text-muted}
 
 Recent Topics in Security
-- [Lab 11: Heartbleed Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Networking/Heartbleed/) *>> Network Security (Attack)*{:.text-muted} --- [Official Website](http://heartbleed.com), [CVE-2014-0160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2014-0160)
-- [Lab 12: Meltdown Attack Lab / Spectre Attack Lab](https://seedsecuritylabs.org/Labs_16.04/System/) *>> System Security*{:.text-muted} --- [Official Website](https://meltdownattack.com)
+- [Lab 12: Heartbleed Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Networking/Heartbleed/) *>> Network Security (Attack)*{:.text-muted} --- [Official Website](http://heartbleed.com), [CVE-2014-0160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2014-0160)
+- [Lab 13: Meltdown Attack Lab / Spectre Attack Lab](https://seedsecuritylabs.org/Labs_16.04/System/) *>> System Security*{:.text-muted} --- [Official Website](https://meltdownattack.com)
 
 ----
 

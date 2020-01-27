@@ -5,6 +5,8 @@ layout: default
 ## About the Course
 
 This course introduces students to introductory topics in computer and network security.
+Throughout the semester students will be introduced to a variety of security issues in software design and development from technical, social, and legal viewpoints.
+Topics include basic security concepts, security models, software security, network and web security, cryptography, and recent issues in computer and network security.
 
 Students will study a variety of exploration tools, system defenses, and attacks on computer software and hardware.
 <!-- These attacks are caused by the vulnerabilities in the design and implementation of computer systems. -->
@@ -15,9 +17,9 @@ Through these labs, students can enhance their understanding of the principles, 
 
 Prior to taking this course, you should have fulfilled the following CSCI prerequisites:
 {:.p-0 .m-0}
-- [CSCI 232 (required)](http://catalog.montana.edu/search/?P=CSCI%20232)
-- [CSCI 460 (strongly recommended)](http://catalog.montana.edu/search/?P=CSCI%20460)
-- [CSCI 466 (strongly recommended)](http://catalog.montana.edu/search/?P=CSCI%20466)
+- [CSCI 232 --- Data Structures and Algorithms (required)](http://catalog.montana.edu/search/?P=CSCI%20232)
+- [CSCI 460 --- Operating Systems (strongly recommended)](http://catalog.montana.edu/search/?P=CSCI%20460)
+- [CSCI 466 --- Networks (strongly recommended)](http://catalog.montana.edu/search/?P=CSCI%20466)
 {:.m-0}
 
 If you do not have any of the above prerequisites, you should touch base with me as soon as possible.
@@ -180,8 +182,8 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 
 <tr>
 <td markdown="span">**Week 03**</td>
-<td markdown="span" class="note">Software Security (cont.)</td>
-<td markdown="span" class="note">**Reading:** Chapter 4</td>
+<td markdown="span" class="note">Software Security --- The Shellshock Attack</td>
+<td markdown="span" class="note">**Reading:** Chapter 3</td>
 </tr>
 <tr>
 <td markdown="span">01/28/2020</td>
@@ -199,8 +201,8 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 
 <tr>
 <td markdown="span">**Week 04**</td>
-<td markdown="span" class="note">Software Security (cont.)</td>
-<td markdown="span" class="note">**Reading:** Chapter 5</td>
+<td markdown="span" class="note">Software Security --- Buffer Overflow Vulnerabilities, Attacks, and Defenses</td>
+<td markdown="span" class="note">**Reading:** Chapter 4</td>
 </tr>
 <tr>
 <td markdown="span">02/04/2020</td>
@@ -217,8 +219,8 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 
 <tr>
 <td markdown="span">**Week 05**</td>
-<td markdown="span" class="note">Software Security (cont.)</td>
-<td markdown="span" class="note">**Reading:** Chapter 6</td>
+<td markdown="span" class="note">Software Security --- The Return-to-libc Attack & Return-Oriented Programming</td>
+<td markdown="span" class="note">**Reading:** Chapter 5</td>
 </tr>
 <tr>
 <td markdown="span">02/11/2020</td>
@@ -235,8 +237,8 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 
 <tr>
 <td markdown="span">**Week 06**</td>
-<td markdown="span" class="note">Software Security (cont.)</td>
-<td markdown="span" class="note">**Reading:** Chapter 3</td>
+<td markdown="span" class="note">Software Security --- Format String Vulnerabilities, Attacks, and Defenses</td>
+<td markdown="span" class="note">**Reading:** Chapter 6</td>
 </tr>
 <tr>
 <td markdown="span">02/18/2020</td>
@@ -249,13 +251,12 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <td markdown="span">**[Lab 04] Due**</td>
 </tr>
 
-{% comment %}
 
 <!-- Week 07  -->
 
 <tr>
 <td markdown="span">**Week 07**</td>
-<td markdown="span" class="note">Network & Web Security</td>
+<td markdown="span" class="note">Network & Web Security --- SQL Injection Attacks & Countermeasures</td>
 <td markdown="span"></td>
 </tr>
 <tr>
@@ -273,7 +274,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 
 <tr>
 <td markdown="span">**Week 08**</td>
-<td markdown="span" class="note">Network & Web Security (cont.)</td>
+<td markdown="span" class="note">Network & Web Security --- Packet Sniffing and Spoofing</td>
 <td markdown="span"></td>
 </tr>
 <tr>
@@ -291,7 +292,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 
 <tr>
 <td markdown="span">**Week 09**</td>
-<td markdown="span" class="note">Network & Web Security (cont.)</td>
+<td markdown="span" class="note">Network & Web Security --- Attacks on the TCP Protocol</td>
 <td markdown="span"></td>
 </tr>
 <tr>
@@ -309,7 +310,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 
 <tr>
 <td markdown="span">**Week 10**</td>
-<td markdown="span" class="note"></td>
+<td markdown="span" class="note">Enjoy the Break!</td>
 <td markdown="span"></td>
 </tr>
 <tr>
@@ -327,7 +328,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 
 <tr>
 <td markdown="span">**Week 11**</td>
-<td markdown="span" class="note">Crypto</td>
+<td markdown="span" class="note">Crypto --- Secret-Key Encryption</td>
 <td markdown="span"></td>
 </tr>
 <tr>
@@ -345,7 +346,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 
 <tr>
 <td markdown="span">**Week 12**</td>
-<td markdown="span" class="note">Crypto (cont.)</td>
+<td markdown="span" class="note">Crypto --- Secret-Key Encryption (cont.)</td>
 <td markdown="span"></td>
 </tr>
 <tr>
@@ -363,7 +364,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 
 <tr>
 <td markdown="span">**Week 13**</td>
-<td markdown="span" class="note">Crypto (cont.)</td>
+<td markdown="span" class="note">Crypto --- Public Key Cryptography</td>
 <td markdown="span"></td>
 </tr>
 <tr>
@@ -381,7 +382,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 
 <tr>
 <td markdown="span">**Week 14**</td>
-<td markdown="span" class="note">Recent Topics in Security</td>
+<td markdown="span" class="note">Recent Topics in Security --- The Heartbleed Bug and Attack</td>
 <td markdown="span"></td>
 </tr>
 <tr>
@@ -399,7 +400,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 
 <tr>
 <td markdown="span">**Week 15**</td>
-<td markdown="span" class="note">Recent Topics in Security (cont.)</td>
+<td markdown="span" class="note">Recent Topics in Security --- The Meltdown and Spectre Attacks</td>
 <td markdown="span"></td>
 </tr>
 <tr>
@@ -417,7 +418,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 
 <tr>
 <td markdown="span">**Week 16**</td>
-<td markdown="span" class="note">Recent Topics in Security (cont.)</td>
+<td markdown="span" class="note">Course Wrap-Up</td>
 <td markdown="span"></td>
 </tr>
 <tr>
@@ -444,13 +445,14 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <td markdown="span"></td>
 </tr>
 
-{% endcomment %}
 
 </tbody>
 </table>
 
+{% comment %}
 _More Schedule Details Coming Soon..._
 {:.alert .alert-primary .text-center}
+{% endcomment %}
 
 <!-- slides -->
 [slides01]: files/cs476-01-intro2sec.pdf
@@ -458,6 +460,10 @@ _More Schedule Details Coming Soon..._
 
 [slides03]: files/cs476-03-setuid-envvars.pdf
 [slides04]: files/cs476-04-setuid-envvars.pdf
+
+[slides05]: files/cs476-05
+[slides06]: files/cs476-06
+
 
 <!-- labs -->
 [Lab 00]: labs/lab00
