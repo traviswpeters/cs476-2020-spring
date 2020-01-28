@@ -90,7 +90,7 @@ If you do not have any of the above prerequisites, you should touch base with me
 <!-- - {{site.data.settings.campuswire}} ({{site.data.settings.campuswirecode}}) *>> For **all** course-related communications*{:.text-muted} <br/> -->
 {{site.data.settings.slackjoin}} *>> For **all** course-related communications*{:.text-muted} <br/>
 <!-- - {{site.data.settings.piazza}} *>> For **all** course-related communications*{:.text-muted} <br/> -->
-{{site.data.settings.gradescope}} (code: M675Z6) *>> For grading exams, providing student feedback, etc.*{:.text-muted} <br/>
+{{site.data.settings.gradescope}} (code: M675Z6) *>> For grading exams, providing exam feedback, etc.*{:.text-muted} <br/>
 {{site.data.settings.ssc}} *>> Get help from TAs and peers*{:.text-muted} <br/>
 
 ##### Tools
@@ -146,7 +146,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 <tr>
 <td markdown="span">01/16/2020</td>
 <td markdown="span">
-Review + Unix Security Basics [slides][slides02]{:.slides} [probe.c]{:.code} [Makefile]{:.code}
+Review + Unix Security Basics [slides][slides02]{:.slides}
   <!-- <br/> >> _Basic model of a computer; layout of a program._ -->
   <!-- <br/> >> _Users and Groups._ -->
   <!-- <br/> >> _File Permissions: access control, umask, chmod, chown, chgrp, Set-UID_ -->
