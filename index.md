@@ -183,7 +183,9 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <tr>
 <td markdown="span">**Week 03**</td>
 <td markdown="span" class="note">Software Security --- The Shellshock Attack</td>
-<td markdown="span" class="note">**Reading:** Chapters 3 & 9, [CVE-2014-6271](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271)</td>
+<td markdown="span" class="note">
+**Reading:** Chapters 3 & 9, [CVE-2014-6271](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271), [shellshocker.net](https://www.minttm.com/takeover-shellshocker-net)
+</td>
 </tr>
 <tr>
 <td markdown="span">01/28/2020</td>
