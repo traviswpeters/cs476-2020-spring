@@ -189,7 +189,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 </tr>
 <tr>
 <td markdown="span">01/28/2020</td>
-<td markdown="span">The Shellshock Attack (Part I)</td>
+<td markdown="span">The Shellshock Attack (Part I) [slides][slides05]{:.slides} </td>
 <td markdown="span">
 <!-- [CVE-2014-6271](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271) -->
 </td>
@@ -466,8 +466,8 @@ _More Schedule Details Coming Soon..._
 [slides03]: files/cs476-03-setuid-envvars.pdf
 [slides04]: files/cs476-04-setuid-envvars.pdf
 
-[slides05]: files/cs476-05
-[slides06]: files/cs476-06
+[slides05]: files/cs476-05-shellshock.pdf
+[slides06]: files/cs476-06-shellshock.pdf
 
 
 <!-- labs -->
