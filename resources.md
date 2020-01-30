@@ -63,6 +63,7 @@ Good for brushing up on topics as needed
 Where you might find other helpful and/or interesting information
 {:.subtitletext}
 
+- [Infographic: The Linux Kernel - What Is It, and How Does It Work?](https://www.cyberciti.biz/media/new/cms/2017/04/how-does-linux-kernel-works-explained.png)
 - [IoT Security and Privacy Reading List](https://github.com/Beerkay/IoTResearch)
 - [How to Create a Password That is Actually Secure](https://www.freecodecamp.org/news/actually-secure-passwords/)
 - [The Greatest Hits in Side Channel Attacks](https://noorsiddiqui.com/greatest-hits-in-sidechannel-attacks/)

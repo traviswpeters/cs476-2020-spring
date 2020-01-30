@@ -196,7 +196,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 </tr>
 <tr>
 <td markdown="span">01/30/2020</td>
-<td markdown="span"></td>
+<td markdown="span">The Shellshock Attack (Part II) [slides][slides06]{:.slides} </td>
 <td markdown="span">**[Lab 01] Due**</td>
 </tr>
 
@@ -473,7 +473,7 @@ _More Schedule Details Coming Soon..._
 <!-- labs -->
 [Lab 00]: labs/lab00
 [Lab 01]: labs/lab01
-[Lab 02]: #
+[Lab 02]: labs/lab02
 [Lab 03]: #
 [Lab 04]: #
 [Lab 05]: #
