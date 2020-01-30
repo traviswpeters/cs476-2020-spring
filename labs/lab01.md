@@ -1,7 +1,7 @@
 ---
 title: 'Lab 01: Environment Variable and Set-UID Program Lab'
 localurl: './SEEDLab_Environment_Variable_and_SetUID.pdf'
-seedurl: 'https://seedsecuritylabs.org/Labs_16.04/PDF/Environment_Variable_and_SetUID.pdf'
+seedurl: 'https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/'
 layout: default
 tags: [labs, seed]
 published: True
@@ -22,12 +22,12 @@ The objective of this lab is for students to understand what risks such privileg
 
 ### Details
 
-- The complete description of tasks for this lab can be found here: [{{page.title}}]({{page.localurl}})
 - This lab has been tested on the pre-built [SEEDUbuntu16.04 VM](https://seedsecuritylabs.org/lab_env.html).
+- The complete description of tasks for this lab can be found in the PDF write-up: **[{{page.title}}]({{page.localurl}})**.
 
 ### Suggested Reading/Videos
 
-- {{ site.data.settings.textbook }} (Chapter 1 & 2)
+- Chapters 1 & 2 in {{ site.data.settings.textbook }}
 - A related [video lecture](https://youtu.be/tZblgb5LYmk) recorded by  Kevin Du.
 - [Checklist for Security of Setuid Programs](https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/files/setuid.pdf)
 - [Setuid Demystified](http://www.cis.syr.edu/%7Ewedu/minix/projects/setuid_paper.pdf)
