@@ -25,18 +25,6 @@ In this lab, students will perform a variety of tasks related to Shellshock, and
 - This lab has been tested on the pre-built [SEEDUbuntu16.04 VM](https://seedsecuritylabs.org/lab_env.html).
 - The complete description of tasks for this lab can be found in the PDF write-up: **[{{page.title}}]({{page.localurl}})**.
 
-##### Gotchas
-
-A couple of issues that have come up regarding students trying to invoke CGI scripts:
-
-0. You aren't using the official SEED VM (you should be!) ;-)
-1. File not in `/usr/lib/cgi-bin/`
-2. Request made to a file that does not exist in `/usr/lib/cgi-bin/`
-3. File is not executable
-4. File is empty
-5. If all else fails, try rebooting your VM.
-   Mucking around with your VM in the previous lab(s) may have broken something.
-
 ### Suggested Reading/Videos
 
 - Chapter 3 in {{ site.data.settings.textbook }}
