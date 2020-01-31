@@ -18,6 +18,7 @@ Through these labs, students can enhance their understanding of the principles, 
 Prior to taking this course, you should have fulfilled the following CSCI prerequisites:
 {:.p-0 .m-0}
 - [CSCI 232 --- Data Structures and Algorithms (required)](http://catalog.montana.edu/search/?P=CSCI%20232)
+- [CSCI 112 --- C Programming (strongly required)](http://catalog.montana.edu/search/?P=CSCI%20112)
 - [CSCI 460 --- Operating Systems (strongly recommended)](http://catalog.montana.edu/search/?P=CSCI%20460)
 - [CSCI 466 --- Networks (strongly recommended)](http://catalog.montana.edu/search/?P=CSCI%20466)
 {:.m-0}
