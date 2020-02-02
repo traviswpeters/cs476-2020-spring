@@ -33,6 +33,9 @@ Great reference materials for labs and programming
 - [Linux `man` pages](http://man7.org/linux/man-pages/dir_all_alphabetic.html)
 - [The C Cheat Sheet](files/the-C-cheat-sheet.pdf)
 - [Bash scripting cheatsheet](https://devhints.io/bash)
+- [ASCII/Decimal/Hex/Octal Reference Table](https://i.stack.imgur.com/mij6M.jpg)
+- [GDB Cheatsheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
+- [Intel x86 Assembler Instruction Set Opcode Table](http://sparksandflames.com/files/x86InstructionChart.html)
 - [A Tiny Guide to Programming in 32-bit x86 Assembly Language]({{site.data.settings.reading}}/tiny-guide-to-x86-assembly.pdf)
 - [Browse the Linux Source Code *(thanks @bootlin!)*](https://elixir.bootlin.com/linux/latest/source)
 
