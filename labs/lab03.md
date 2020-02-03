@@ -4,7 +4,7 @@ localurl: './SEEDLab_Buffer_Overflow.pdf'
 seedurl: 'https://seedsecuritylabs.org/Labs_16.04/Software/Buffer_Overflow'
 layout: default
 tags: [labs, seed]
-published: False
+published: True
 ---
 
 ## {{page.title}}
