@@ -470,21 +470,23 @@ _More Schedule Details Coming Soon..._
 [slides05]: files/cs476-05-shellshock.pdf
 [slides06]: files/cs476-06-shellshock.pdf
 
+[slides07]: files/cs476-07-buffer-overflow.pdf
+[slides08]: files/cs476-08-buffer-overflow.pdf
 
 <!-- labs -->
 [Lab 00]: labs/lab00
 [Lab 01]: labs/lab01
 [Lab 02]: labs/lab02
-[Lab 03]: #
-[Lab 04]: #
-[Lab 05]: #
-[Lab 06]: #
-[Lab 07]: #
-[Lab 08]: #
-[Lab 09]: #
-[Lab 10]: #
-[Lab 11]: #
-[Lab 12]: #
+[Lab 03]: labs/lab03
+[Lab 04]: labs/lab04
+[Lab 05]: labs/lab05
+[Lab 06]: labs/lab06
+[Lab 07]: labs/lab07
+[Lab 08]: labs/lab08
+[Lab 09]: labs/lab09
+[Lab 10]: labs/lab10
+[Lab 11]: labs/lab11
+[Lab 12]: labs/lab12
 [NCUR 2020 Extra Credit Write-up]: labs/xc-ncur
 
 <!-- code examples, provided code, etc. -->
@@ -534,6 +536,17 @@ The grade breakdown is as follows:
 - **Participation:** 10% _>> Engage in class/online discussions, ask questions, come to office hours, etc._{:.text-muted}
 - **Final Exam:** 25% _>> I'll share a practice exam as we get closer to the end of the term._{:.text-muted}
 - **Labs:** 65% _>> Labs (i.e., hands-on exercises) are the emphasis in this course. Start early, try stuff, talk with others... Most importantly, do them!_{:.text-muted}
+
+#### Lab Grading Policy
+
+Labs are typically made up of a series of tasks (tasks may have sub-tasks).
+Each task/sub-task will be graded on the following scale:
+
+**Incomplete (0), Low Pass (+1), Pass (+2), High Pass (+3).**
+
+A high pass is earned if the solution presents a clear demonstration of the task at hand, as well as clear, correct, and concise description (including observations, explanations, etc.).
+Solutions lacking clarity in the demonstration and/or the description will be awarded a low pass or pass (depending the quality of the solution).
+A grade of incomplete is earned where no solution is present, or where the solution is incorrect or incoherent.
 
 ## Submitting Work
 
