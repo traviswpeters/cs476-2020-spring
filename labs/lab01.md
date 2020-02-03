@@ -1,6 +1,6 @@
 ---
 title: 'Lab 01: Environment Variable and Set-UID Program Lab'
-localurl: './SEEDLab_Environment_Variable_and_SetUID.pdf'
+localurl: './lab01_SEEDLab_Environment_Variable_and_SetUID.pdf'
 seedurl: 'https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/'
 layout: default
 tags: [labs, seed]

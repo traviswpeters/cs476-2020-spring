@@ -1,6 +1,6 @@
 ---
 title: 'Lab 02: Shellshock Attack Lab'
-localurl: './SEEDLab_Shellshock.pdf'
+localurl: './lab02_SEEDLab_Shellshock.pdf'
 seedurl: 'https://seedsecuritylabs.org/Labs_16.04/Software/Shellshock/'
 layout: default
 tags: [labs, seed]
