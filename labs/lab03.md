@@ -1,6 +1,6 @@
 ---
 title: 'Lab 03: Buffer Overflow Vulnerability Lab'
-localurl: './SEEDLab_Buffer_Overflow.pdf'
+localurl: './lab03_SEEDLab_Buffer_Overflow.pdf'
 seedurl: 'https://seedsecuritylabs.org/Labs_16.04/Software/Buffer_Overflow'
 layout: default
 tags: [labs, seed]
