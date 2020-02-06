@@ -216,7 +216,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 </tr>
 <tr>
 <td markdown="span">02/06/2020</td>
-<td markdown="span"></td>
+<td markdown="span">Buffer Overflow Vulnerabilities, Attacks, and Defenses (Part II) [slides][slides08]{:.slides} </td>
 <td markdown="span">**[Lab 02] Due**</td>
 </tr>
 
