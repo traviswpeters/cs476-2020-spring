@@ -212,7 +212,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <tr>
 <td markdown="span">02/04/2020</td>
 <td markdown="span">Buffer Overflow Vulnerabilities, Attacks, and Defenses (Part I) [slides][slides07]{:.slides} </td>
-<td markdown="span"></td>
+<td markdown="span">[Demystifying the Execve Shellcode (Stack Method)](http://hackoftheday.securitytube.net/2013/04/demystifying-execve-shellcode-stack.html)</td>
 </tr>
 <tr>
 <td markdown="span">02/06/2020</td>
