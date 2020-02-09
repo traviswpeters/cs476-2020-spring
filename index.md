@@ -560,16 +560,23 @@ You can submit an assignment an unlimited number of times. Graders will only gra
 
 This course moves _fast_, and your evaluation is primarily based on completing the lab assignments.
 As such, we take timely submissions seriously.
-I also understand, however, that extreme circumstances arise.
-For this reason, you are allowed **at most one late submission (up to 48 hours) with no penalty** &ndash; no excuse required.
-To use your free late pass, indicate in your submission that you are electing to use your free pass.
-Note that you cannot change this decision later.
-Once your one free late pass is used (or you fail to indicate that you are using your free pass), the penalties for late submissions are as follows:
+The penalties for late submissions are as follows:
 
 <!-- * &lt;  8 hours: 10% -->
 * &lt; 24 hours: 25%
 * &lt; 48 hours: 50%
 * &ge; 48 hours: no credit.
+
+I do understand, however, that extreme circumstances arise.
+For this reason, you are allowed
+ **at most one 'late pass' where your submission can be turned in up to 48 hours late with no penalty** &ndash; no excuse required.
+To use your free late pass, indicate in a comment along with your submission on D2L that you are electing to use your free pass.
+Note that you cannot change this decision later.
+
+Please note, the no-penalty late pass **cannot** be used to extend your effective due date beyond 48 hours.
+For example, if an assignment is due at 3pm on Thursday, you cannot apply your late pass *and* take additional late penalties on your assignment to extend your due date to 72 or 96 hours beyond the original deadline; whether you use the late pass or not, your (late) submission is due by 3pm on Saturday.
+
+**No submissions (late pass or no late pass) will be accepted 48 hours after the original deadline.**
 
 <!-- **Note:** this cannot be used to receive full credit on any assignment checkpoints. -->
 
