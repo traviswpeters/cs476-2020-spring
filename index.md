@@ -201,7 +201,6 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <td markdown="span">**[Lab 01] Due**</td>
 </tr>
 
-
 <!-- Week 04  -->
 
 <tr>
@@ -229,12 +228,12 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 </tr>
 <tr>
 <td markdown="span">02/11/2020</td>
-<td markdown="span"></td>
-<td markdown="span"></td>
+<td markdown="span">Return-to-libc Attacks [slides][slides09]{:.slides} </td>
+<td markdown="span">[<i class="fas fa-external-link-alt"></i> **Early Semester Check-In** _(Google Form)_](https://forms.gle/eXM6wss7gdwCAw3CA)</td>
 </tr>
 <tr>
 <td markdown="span">02/13/2020</td>
-<td markdown="span"></td>
+<td markdown="span">Return-Oriented Programming [slides][slides10]{:.slides} </td>
 <td markdown="span">**[Lab 03] Due**</td>
 </tr>
 
@@ -242,8 +241,10 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 
 <tr>
 <td markdown="span">**Week 06**</td>
-<td markdown="span" class="note">Software Security --- Format String Vulnerabilities, Attacks, and Defenses</td>
-<td markdown="span" class="note">**Reading:** Chapter 6</td>
+<td markdown="span" class="note">TBD</td>
+<td markdown="span"></td>
+<!-- <td markdown="span" class="note">Software Security --- Format String Vulnerabilities, Attacks, and Defenses</td> -->
+<!-- <td markdown="span" class="note">**Reading:** Chapter 6</td> -->
 </tr>
 <tr>
 <td markdown="span">02/18/2020</td>
@@ -472,6 +473,9 @@ _More Schedule Details Coming Soon..._
 
 [slides07]: files/cs476-07-buffer-overflow.pdf
 [slides08]: files/cs476-08-buffer-overflow.pdf
+
+[slides09]: files/cs476-09-rtlibc-and-rop.pdf
+[slides10]: files/cs476-10-rtlibc-and-rop.pdf
 
 <!-- labs -->
 [Lab 00]: labs/lab00
