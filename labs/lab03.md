@@ -25,7 +25,7 @@ The learning objective of this lab is for students to gain first-hand experience
 
 ### Suggested Reading/Videos
 
-- Chapter 3 in {{ site.data.settings.textbook }}
+- Chapter 4 in {{ site.data.settings.textbook }}
 - [Smashing The Stack For Fun And Profit](https://web1.cs.wright.edu/people/faculty/tkprasad/courses/cs781/alephOne.html)
 - Related YouTube Videos recorded by Kevin Du. (recorded in 2016):
 [Part 1](https://youtu.be/3tUIcmG66y0),
