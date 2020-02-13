@@ -3,13 +3,11 @@ layout: default
 published: true
 ---
 
-I'll keep a running collection of papers, articles, and other interesting resources here.
+I'll keep a running collection of tools, papers, articles, and other interesting resources here.
 Use as you see fit.
 
 I may pull from here if relevant topics come up.
 I'll also try to post links here to any relevant resources you share with me.
-
-**There is nothing required here (unless of course I assign you a particular reading).**
 
 ## Textbooks
 {:.titletext}
@@ -25,6 +23,15 @@ The primary reference materials for classes and labs
 - [Applied Cryptography: Protocols, Algorithms, and Source Code in C - 2nd Edition](http://www.amazon.com/Applied-Cryptography-Protocols-Algorithms-Source/dp/0471117099/ref=sr_1_1?ie=UTF8&s=books&qid=1233440847&sr=1-1). Bruce Schneier (1996).
 - [Computer-Related Risks - 1st Edition](https://www.amazon.com/Computer-Related-Risks-Press-Peter-Neumann/dp/020155805X/ref=sr_1_1?ie=UTF8&s=books&qid=1233440795&sr=1-1). Peter G. Neumann (1995).
 
+## Tools
+{:.titletext}
+Tools we will use in this class
+{:.subtitletext}
+
+- <i class="fas fa-external-link-alt"></i> [VirtualBox](https://www.virtualbox.org) <br/>
+  - [VirtualBox Networking Explained - NAT & Port Forwarding, Bridged, Internal, Host-Only](https://youtu.be/cDF4X7RmV4Q)
+- <i class="fas fa-external-link-alt"></i> [Wireshark](https://www.wireshark.org) <br/>
+
 ## Technical References
 {:.titletext}
 Great reference materials for labs and programming
@@ -32,16 +39,12 @@ Great reference materials for labs and programming
 
 - [Linux `man` pages](http://man7.org/linux/man-pages/dir_all_alphabetic.html)
 - [The C Cheat Sheet](files/the-C-cheat-sheet.pdf)
+- [GDB Cheatsheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 - [Bash scripting cheatsheet](https://devhints.io/bash)
 - [ASCII/Decimal/Hex/Octal Reference Table](https://i.stack.imgur.com/mij6M.jpg)
-- [GDB Cheatsheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 - [Intel x86 Assembler Instruction Set Opcode Table](http://sparksandflames.com/files/x86InstructionChart.html)
 - [A Tiny Guide to Programming in 32-bit x86 Assembly Language]({{site.data.settings.reading}}/tiny-guide-to-x86-assembly.pdf)
 - [Browse the Linux Source Code *(thanks @bootlin!)*](https://elixir.bootlin.com/linux/latest/source)
-
-###### VirtualBox
-
-- [VirtualBox Networking Explained - NAT & Port Forwarding, Bridged, Internal, Host-Only](https://youtu.be/cDF4X7RmV4Q)
 
 <!-- - [x86 and amd64 instruction reference](https://www.felixcloutier.com/x86/) -->
 <!-- - [System Programming Overview / Programming in C Refresher](http://www.lysator.liu.se/c/bwk-tutor.html) *#SysProgramming*{:.text-muted} *#Programming*{:.text-muted} -->

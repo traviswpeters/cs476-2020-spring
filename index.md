@@ -94,11 +94,6 @@ If you do not have any of the above prerequisites, you should touch base with me
 {{site.data.settings.gradescope}} (code: M675Z6) *>> For grading exams, providing exam feedback, etc.*{:.text-muted} <br/>
 {{site.data.settings.ssc}} *>> Get help from TAs and peers*{:.text-muted} <br/>
 
-##### Tools
-
-<i class="fas fa-external-link-alt"></i> [VirtualBox](https://www.virtualbox.org) <br/>
-<i class="fas fa-external-link-alt"></i> [Wireshark](https://www.wireshark.org) <br/>
-
 ## Schedule
 {:.titletext}
 This is a tentative schedule that is subject to change with minimal notice
