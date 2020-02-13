@@ -79,3 +79,4 @@ Where you might find other helpful and/or interesting information
 - [Detecting and Characterizing Lateral Phishing at Scale](https://www.usenix.org/conference/usenixsecurity19/presentation/ho)
 - [Invisible Mask: Practical Attacks on Face Recognition with Infrared](https://arxiv.org/abs/1803.04683)
 - ["I was told to buy a software or lose my computer. I ignored it": A study of ransomware](https://www.usenix.org/conference/soups2019/presentation/simoiu)
+- [Four different tricks to bypass StackShield and StackGuard protection](https://www.cs.purdue.edu/homes/xyzhang/spring07/Papers/defeat-stackguard.pdf)
