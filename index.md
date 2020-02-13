@@ -176,7 +176,7 @@ The Set-UID Mechanism & Environment Variables (Part I) [slides][slides03]{:.slid
 <td markdown="span">
 The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.slides}
 </td>
-<td markdown="span">**[Lab 00] "Due"**</td>
+<td markdown="span">**[Lab 00] "Due"** (Environment Setup) </td>
 </tr>
 
 <!-- Week 03  -->
@@ -198,7 +198,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <tr>
 <td markdown="span">01/30/2020</td>
 <td markdown="span">The Shellshock Attack (Part II) [slides][slides06]{:.slides} </td>
-<td markdown="span">**[Lab 01] Due**</td>
+<td markdown="span">**[Lab 01] Due** (Env. Variables & Set-UID Programs Lab)</td>
 </tr>
 
 <!-- Week 04  -->
@@ -216,7 +216,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <tr>
 <td markdown="span">02/06/2020</td>
 <td markdown="span">Buffer Overflow Vulnerabilities, Attacks, and Defenses (Part II) [slides][slides08]{:.slides} </td>
-<td markdown="span">**[Lab 02] Due**</td>
+<td markdown="span">**[Lab 02] Due** (Shellshock Lab)</td>
 </tr>
 
 <!-- Week 05  -->
@@ -233,8 +233,10 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 </tr>
 <tr>
 <td markdown="span">02/13/2020</td>
-<td markdown="span">Return-Oriented Programming [slides][slides10]{:.slides} </td>
-<td markdown="span">**[Lab 03] Due**</td>
+<td markdown="span">
+Diving deeper into call frames, and function prologues/epilogues; <br/>
+Wrapping up our first Return-to-libc Attack </td>
+<td markdown="span">**[Lab 03] Due** (Buffer Overflow Lab)</td>
 </tr>
 
 <!-- Week 06  -->
@@ -248,13 +250,14 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 </tr>
 <tr>
 <td markdown="span">02/18/2020</td>
-<td markdown="span"></td>
+<td markdown="span">
+Generalizing Return-to-libc Attacks: Return-Oriented Programming? </td>
 <td markdown="span"></td>
 </tr>
 <tr>
 <td markdown="span">02/20/2020</td>
-<td markdown="span"></td>
-<td markdown="span">**[Lab 04] Due**</td>
+<td markdown="span">Buffer Overflow CTF? *(in class)*</td>
+<td markdown="span">**[Lab 04] Due** (Return-to-libc Attack Lab)</td>
 </tr>
 
 
