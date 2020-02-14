@@ -230,7 +230,9 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <td markdown="span">02/13/2020</td>
 <td markdown="span">
 Diving deeper into call frames, and function prologues/epilogues; <br/>
-Wrapping up our first Return-to-libc Attack </td>
+In-Class Active Learning for Lab 04 (Wrapping up our first Return-to-libc Attack) <br/>
+[slides][slides10]{:.slides} [diagram1][diagram1]{:.code} [diagram2][diagram2]{:.code} [diagram3][diagram3]{:.code} [diagram4][diagram4]{:.code}
+</td>
 <td markdown="span">**[Lab 03] Due** (Buffer Overflow Lab)</td>
 </tr>
 
@@ -474,6 +476,11 @@ _More Schedule Details Coming Soon..._
 
 [slides09]: files/cs476-09-rtlibc-and-rop.pdf
 [slides10]: files/cs476-10-rtlibc-and-rop.pdf
+[diagram1]: files/Basic_Anatomy_of_a_Stack_Frame.pdf
+[diagram2]: files/How_to_Build_a_Stack_Frame_(GDB_Session).pdf
+[diagram3]: files/Conventional_Enter_Leave_Sequence.pdf
+[diagram4]: files/Non-Conventional_Enter_Leave_Sequence.pdf
+
 
 <!-- labs -->
 [Lab 00]: labs/lab00
