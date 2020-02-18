@@ -240,7 +240,7 @@ In-Class Active Learning for Lab 04 (Wrapping up our first Return-to-libc Attack
 
 <tr>
 <td markdown="span">**Week 06**</td>
-<td markdown="span" class="note">TBD</td>
+<td markdown="span" class="note">Software Security --- Wrapping up The Return-to-libc Attack & Return-Oriented Programming + CTF!</td>
 <td markdown="span"></td>
 <!-- <td markdown="span" class="note">Software Security --- Format String Vulnerabilities, Attacks, and Defenses</td> -->
 <!-- <td markdown="span" class="note">**Reading:** Chapter 6</td> -->
@@ -248,12 +248,15 @@ In-Class Active Learning for Lab 04 (Wrapping up our first Return-to-libc Attack
 <tr>
 <td markdown="span">02/18/2020</td>
 <td markdown="span">
-Generalizing Return-to-libc Attacks: Return-Oriented Programming? </td>
-<td markdown="span"></td>
+Generalizing Return-to-libc Attacks: Return-Oriented Programming? [slides][slides11]{:.slides} </td>
+<td markdown="span">[The advanced return-into-lib(c) exploits (Nergal, 2001)](http://phrack.org/issues/58/4.html)</td>
 </tr>
 <tr>
 <td markdown="span">02/20/2020</td>
-<td markdown="span">Buffer Overflow CTF? *(in class)*</td>
+<td markdown="span">
+Buffer Overflow CTF? *(in class)* <br/>
+*See [CTF_buffer_overflow/](https://github.com/traviswpeters/csci476-code/tree/master/CTF_buffer_overflow) on GitHub.*
+</td>
 <td markdown="span">**[Lab 04] Due** (Return-to-libc Attack Lab)</td>
 </tr>
 
@@ -480,6 +483,9 @@ _More Schedule Details Coming Soon..._
 [diagram2]: files/How_to_Build_a_Stack_Frame_(GDB_Session).pdf
 [diagram3]: files/Conventional_Enter_Leave_Sequence.pdf
 [diagram4]: files/Non-Conventional_Enter_Leave_Sequence.pdf
+
+[slides11]: files/cs476-11-rtlibc-and-rop.pdf
+<!-- [slides12]:  -->
 
 
 <!-- labs -->
