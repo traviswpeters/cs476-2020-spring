@@ -14,7 +14,8 @@ layout: default
 ## SEED Labs
 
 In this class, you will work through lab assignments---hands-on exercises to guide you through real, practical activities related to a class topic.
-Just like a Physics or Chemistry classes, you follow the instructions and produce a lab report.
+Similar to a Physics or Chemistry classes, you will follow the lab instructions and produce a lab report.
+
 You will submit your lab reports as a **PDF** through **D2L**.
 
 The labs we will use this term are from the [SEED Labs] project at Syracuse University in New York.
@@ -32,8 +33,35 @@ We, along with over a thousand other educational institutions around the world, 
 <!-- - **CTF (Capture The Flag) competition:**
   For these competitions (group based), grades will be based on the rankings of each group. -->
 - **Lab Report:**
-  For all labs, you should submit your lab report to D2L before the class on the due day.
+  For all labs, you should submit your lab report as a **PDF** to **D2L** before the class on the due day.
   We may ask (randomly) selected students to give a demonstration.
+
+## Tips for Lab Reports
+
+- Lab reports should be concise, but detailed enough to convince graders that you've completed each task.
+- If a question/task asks for you to provide explanations, or describe observations, you must do this.
+- For each new question/task, you should clearly identify the question/task that you are solving.
+
+Example Structure of a Lab Report:
+
+> Title of Lab  
+> Name, Date    
+
+> **Task 1**  
+> _...summary of the purpose of the task/question..._  
+> _...solution / screenshots / other evidence..._  
+> _...observations / conclusions..._  
+
+> **Task 2(a)**  
+> _...summary of the purpose of the task/question..._  
+> _...solution / screenshots / other evidence..._  
+> _...observations / conclusions..._  
+> **Task 2(b)**  
+> _...summary of the purpose of the task/question..._  
+> _...solution / screenshots / other evidence..._  
+> _...observations / conclusions..._  
+
+> ...
 
 ## Labs
 
