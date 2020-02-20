@@ -250,15 +250,15 @@ In-Class Active Learning for Lab 04 (Wrapping up our first Return-to-libc Attack
 <td markdown="span">
 Generalizing Return-to-libc Attacks: Return-Oriented Programming [slides][slides11]{:.slides} </td>
 <td markdown="span">
-[The advanced return-into-lib(c) exploits (Nergal, 2001)](http://phrack.org/issues/58/4.html), 
+[The advanced return-into-lib(c) exploits (Nergal, 2001)](http://phrack.org/issues/58/4.html),<br/>
 [The Geometry of Innocent Flesh on the Bone: Return-into-libc without Function Calls (on the x86)](https://hovav.net/ucsd/dist/geometry.pdf)
 </td>
 </tr>
 <tr>
 <td markdown="span">02/20/2020</td>
 <td markdown="span">
-Buffer Overflow CTF *(in class)* <br/>
-*See [CTF_buffer_overflow/](https://github.com/traviswpeters/csci476-code/tree/master/CTF_buffer_overflow) on GitHub.*
+Buffer Overflow CTF *(in class)* [slides][slides12]{:.slides}
+*Also see [<b>CTF_buffer_overflow/</b>](https://github.com/traviswpeters/csci476-code/tree/master/CTF_buffer_overflow) on GitHub.*
 </td>
 <td markdown="span">**[Lab 04] Due** (Return-to-libc Attack Lab)</td>
 </tr>
@@ -488,7 +488,7 @@ _More Schedule Details Coming Soon..._
 [diagram4]: files/Non-Conventional_Enter_Leave_Sequence.pdf
 
 [slides11]: files/cs476-11-rtlibc-and-rop.pdf
-<!-- [slides12]:  -->
+[slides12]: files/cs476-12-CTF.pdf
 
 
 <!-- labs -->
