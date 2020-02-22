@@ -273,12 +273,16 @@ Buffer Overflow CTF *(in class)* [slides][slides12]{:.slides}
 </tr>
 <tr>
 <td markdown="span">02/25/2020</td>
-<td markdown="span"></td>
+<td markdown="span">
+SQL Injection Attacks & Countermeasures (Part I) [slides][slides13]{:.slides}
+</td>
 <td markdown="span"></td>
 </tr>
 <tr>
 <td markdown="span">02/27/2020</td>
-<td markdown="span"></td>                     <!-- Travis Traveling to DC - talk to TA about class coverage -->
+<td markdown="span">
+SQL Injection Attacks & Countermeasures (Part II) [slides][slides14]{:.slides}
+</td>  <!-- Travis Traveling to DC - talk to TA about class coverage -->
 <td markdown="span">**[Lab 05] Due**</td>
 </tr>
 
@@ -490,6 +494,9 @@ _More Schedule Details Coming Soon..._
 [slides11]: files/cs476-11-rtlibc-and-rop.pdf
 [slides12]: files/cs476-12-CTF.pdf
 
+[slides13]: files/cs476-13-sql-ataccks.pdf
+[slides14]: files/cs476-14-sql-ataccks.pdf
+
 
 <!-- labs -->
 [Lab 00]: labs/lab00
@@ -497,7 +504,7 @@ _More Schedule Details Coming Soon..._
 [Lab 02]: labs/lab02
 [Lab 03]: labs/lab03
 [Lab 04]: labs/lab04
-[Lab 05]: labs/lab05
+[Lab 05]: labs/lab05-CTF
 [Lab 06]: labs/lab06
 [Lab 07]: labs/lab07
 [Lab 08]: labs/lab08
