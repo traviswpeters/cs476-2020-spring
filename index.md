@@ -281,8 +281,9 @@ SQL Injection Attacks & Countermeasures (Part I) [slides][slides13]{:.slides}
 <tr>
 <td markdown="span">02/27/2020</td>
 <td markdown="span">
+<span class="note">Travis in DC - Seraj teaches class.</span><br/>
 SQL Injection Attacks & Countermeasures (Part II) [slides][slides14]{:.slides}
-</td>  <!-- Travis Traveling to DC - talk to TA about class coverage -->
+</td>
 <td markdown="span">**[Lab 05] Due**</td>
 </tr>
 
@@ -494,9 +495,8 @@ _More Schedule Details Coming Soon..._
 [slides11]: files/cs476-11-rtlibc-and-rop.pdf
 [slides12]: files/cs476-12-CTF.pdf
 
-[slides13]: files/cs476-13-sql-ataccks.pdf
-[slides14]: files/cs476-14-sql-ataccks.pdf
-
+[slides13]: files/cs476-13-sql-attacks.pdf
+[slides14]: files/cs476-14-sql-attacks.pdf
 
 <!-- labs -->
 [Lab 00]: labs/lab00
