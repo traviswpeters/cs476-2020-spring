@@ -281,7 +281,8 @@ SQL Injection Attacks & Countermeasures (Part I) [slides][slides13]{:.slides}
 <tr>
 <td markdown="span">02/27/2020</td>
 <td markdown="span">
-<span class="note">Travis in DC - Seraj teaches class.</span><br/>
+<span class="note">~~Travis in DC - Seraj teaches class.~~</span><br/>
+_Class Cancelled._{:.text-danger}<br/>
 SQL Injection Attacks & Countermeasures (Part II) [slides][slides14]{:.slides}
 </td>
 <td markdown="span">**[Lab 05] Due**</td>
