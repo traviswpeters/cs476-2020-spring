@@ -25,6 +25,13 @@ The objective of this lab is for students to master the technologies underlying 
 Students will play with some simple sniffer and spoofing programs, read their source code, modify them, and eventually gain an in-depth understanding on the technical aspects of these programs.
 At the end of this lab, students should be able to write their own sniffing and spoofing programs.
 
+###### Suggested Reading/Videos
+
+- Chapter 15 in {{ site.data.settings.textbook }}
+- [Programming with pcap](https://www.tcpdump.org/pcap.html)
+- [Programming with Libpcap - Sniffing the Network From Our Own Application](http://recursos.aldabaknocking.com/libpcapHakin9LuisMartinGarcia.pdf)
+
+
 ### Tasks
 
 > **NOTE:** This lab has been tested on the pre-built [SEEDUbuntu16.04 VM](https://seedsecuritylabs.org/lab_env.html).
@@ -61,13 +68,14 @@ Describe and explain your observations.
 
 ##### Task 1B
 Usually, when we sniff packets, we are only interested in certain types of packets.
-We can do select only certain packets by setting filters when designing our sniffer.
-Scapy’s filtering use the BPF (Berkeley Packet Filter) syntax (there is a wealth of information about BPF on the Internet).
+We can select only certain packets by setting filters when designing our sniffer.
+Scapy’s filtering uses the BPF (Berkeley Packet Filter) syntax.
+_(There is a wealth of information about BPF on the Internet.)_
 
-In this task, please set the following filters and demonstrate your sniffer program works with each _(each filter should be set separately)_:
+In this task, please set the following filters and demonstrate that your sniffer program works with each _(each filter should be set separately)_:
 - Capture only ICMP packets
 - Capture TCP packets that comes from a particular IP and with a destination port number 23.
-- Capture packets that come from or go to a particular subnet. You can pick any subnet, such as `128.230.0.0/16`; you should not pick the subnet that your VM is attached to.
+- Capture packets that come from or go to a particular subnet. <br/> (You can pick any subnet, such as `128.230.0.0/16`; you should not pick the subnet that your VM is attached to.)
 
 #### Task 2: Spoofing ICMP Packets
 As a packet spoofing tool, Scapy enables us to set the fields of (IP) packets to arbitrary values.
@@ -84,7 +92,12 @@ The objective of this task is to use Scapy to estimate the distance, in terms of
 This is basically what is implemented by the traceroute tool.
 In this task, you will write our own traceroute tool.
 
-The idea is straightforward: first, send a packet (any type) to the destination, with its Time-To-Live (TTL) field set to 1. This packet will be dropped by the first router, which will send us an ICMP error message, telling us that the time-to-live has exceeded. That is how we get the IP address of the first router. We then increase our TTL field to 2, send out another packet, and get the IP address of the second router. We will repeat this procedure until our packet finally reaches the destination. It should be noted that this experiment only gets an estimated result, because in theory, not all these packets take the same route (but in practice, they may within a short period of time).
+The idea is straightforward: first, send a packet (any type) to the destination, with its Time-To-Live (TTL) field set to 1.
+This packet will be dropped by the first router, which will send us an ICMP error message, telling us that the time-to-live has exceeded.
+That is how we get the IP address of the first router. We then increase our TTL field to 2, send out another packet, and get the IP address of the second router.
+Repeat this procedure until a packet finally reaches the destination.
+It should be noted that this experiment only gets an estimated result, because in theory, not all these packets take the same route
+(but in practice, they may within a short period of time).
 
 You should record the IP addresses you receive back for each incremental value of the `ttl` value.
 
@@ -109,13 +122,7 @@ In your report, you need to provide evidence to demonstrate that your technique 
 ### Submission
 
 Students need to submit a detailed lab report to describe what they have done, what they have observed, and how they interpret the results.
-Reports should include evidences to support the observations.
-Evidences includes packet traces, screenshots, etc.
+Reports should include evidence to support the observations.
+Evidence includes packet traces, screenshots, etc.
 Reports should also list the important code snippets with explanations.
 Simply attaching code without any explanation will not receive credit.
-
-### Suggested Reading/Videos
-
-- Chapter 15 in {{ site.data.settings.textbook }}
-- [Programming with pcap](https://www.tcpdump.org/pcap.html)
-- [Programming with Libpcap - Sniffing the Network From Our Own Application](http://recursos.aldabaknocking.com/libpcapHakin9LuisMartinGarcia.pdf)
