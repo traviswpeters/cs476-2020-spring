@@ -281,8 +281,7 @@ SQL Injection Attacks & Countermeasures (Part I) [slides][slides13]{:.slides}
 <tr>
 <td markdown="span">02/27/2020</td>
 <td markdown="span">
-<span class="note">~~Travis in DC - Seraj teaches class.~~</span><br/>
-_Class Cancelled._{:.text-danger}<br/>
+<span class="note">Travis in DC ~~- Seraj teaches class.~~</span> _Class Cancelled._{:.text-danger} <br/>
 SQL Injection Attacks & Countermeasures (Part II) [slides][slides14]{:.slides}
 </td>
 <td markdown="span">**[Lab 05] Due**</td>
@@ -297,12 +296,16 @@ SQL Injection Attacks & Countermeasures (Part II) [slides][slides14]{:.slides}
 </tr>
 <tr>
 <td markdown="span">03/03/2020</td>
-<td markdown="span"></td>
+<td markdown="span">
+Packet Sniffing & Spoofing (Part I) [slides][slides15]{:.slides}
+</td>
 <td markdown="span"></td>
 </tr>
 <tr>
 <td markdown="span">03/05/2020</td>
-<td markdown="span"></td>
+<td markdown="span">
+<!-- Packet Sniffing & Spoofing (Part II) [slides][slides16]{:.slides} -->
+</td>
 <td markdown="span">**[Lab 06] Due**</td>
 </tr>
 
@@ -315,12 +318,16 @@ SQL Injection Attacks & Countermeasures (Part II) [slides][slides14]{:.slides}
 </tr>
 <tr>
 <td markdown="span">03/10/2020</td>
-<td markdown="span"></td>
+<td markdown="span">
+<!-- TCP Attacks (Part I) [slides][slides17]{:.slides} -->
+</td>
 <td markdown="span"></td>
 </tr>
 <tr>
 <td markdown="span">03/12/2020</td>
-<td markdown="span"></td>
+<td markdown="span">
+<!-- TCP Attacks (Part II) [slides][slides18]{:.slides} -->
+</td>
 <td markdown="span">**[Lab 07] Due**</td>
 </tr>
 
@@ -498,6 +505,11 @@ _More Schedule Details Coming Soon..._
 
 [slides13]: files/cs476-13-sql-attacks.pdf
 [slides14]: files/cs476-14-sql-attacks.pdf
+
+[slides15]: files/cs476-15-network-security.pdf
+[slides16]: files/cs476-16-network-security.pdf
+[slides17]: files/cs476-17-network-security.pdf
+[slides18]: files/cs476-18-network-security.pdf
 
 <!-- labs -->
 [Lab 00]: labs/lab00
