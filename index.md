@@ -304,7 +304,7 @@ Packet Sniffing & Spoofing (Part I) [slides][slides15]{:.slides}
 <tr>
 <td markdown="span">03/05/2020</td>
 <td markdown="span">
-<!-- Packet Sniffing & Spoofing (Part II) [slides][slides16]{:.slides} -->
+Packet Sniffing & Spoofing (Part II) [slides][slides16]{:.slides}
 </td>
 <td markdown="span">**[Lab 06] Due**</td>
 </tr>
