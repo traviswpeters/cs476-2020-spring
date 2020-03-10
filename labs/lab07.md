@@ -33,9 +33,9 @@ At the end of this lab, students should be able to write their own sniffing and 
 
 
 ### Tasks
-
-> **NOTE:** This lab has been tested on the pre-built [SEEDUbuntu16.04 VM](https://seedsecuritylabs.org/lab_env.html).
-
+{:.titletext}
+This lab has been tested on the pre-built [SEEDUbuntu16.04 VM](https://seedsecuritylabs.org/lab_env.html).
+{:.subtitletext}
 <!-- The complete description of tasks for this lab can be found in the PDF write-up: **[{{page.title}}]({{page.localurl}})**. -->
 
 #### Task 1: Sniffing Packets
@@ -59,14 +59,14 @@ $ sudo python sniffer.py
 ```
 For scapy to work correctly, you must run Python using `sudo` (root privileges).
 
-##### Task 1A
+###### Task 1A
 In the above code, for each captured packet, the callback function `print_pkt()` will be invoked;
 this function will print out some of the information about the packet.
 Run the program with root privileges and demonstrate that you can indeed capture packets.
 After that, run the program again, but _without_ root privileges.
 Describe and explain your observations.
 
-##### Task 1B
+###### Task 1B
 Usually, when we sniff packets, we are only interested in certain types of packets.
 We can select only certain packets by setting filters when designing our sniffer.
 Scapy’s filtering uses the BPF (Berkeley Packet Filter) syntax.
