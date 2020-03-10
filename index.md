@@ -319,7 +319,7 @@ Packet Sniffing & Spoofing (Part II) [slides][slides16]{:.slides}
 <tr>
 <td markdown="span">03/10/2020</td>
 <td markdown="span">
-<!-- TCP Attacks (Part I) [slides][slides17]{:.slides} -->
+TCP Attacks (Part I) [slides][slides17]{:.slides}
 </td>
 <td markdown="span"></td>
 </tr>
