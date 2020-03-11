@@ -319,14 +319,14 @@ Packet Sniffing & Spoofing (Part II) [slides][slides16]{:.slides}
 <tr>
 <td markdown="span">03/10/2020</td>
 <td markdown="span">
-TCP Attacks (Part I) [slides][slides17]{:.slides}
+TCP Attacks (Part I) --- TCP Basics, TCP SYN Flooding Attack [slides][slides17]{:.slides}
 </td>
 <td markdown="span"></td>
 </tr>
 <tr>
 <td markdown="span">03/12/2020</td>
 <td markdown="span">
-<!-- TCP Attacks (Part II) [slides][slides18]{:.slides} -->
+TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slides18]{:.slides}
 </td>
 <td markdown="span">**[Lab 07] Due**</td>
 </tr>
