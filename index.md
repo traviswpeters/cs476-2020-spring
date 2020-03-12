@@ -363,7 +363,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 </tr>
 <tr>
 <td markdown="span">03/26/2020</td>
-<td markdown="span">**No Class. [NCUR 2020 @ MSU --- please attend!](http://www.cur.org/what/events/students/ncur/2020/ncur2020scheduleataglance)**</td>
+<td markdown="span">**No Class. ~~NCUR 2020 @ MSU --- please attend!~~**</td>
 <td markdown="span">**[Lab 08] Due**</td>
 </tr>
 
@@ -382,7 +382,9 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <tr>
 <td markdown="span">04/02/2020</td>
 <td markdown="span"></td>
-<td markdown="span">**[NCUR 2020 Extra Credit Write-up] Due**</td>
+<td markdown="span">
+**~~NCUR 2020 Extra Credit Write-up Due~~** <br/>
+**[Extra Credit - Paper Review]**</td>
 </tr>
 
 <!-- Week 13  -->
@@ -526,6 +528,7 @@ _More Schedule Details Coming Soon..._
 [Lab 11]: labs/lab11
 [Lab 12]: labs/lab12
 [NCUR 2020 Extra Credit Write-up]: labs/xc-ncur
+[Extra Credit - Paper Review]: labs/xc-paper-review
 
 <!-- code examples, provided code, etc. -->
 [probe.c]: code/probe.c
