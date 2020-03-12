@@ -29,6 +29,7 @@ Tools we will use in this class
 {:.subtitletext}
 
 - <i class="fas fa-external-link-alt"></i> [VirtualBox](https://www.virtualbox.org) <br/>
+  - [VirtualBox Network Settings: Complete Guide](https://www.nakivo.com/blog/virtualbox-network-setting-guide/)
   - [VirtualBox Networking Explained - NAT & Port Forwarding, Bridged, Internal, Host-Only](https://youtu.be/cDF4X7RmV4Q)
 - <i class="fas fa-external-link-alt"></i> [Wireshark](https://www.wireshark.org) <br/>
 
