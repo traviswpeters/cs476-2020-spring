@@ -4,7 +4,7 @@ localurl: './lab08_SEEDLab_TCP_Attacks.pdf'
 seedurl: 'https://seedsecuritylabs.org/Labs_16.04/'
 layout: default
 tags: [labs, seed]
-published: False
+published: True
 ---
 
 ## {{page.title}}
@@ -132,7 +132,7 @@ You only need to use Netwox for this task.
 #### Task 3: TCP Session Hijacking
 
 In this task, you need to demonstrate how you can hijack a telnet session between two computers.
-Your goal is to get the the telnet server to run a malicious command from you.
+Your goal is to get a telnet server to run a malicious command from you.
 
 **Hints:** You may use `netwox 40`, or any of the code from our course repo (e.g., `sessionhijack.py`) to help you conduct this attack.
 You may use wireshark, tcpdump, or your own custom sniffer to observe the TCP values needed for the packet(s) you craft and inject.
@@ -153,7 +153,7 @@ $ python
 #### Task 4: Creating a Reverse Shell using TCP Session Hijacking
 
 In this task, you need to demonstrate how you can hijack a telnet session between two computers.
-Your goal is to get the the telnet server to create a reverse shell.
+Your goal is to get a telnet server to create a reverse shell.
 
 To be clear, your task is to launch a TCP session hijacking attack _on an existing telnet session_ between a user and the target server.
 You need to inject your malicious command into the hijacked session, so you can get a reverse shell on the target server.
@@ -165,9 +165,10 @@ To complete this task, however, you must deliver the reverse shell command as pa
 
 **REMINDER:**
 We explored reverse shells in _Lab 02: Shellshock Attack Lab_, and learned about them in class (recall slides from Week 3).
+If you need a refresher, please checkout that lab/those slides.
 
 ### Submission
 
-You should submit a lab report. The report should cover the following sections:
+You should submit a lab report. The report should cover the following sections for each task:
 - **Design:** The design of your attacks, including the attacking strategies, the packets that you use in your attacks, the tools that you used, etc.
 - **Observations and Explanations:** Is your attack successful? How do you know whether it has succeeded or not? What do you expect to see? What have you observed? Is the observation a surprise to you?
