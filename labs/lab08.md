@@ -41,6 +41,12 @@ For this lab, please feel free to use any of the tools we've discussed in class 
 You can find the code we covered related to this lab on GitHub:
 [**csci476-code/16_tcp_attacks/**](https://github.com/traviswpeters/csci476-code/tree/master/16_tcp_attacks)
 
+<center class="mb-3 text-danger" markdown="span">
+To ensure that this lab will work, please ensure the following configurations are set in your VM(s):
+<br/>
+In the VirtualBox GUI, go to **"Machine" -> "Settings" -> "Network" -> "Advanced" -> "Promiscuous Mode" -> "Allow All"**.
+</center>
+
 #### Network Setup
 
 To conduct this lab, students need to have at least 3 machines.

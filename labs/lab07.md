@@ -31,12 +31,17 @@ At the end of this lab, students should be able to write their own sniffing and 
 - [Programming with pcap](https://www.tcpdump.org/pcap.html)
 - [Programming with Libpcap - Sniffing the Network From Our Own Application](http://recursos.aldabaknocking.com/libpcapHakin9LuisMartinGarcia.pdf)
 
-
 ### Tasks
 {:.titletext}
 This lab has been tested on the pre-built [SEEDUbuntu16.04 VM](https://seedsecuritylabs.org/lab_env.html).
 {:.subtitletext}
 <!-- The complete description of tasks for this lab can be found in the PDF write-up: **[{{page.title}}]({{page.localurl}})**. -->
+
+<center class="mb-3 text-danger" markdown="span">
+To ensure that this lab will work, please ensure the following configurations are set in your VM(s):
+<br/>
+In the VirtualBox GUI, go to **"Machine" -> "Settings" -> "Network" -> "Advanced" -> "Promiscuous Mode" -> "Allow All"**.
+</center>
 
 #### Task 1: Sniffing Packets
 The overall objective of this task is to learn how to use Scapy to do packet sniffing in Python programs.
