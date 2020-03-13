@@ -38,9 +38,11 @@ This lab has been tested on the pre-built [SEEDUbuntu16.04 VM](https://seedsecur
 <!-- The complete description of tasks for this lab can be found in the PDF write-up: **[{{page.title}}]({{page.localurl}})**. -->
 
 <center class="mb-3 text-danger" markdown="span">
-To ensure that this lab will work, please ensure the following configurations are set in your VM(s):
+To ensure that this lab will work, please configure your VM(s) according to the [**SEED VM User Manual**]({{ site.baseurl }}/labs/SEEDVM_VirtualBoxManual.pdf).
 <br/>
-In the VirtualBox GUI, go to **"Machine" -> "Settings" -> "Network" -> "Advanced" -> "Promiscuous Mode" -> "Allow All"**.
+Also, please ensure to enable _promiscuous mode_ on your VM(s) so that they can listen and capture all of the traffic on the network.
+<br/>
+In the VirtualBox GUI, go to **"Machine" &rarr; "Settings" &rarr; "Network" &rarr; "Advanced" &rarr; "Promiscuous Mode" &rarr; "Allow All"**.
 </center>
 
 #### Task 1: Sniffing Packets

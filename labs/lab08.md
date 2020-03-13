@@ -42,9 +42,11 @@ You can find the code we covered related to this lab on GitHub:
 [**csci476-code/16_tcp_attacks/**](https://github.com/traviswpeters/csci476-code/tree/master/16_tcp_attacks)
 
 <center class="mb-3 text-danger" markdown="span">
-To ensure that this lab will work, please ensure the following configurations are set in your VM(s):
+To ensure that this lab will work, please configure your VM(s) according to the [**SEED VM User Manual**]({{ site.baseurl }}/labs/SEEDVM_VirtualBoxManual.pdf).
 <br/>
-In the VirtualBox GUI, go to **"Machine" -> "Settings" -> "Network" -> "Advanced" -> "Promiscuous Mode" -> "Allow All"**.
+Also, please ensure to enable _promiscuous mode_ on your VM(s) so that they can listen and capture all of the traffic on the network.
+<br/>
+In the VirtualBox GUI, go to **"Machine" &rarr; "Settings" &rarr; "Network" &rarr; "Advanced" &rarr; "Promiscuous Mode" &rarr; "Allow All"**.
 </center>
 
 #### Network Setup
