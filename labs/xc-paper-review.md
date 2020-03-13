@@ -11,7 +11,7 @@ published: True
 Due to the unfortunate cancellation of NCUR, I am offering a new extra credit option.
 
 **Your Task:**
-Find a recent/interesting research paper and write a 1-2 page review of the paper.
+Find a recent/interesting research paper and write a 1-2 page (single-spaced) review of the paper.
 
 If you don't know where to start, I suggest skimming the websites/"programs" for conferences from recent years.
 You could try:
