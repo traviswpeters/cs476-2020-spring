@@ -301,5 +301,6 @@ footer {}
 }
 
 code[class*=language-], pre[class*=language-] {
-  font-size: 08pt;
+  line-height: 1.25;
+  font-size: 10pt;
 }
