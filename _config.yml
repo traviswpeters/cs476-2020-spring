@@ -4,9 +4,9 @@ livereload: true
 # profile: true
 
 # Conversion markdown: redcarpet
-highlighter: pygments
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+# highlighter: pygments
+# redcarpet:
+  # extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
 #markdown: kramdown # use <TAG markdown="1"> to render markdown within HTML tags!
 #highlighter: none
