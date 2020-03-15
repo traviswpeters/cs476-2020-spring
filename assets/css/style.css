@@ -299,3 +299,7 @@ footer {}
 .fa-rss-square:hover {
 	color: #ff6600;
 }
+
+code[class*=language-], pre[class*=language-] {
+  font-size: 12pt;
+}
