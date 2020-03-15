@@ -3,7 +3,14 @@ baseurl: /cs476
 livereload: true
 # profile: true
 
-markdown: kramdown # use <TAG markdown="1"> to render markdown within HTML tags!
+
+#markdown: kramdown # use <TAG markdown="1"> to render markdown within HTML tags!
+highlighter: none
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
+
 mathjax: true
 defaults:
     - scope:
