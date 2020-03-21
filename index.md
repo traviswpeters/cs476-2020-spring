@@ -2,13 +2,12 @@
 layout: default
 ---
 
-
 <div class="alert alert-success" role="alert" markdown="1">
   <h4 class="alert-heading">Spring 2020 Course Updates (Re: Moving to Remote Learning)!</h4>
   - I will hold virtual office hours on _WebEx_{:.text-dark} in my "Personal Room": [https://montana.webex.com/meet/w52k448](https://montana.webex.com/meet/w52k448){:.text-dark}
   - You can use my _Calendly_{:.text-dark} link to schedule an alternative meeting time _(preferably a 15 minute slot)_: [https://calendly.com/traviswpeters](https://calendly.com/traviswpeters){:.text-dark}
   - I will continue to update the _Schedule_{:.text-dark} as I have been all semester: [https://www.traviswpeters.com/cs476/#schedule](https://www.traviswpeters.com/cs476/#schedule){:.text-dark} <br/>
-    _In lieu of in class lectures, I will post a series of recorded mini-lectures to the appropriate week/day so you can watch them at your convenience._
+    _In lieu of in-class lectures, I will post a series of recorded mini-lectures to the appropriate week/day so you can watch them at your convenience._
   - I will continue to update the _Labs_{:.text-dark} page as I have been all semester: [https://www.traviswpeters.com/cs476/labs](https://www.traviswpeters.com/cs476/labs){:.text-dark}
   - We will continue to use _Slack_{:.text-dark} for discussions and questions about lectures, labs, and so forth: [https://csci476-sp2020.slack.com](https://csci476-sp2020.slack.com){:.text-dark}
 </div>
