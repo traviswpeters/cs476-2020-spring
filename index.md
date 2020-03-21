@@ -231,7 +231,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <td markdown="span">
 Diving deeper into call frames, and function prologues/epilogues; <br/>
 In-Class Active Learning for Lab 04 (Wrapping up our first Return-to-libc Attack) <br/>
-[slides][slides10]{:.slides} [diagram1][diagram1]{:.code} [diagram2][diagram2]{:.code} [diagram3][diagram3]{:.code} [diagram4][diagram4]{:.code}
+[slides][slides10]{:.slides} [diagram1][diagram1]{:.slides} [diagram2][diagram2]{:.slides} [diagram3][diagram3]{:.slides} [diagram4][diagram4]{:.slides}
 </td>
 <td markdown="span">**[Lab 03] Due** (Buffer Overflow Lab)</td>
 </tr>
@@ -409,8 +409,10 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 
 <tr>
 <td markdown="span">**Week 14**</td>
-<td markdown="span" class="note">Recent Topics in Security --- The Heartbleed Bug and Attack</td>
-<td markdown="span" class="note">**Reading:** Chapter 20, [Official Website](http://heartbleed.com), [CVE-2014-0160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2014-0160)
+<!-- <td markdown="span" class="note">Recent Topics in Security --- The Heartbleed Bug and Attack</td> -->
+<!-- <td markdown="span" class="note">**Reading:** Chapter 20, [Official Website](http://heartbleed.com), [CVE-2014-0160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2014-0160) -->
+<td markdown="span" class="note">TBD</td>
+<td markdown="span" class="note"></td>
 </td>
 </tr>
 <tr>
@@ -428,8 +430,10 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 
 <tr>
 <td markdown="span">**Week 15**</td>
-<td markdown="span" class="note">Recent Topics in Security --- The Meltdown and Spectre Attacks</td>
-<td markdown="span" class="note">**Reading:** Chapters 13 & 14, [Official Website](https://meltdownattack.com)</td>
+<!-- <td markdown="span" class="note">Recent Topics in Security --- The Meltdown and Spectre Attacks</td> -->
+<!-- <td markdown="span" class="note">**Reading:** Chapters 13 & 14, [Official Website](https://meltdownattack.com)</td> -->
+<td markdown="span" class="note">TBD</td>
+<td markdown="span" class="note"></td>
 </tr>
 <tr>
 <td markdown="span">04/21/2020</td>

@@ -197,7 +197,7 @@ please carry out the following steps (repeat for each encryption mode noted abov
 
 For each encryption mode noted above, was your hypothesis from Part I correct? Explain.
 
-#### Task 6: Experimenting with the Initial Vector (IV)
+#### Task 6: Experimenting with the Initialization Vector (IV)
 
 Most of the encryption modes require an initial vector (IV).
 Properties of an IV depend on the cryptographic scheme used.
