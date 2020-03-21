@@ -112,7 +112,7 @@ We were not able to succeed in SYN flooding attacks using Scapy.
 
 In each of the following subtasks you will carry out a TCP RST attack on existing connections over various types of protocols, which run over TCP connections.
 
-**Hints:** You may use `netwox 78`, or any of the code from our course repo (e.g., `reset.py`, `reset_auto.py`) to help you conduct this attack.
+**Hints:** You may use `netwox 78`, `netwox 40`, or any of the code from our course repo (e.g., `reset.py`, `reset_auto.py`) to help you conduct this attack.
 
 ###### Task 2A: TCP RST Attacks on telnet Connections
 In this task, you need to launch a TCP RST attack to break an existing **telnet** connection between A and B.
