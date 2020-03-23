@@ -126,6 +126,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 {:.text-center}
 
 <!-- Thanks! https://idratherbewriting.com/documentation-theme-jekyll/mydoc_tables.html -->
+
 <table class="table table-hover table-striped table-bordered table-sm">
 <colgroup>
 <col width="10%" />
@@ -400,7 +401,8 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <td markdown="span"></td>
 <td markdown="span">
 **~~NCUR 2020 Extra Credit Write-up Due~~** <br/>
-**[Extra Credit - Paper Review]**</td>
+**[Extra Credit - Paper Review]**
+</td>
 </tr>
 
 <!-- Week 13  -->
@@ -426,10 +428,10 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <tr>
 <td markdown="span">**Week 14**</td>
 <!-- <td markdown="span" class="note">Recent Topics in Security --- The Heartbleed Bug and Attack</td> -->
-<!-- <td markdown="span" class="note">**Reading:** Chapter 20, [Official Website](http://heartbleed.com), [CVE-2014-0160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2014-0160) -->
+<!-- <td markdown="span" class="note">**Reading:** Chapter 20, [Official Website](http://heartbleed.com), [CVE-2014-0160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2014-0160) </td> -->
 <td markdown="span" class="note">TBD</td>
 <td markdown="span" class="note"></td>
-</td>
+
 </tr>
 <tr>
 <td markdown="span">04/14/2020</td>
