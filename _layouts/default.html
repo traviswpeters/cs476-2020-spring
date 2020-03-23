@@ -35,6 +35,16 @@ $(document).ready(function() {
     $('.new').addClass('badge badge-pill badge-primary');
     $('.announcement').addClass('alert alert-primary').prepend('<h4 class="alert-heading">Class Announcement!</h4>');
     $('.timestamp').prepend('&mdash;Posted ');
+
+    // add links to all section headers...
+    //$( ":header" ).append('<a class="far fa-link" href="#' + "TEST" + '"></a>');
+    $( ":header" ).each(function(index) {
+      var attr = $(this).attr('id');
+      if (typeof attr !== typeof undefined && attr !== false) {
+        $( this ).append('<a class="far fa-link" href="#' + attr + '"></a>');
+      }
+    });
+
 });
 </script>
 
