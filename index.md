@@ -417,7 +417,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 </tr>
 <tr>
 <td markdown="span">03/24/2020</td>
-<td markdown="span"></td>
+<td markdown="span">[Video: Welcome & Updates](https://montana.techsmithrelay.com/tdUR){:.video}</td>
 <td markdown="span"></td>
 </tr>
 <tr>
