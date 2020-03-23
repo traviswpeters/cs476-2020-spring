@@ -9,9 +9,11 @@ Re: Moving to Remote Learning!
 {:.subtitletext}
 
   - I will hold virtual office hours in my "Personal Room" on [**_WebEx_**](https://montana.webex.com/meet/w52k448).
-  - You can use my [**_Calendly_**](https://calendly.com/traviswpeters) link to schedule an alternative meeting time _(preferably a 15 minute slot)_.
+    - _Currently I plan to be on Webex during my regular office hours: **Tuesday/Thursday 4:30 pm – 6:00 pm**._
+  - You can use my [**_Calendly_**](https://calendly.com/traviswpeters) link to schedule an alternative meeting time.
+    - _Preferably, start with a 15 minute slot; we can use more time if needed._
   - I will continue to update the [**_Schedule_**](https://www.traviswpeters.com/cs476/#schedule) as I have been all semester.
-    _(**NOTE:** In lieu of in-class lectures, I will post a series of recorded mini-lectures to the appropriate week/day so you can watch them at your convenience.)_
+    - _In lieu of in-class lectures, I will post a series of recorded mini-lectures to the appropriate week/day so you can watch them at your convenience._
   - I will continue to update the [**_Labs_**](https://www.traviswpeters.com/cs476/labs) page as I have been all semester.
   - We will continue to use [**_Slack_**](https://csci476-sp2020.slack.com) for discussions and questions about lectures, labs, and so forth.
 
@@ -25,7 +27,7 @@ Please bear with me as I am learning how to conduct our course remotely
 **Expectations for Students:**  
 Although you may be new to online learning, it requires that you be more disciplined in completing the work at your own time and pace.
 Please make sure to check this website and our course Slack workspace regularly.
-I don't foresee this class taking more time when it is all said any done.
+I don't foresee this class taking more time when it is all said and done.
 It is increasingly important for you, however, to communicate with me if you are getting hung up on anything.
 I've posted a few ways that we can meet (e.g., my scheduled virtual office hours, using Calendly to schedule 1-on-1 time together) --- please utilize these opportunities!
 
