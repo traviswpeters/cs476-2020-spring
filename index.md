@@ -19,6 +19,20 @@ Re: Moving to Remote Learning!
   - We will continue to use **_Slack_** for discussions and questions about lectures, labs, and so forth:  
     [**https://csci476-sp2020.slack.com**](https://csci476-sp2020.slack.com)
 
+**Expectations for Instructor:**  
+I understand that this may be a difficult transition for you, but I will do my best to maintain consistent communication with you,
+including updating you on any and all course changes or upcoming assignments to keep you on track.
+I will keep the schedule (below) updated with relevant links, readings, and so forth.
+Please bear with me as I am learning how to conduct our course remotely
+(e.g., recording and posting mini-lectures, organizing virtual office hours, etc.).
+
+**Expectations for Students:**  
+Although you may be new to online learning, it requires that you be more disciplined in completing the work at your own time and pace.
+Please make sure to check this website and our course Slack workspace regularly.
+I don't foresee this class taking more time when it is all said any done.
+It is increasingly important for you, however, to communicate with me if you are getting hung up on anything.
+I've posted a few ways that we can meet (e.g., my scheduled virtual office hours, using Calendly to schedule 1-on-1 time together) --- please utilize these opportunities!
+
 </div>
 
 <!-- Calendly badge widget begin -->
