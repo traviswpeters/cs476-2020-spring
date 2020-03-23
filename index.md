@@ -51,15 +51,6 @@ I've posted a few ways that we can meet (e.g., my scheduled virtual office hours
 
 </div>
 
-<!-- Calendly badge widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-<script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/traviswpeters/15min', text: 'Schedule a quick meeting with me', color: '#00a2ff', textColor: '#ffffff', branding: true });</script>
-<!-- Calendly badge widget end -->
-
-
-
-
 ## About the Course
 
 This course introduces students to introductory topics in computer and network security.
@@ -417,7 +408,9 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 </tr>
 <tr>
 <td markdown="span">03/24/2020</td>
-<td markdown="span">[Video: Welcome & Updates](https://montana.techsmithrelay.com/tdUR){:.video}</td>
+<td markdown="span">
+[Video: Welcome & Updates](https://montana.techsmithrelay.com/tdUR){:.video}
+</td>
 <td markdown="span"></td>
 </tr>
 <tr>
