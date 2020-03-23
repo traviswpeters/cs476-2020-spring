@@ -7,17 +7,13 @@ layout: default
 {:.titletext}
 Re: Moving to Remote Learning!
 {:.subtitletext}
-  - I will hold virtual office hours on **_WebEx_** in my "Personal Room":  
-    [**https://montana.webex.com/meet/w52k448**](https://montana.webex.com/meet/w52k448)
-  - You can use my **_Calendly_** link to schedule an alternative meeting time _(preferably a 15 minute slot)_:  
-    [**https://calendly.com/traviswpeters**](https://calendly.com/traviswpeters)
-  - I will continue to update the **_Schedule_** as I have been all semester:  
-    [**https://www.traviswpeters.com/cs476/#schedule**](https://www.traviswpeters.com/cs476/#schedule) <br/>
-    _In lieu of in-class lectures, I will post a series of recorded mini-lectures to the appropriate week/day so you can watch them at your convenience._
-  - I will continue to update the **_Labs_** page as I have been all semester:  
-    [**https://www.traviswpeters.com/cs476/labs**](https://www.traviswpeters.com/cs476/labs)
-  - We will continue to use **_Slack_** for discussions and questions about lectures, labs, and so forth:  
-    [**https://csci476-sp2020.slack.com**](https://csci476-sp2020.slack.com)
+
+  - I will hold virtual office hours in my "Personal Room" on [**_WebEx_**](https://montana.webex.com/meet/w52k448).
+  - You can use my [**_Calendly_**](https://calendly.com/traviswpeters) link to schedule an alternative meeting time _(preferably a 15 minute slot)_.
+  - I will continue to update the [**_Schedule_**](https://www.traviswpeters.com/cs476/#schedule) as I have been all semester.
+    _(**NOTE:** In lieu of in-class lectures, I will post a series of recorded mini-lectures to the appropriate week/day so you can watch them at your convenience.)_
+  - I will continue to update the [**_Labs_**](https://www.traviswpeters.com/cs476/labs) page as I have been all semester.
+  - We will continue to use [**_Slack_**](https://csci476-sp2020.slack.com) for discussions and questions about lectures, labs, and so forth.
 
 **Expectations for Instructor:**  
 I understand that this may be a difficult transition for you, but I will do my best to maintain consistent communication with you,
