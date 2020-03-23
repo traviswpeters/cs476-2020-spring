@@ -8,14 +8,32 @@ layout: default
 Re: Moving to Remote Learning!
 {:.subtitletext}
 
+As you may have heard, starting on 3/23 (the Monday after "Spring" Break),
+MSU will be transitioning to online delivery of courses in order to help slow the spread of the COVID-19 virus (a.k.a., Coronavirus).
+For CSCI 476, the big change is that we won't be meeting in person anymore &#128532;.
+Instead, I will record a series of videos each week and post them to our course website (here!).
+I'll also hold office hours virtually, instead of in-person office hours.
+Other than that, not too much will change _(hopefully...)_.
+
+**Course Updates:**
+
   - I will hold virtual office hours in my "Personal Room" on [**_WebEx_**](https://montana.webex.com/meet/w52k448).
     - _Currently I plan to be on Webex during my regular office hours: **Tuesday/Thursday 4:30 pm – 6:00 pm**._
-  - You can use my [**_Calendly_**](https://calendly.com/traviswpeters) link to schedule an alternative meeting time.
+  - You can use my [**_Calendly_**](https://calendly.com/traviswpeters) link to schedule an alternative meeting time if you can't meet during office hours.
     - _Preferably, start with a 15 minute slot; we can use more time if needed._
   - I will continue to update the [**_Schedule_**](https://www.traviswpeters.com/cs476/#schedule) as I have been all semester.
     - _In lieu of in-class lectures, I will post a series of recorded mini-lectures to the appropriate week/day so you can watch them at your convenience._
   - I will continue to update the [**_Labs_**](https://www.traviswpeters.com/cs476/labs) page as I have been all semester.
+    - _Since all of our labs are done on a VM that runs atop a personal machine, we should be able to proceed with labs as usual._
+      _Please contact me **ASAP** if this is not the case for you._
   - We will continue to use [**_Slack_**](https://csci476-sp2020.slack.com) for discussions and questions about lectures, labs, and so forth.
+    - _I will make email announcements via our course mailing list on rare occasion if I need to get news out quickly to all._
+
+**MSU Updates:**  
+  - MSU is maintaining a helpful page for students: [**_Students: Learn Anywhere_**](http://ato.montana.edu/learnanywhere/students/index-old.html)
+  - The [_**GSoC Student Success Center**_](https://www.cs.montana.edu/student-success-center.html) is still operating (virtually).
+  - The [_**last day to drop a class is April 14th**_](http://www.montana.edu/registrar/drop.html).
+  - You can [_**request to have your final grade be pass/fail**_](https://www.montana.edu/health/coronavirus/archived-comms.html#email24) as opposed to a letter grade by filling out a form and submitting to the Registrar's office.
 
 **Expectations for Instructor:**  
 I understand that this may be a difficult transition for you, but I will do my best to maintain consistent communication with you,
@@ -394,8 +412,8 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 
 <tr>
 <td markdown="span">**Week 11**</td>
-<td markdown="span" class="note">Crypto --- Secret-Key Encryption</td>
-<td markdown="span" class="note">**Reading:** Chapter 21</td>
+<td markdown="span" class="note">Welcome Back + Intro to Cryptography </td>
+<td markdown="span" class="note">Get started reading Chapters 21-23</td>
 </tr>
 <tr>
 <td markdown="span">03/24/2020</td>
@@ -412,7 +430,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 
 <tr>
 <td markdown="span">**Week 12**</td>
-<td markdown="span" class="note">Crypto --- Secret-Key Encryption (cont.)</td>
+<td markdown="span" class="note">Crypto --- Secret-Key Encryption</td>
 <td markdown="span" class="note">**Reading:** Chapter 21</td>
 </tr>
 <tr>
@@ -433,8 +451,8 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 
 <tr>
 <td markdown="span">**Week 13**</td>
-<td markdown="span" class="note">Crypto --- Public Key Cryptography</td>
-<td markdown="span" class="note">**Reading:** Chapter 23</td>
+<td markdown="span" class="note">Crypto --- Hashing</td>
+<td markdown="span" class="note">**Reading:** Chapter 22</td>
 </tr>
 <tr>
 <td markdown="span">04/07/2020</td>
@@ -453,9 +471,8 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <td markdown="span">**Week 14**</td>
 <!-- <td markdown="span" class="note">Recent Topics in Security --- The Heartbleed Bug and Attack</td> -->
 <!-- <td markdown="span" class="note">**Reading:** Chapter 20, [Official Website](http://heartbleed.com), [CVE-2014-0160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2014-0160) </td> -->
-<td markdown="span" class="note">TBD</td>
-<td markdown="span" class="note"></td>
-
+<td markdown="span" class="note">Crypto --- Public Key Cryptography</td>
+<td markdown="span" class="note">**Reading:** Chapter 23</td>
 </tr>
 <tr>
 <td markdown="span">04/14/2020</td>
