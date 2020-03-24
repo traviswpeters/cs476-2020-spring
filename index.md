@@ -409,7 +409,10 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <tr>
 <td markdown="span">03/24/2020</td>
 <td markdown="span" markdown="1">
-- [Video: Welcome & Updates](https://montana.techsmithrelay.com/tdUR){:.video}
+[Video: Welcome & Updates](https://montana.techsmithrelay.com/tdUR){:.video} <br/>
+[Video: Intro to Cryptography](https://montana.techsmithrelay.com/FJGc){:.video} <br/>
+[Video (YouTube): What is Cryptography - Introduction to Cryptography](https://www.youtube.com/watch?v=68Pqir_moqA){:.video} <br/>
+[Video (YouTube): History and Evolution of Cryptography and Cryptanalysis](https://www.youtube.com/watch?v=z9Qi5mDSYb8){:.video}
 {:.m-0}
 </td>
 <td markdown="span"></td>
@@ -429,9 +432,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 </tr>
 <tr>
 <td markdown="span">03/31/2020</td>
-<td markdown="span">
-<!-- - [Video: History and Evolution of Cryptography and Cryptanalysis](https://www.youtube.com/watch?v=z9Qi5mDSYb8){:.video} -->
-</td>
+<td markdown="span"></td>
 <td markdown="span"></td>
 </tr>
 <tr>
@@ -515,8 +516,8 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 </tr>
 <tr>
 <td markdown="span">04/30/2020</td>
-<td markdown="span">Final Exam Review — _Come with questions and topics you’d like to review!_{:.text-muted}</td>
-<td markdown="span">**[Lab 12] Due**</td>
+<td markdown="span">Final Exam Review — ~~_Come with questions and topics you’d like to review!_{:.text-muted}~~</td>
+<td markdown="span">_**([Lab 12] Due?)**_</td>
 </tr>
 
 <!-- Week 17  -->
@@ -528,7 +529,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 </tr>
 <tr>
 <td markdown="span">05/08/2020</td>
-<td markdown="span">**Final Exam** - {{site.data.settings.finalexamdate}}</td>
+<td markdown="span">**Final Exam** - ~~{{site.data.settings.finalexamdate}}~~</td>
 <td markdown="span"></td>
 </tr>
 
