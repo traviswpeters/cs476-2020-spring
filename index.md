@@ -408,8 +408,9 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 </tr>
 <tr>
 <td markdown="span">03/24/2020</td>
-<td markdown="span">
-[Video: Welcome & Updates](https://montana.techsmithrelay.com/tdUR){:.video}
+<td markdown="span" markdown="1">
+- [Video: Welcome & Updates](https://montana.techsmithrelay.com/tdUR){:.video}
+{:.m-0}
 </td>
 <td markdown="span"></td>
 </tr>
@@ -428,7 +429,9 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 </tr>
 <tr>
 <td markdown="span">03/31/2020</td>
-<td markdown="span"></td>
+<td markdown="span">
+<!-- - [Video: History and Evolution of Cryptography and Cryptanalysis](https://www.youtube.com/watch?v=z9Qi5mDSYb8){:.video} -->
+</td>
 <td markdown="span"></td>
 </tr>
 <tr>
