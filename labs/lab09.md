@@ -3,7 +3,7 @@ title: 'Lab 09: Secret-Key Encryption Lab'
 localurl: './lab09_SEEDLab_Crypto_Encryption.pdf'
 seedurl: 'https://seedsecuritylabs.org/Labs_16.04/'
 layout: default
-tags: [labs, seed]
+tags: [labs, seed, cryptography, exploration]
 published: False
 ---
 

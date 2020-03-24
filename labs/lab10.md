@@ -1,9 +1,9 @@
 ---
-title: 'Lab 10: RSA Encryption and Signature Lab'
-localurl: './lab10_SEEDLab_Crypto_RSA.pdf'
+title: 'Lab 10: MD5 Collision Attack Lab'
+localurl: './lab10_SEEDLab_Crypto_MD5_Collision.pdf'
 seedurl: 'https://seedsecuritylabs.org/Labs_16.04/'
 layout: default
-tags: [labs, seed]
+tags: [labs, seed, cryptography, attack]
 published: False
 ---
 
@@ -14,32 +14,35 @@ SEED Lab: A Hands-on Lab for Security Education
 
 ### Overview
 
-RSA (Rivest-Shamir-Adleman) is one of the first public-key cryptosystems and is widely used for secure communication.
-The RSA algorithm first generates two large random prime numbers,
- and then use them to generate public and private key pairs,
- which can be used to do encryption, decryption, digital signature generation, and digital signature verification.
-The RSA algorithm is built upon number theories, and it can be quite easily implemented with the support of libraries.
+A secure one-way hash function needs to satisfy two properties: (1) the one-way property and (2) the collision-resistance property.
+The _**one-way property**_ ensures that given a hash value $$h$$, it is computationally infeasible to find an input $$M$$, such that $$hash(M) = h$$.
+The _**collision-resistance property**_ ensures that it is computationally infeasible to find two different inputs $$M_1$$ and $$M_2$$, such that $$hash(M_1) = hash(M_2)$$.
 
-The learning objective of this lab is for students to gain hands-on experience with the RSA algorithm.
-From lectures, students should have learned the theoretic part of the RSA algorithm,
- so they know how to generate public and private keys and can conduct operations,
- such as encryption, decryption, signature generation, and signature verification.
-This lab enhances student's learning by requiring students to conduct RSA operations on actual numbers,
-and see whether they can perform the calculations correctly.
-In this way, students are given a chance to apply the theory behind RSA that we learned in class.
+Several widely-used one-way hash functions have trouble maintaining the collision-resistance property.
+At the rump session of CRYPTO 2004, Xiaoyun Wang and co-authors demonstrated a collision attack against MD5 [[1]].
+In February 2017, CWI Amsterdam and Google Research announced the _SHAttered_ attack, which breaks the collision-resistance property of SHA-1 [[3]].
+While many students do not have trouble understanding the importance of the one-way property,
+they cannot easily grasp why the collision-resistance property is necessary, and what impact these attacks can cause.
+
+_**The learning objective**_ of this lab is for students to really understand the impact of collision attacks,
+and to see first hand what damage can be caused if a widely-used one-way hash function’s collision-resistance property is broken.
+To achieve this goal, students need to launch actual collision attacks against the MD5 hash function.
+Using the attacks, students should be able to create two different programs that share the same MD5 hash but have completely different behaviors.  
 
 This lab covers the following topics:
-- Public-key cryptography
-- The RSA algorithm and key generation
-- Big number calculation
-- Encryption and Decryption using RSA
-- Digital signatures
-- The X.509 certificate
+- The one-way hash function
+- The collision-resistance property
+- The MD5 hash algorithm
+- Collision attacks
+
+[1]: https://www.cs.colorado.edu/~jrblack/papers/md5e-full.pdf
+[2]: https://www.win.tue.nl/hashclash/On%20Collisions%20for%20MD5%20-%20M.M.J.%20Stevens.pdf
+[3]: https://shattered.io
 
 ###### Resources
 
-- Chapter 23 in {{ site.data.settings.textbook }}
-- The BIGNUM API: [https://linux.die.net/man/3/bn](https://linux.die.net/man/3/bn)
+- Chapter 22 in {{ site.data.settings.textbook }}
+- A tool for [Fast MD5 Collision Generation](https://www.win.tue.nl/hashclash/): `md5collgen` _(installed already on the 16.04 SEED VM)_
 
 ### Tasks
 {:.titletext}
@@ -47,385 +50,275 @@ This lab has been tested on the pre-built [SEEDUbuntu16.04 VM](https://seedsecur
 {:.subtitletext}
 <!-- - The complete description of tasks for this lab can be found in the PDF write-up: **[{{page.title}}]({{page.localurl}})**. -->
 
-<center class="mb-3 text-danger" markdown="span">
-_To avoid mistakes, please avoid manually typing the numbers used in the lab tasks. <br/>
-Instead, copy and paste the numbers from this page._
-</center>
-
 #### Setup
 
-This lab requires the `openssl` library, which should already be installed on the Ubuntu 16.04.
+- You will need the `md5collgen` tool to generate hash collisions in this lab.
+  This program should be installed on your VM if you are using the SEED Ubuntu 16.04 VM.
+  - _See the link above under "Resources" if you want to install it yourself._
+- In some tasks you may need to view (and edit) binary files.
+  There is already a hex editor installed in our VM called `bless`.
 
-If you find that the the `openssl` library is _**not**_ installed, please run the following two commands to install it:
+#### Task 1: Generating Two Different Files with the Same MD5 Hash
+
+In this task, we will generate two different files with the same MD5 hash values.
+The beginning parts of these two files need to be the same, i.e., they share the same prefix.
+We can achieve this using the `md5collgen` program, which allows us to provide a prefix file with arbitrary content.
+The way the `md5collgen` program works is illustrated in the following figure:
+
+<center class="mt-4 mb-4"><img src="../assets/lab10_md5collgen.png" width="600" alt="Overview of how the md5collgen program works."></center>
+
+For example, the following command generates two output files, `out1.bin` and `out2.bin`, for a given a prefix file `prefix.txt`:
 
 ```bash
-$ sudo apt-get update
-$ sudo apt-get install libssl-dev
+$ md5collgen -p prefix.txt -o out1.bin out2.bin
 ```
 
-#### Background
-
-The RSA algorithm involves computations on large numbers.
-These computations cannot be directly conducted using simple arithmetic operators in programs,
-because those operators can only operate on primitive data types, such as 32-bit integer and 64-bit long integer types.
-The numbers involved in the RSA algorithms are typically more than 512 bits long.
-For example, to multiply two 32-bit integer numbers $$a$$ and $$b$$, we just need to use $$a*b$$ in our program.
-However, if they are big numbers, we cannot do that any more;
-instead, we need to use an algorithm to compute their products.
-
-There are several libraries that can perform arithmetic operations on integers of arbitrary size.
-In this lab, we will use the Big Number library provided by `openssl`.
-To use this library, we will define each big number as a `BIGNUM` type,
-and then use the APIs provided by the library for various operations,
-such as addition, multiplication, exponentiation, modular operations, etc.
-
-##### BIGNUM APIs
-{:.mt-3}
-
-All of the big number APIs can be found at [https://linux.die.net/man/3/bn](https://linux.die.net/man/3/bn).
-
-Below, we summarize some of the APIs that are needed for this lab.
-
-A `BN_CTX` structure is created to hold `BIGNUM` temporary variables and is used by library functions:
+We can check whether the output files are distinct or not using the `diff` command.
+We can also use the `md5sum` command to check the MD5 hash of each output file.
+For example:
 
 ```bash
-BN_CTX *ctx = BN_CTX_new()
+$ diff out1.bin out2.bin
+$ md5sum out1.bin
+$ md5sum out2.bin
 ```
 
-Initialize a `BIGNUM` variable:
+Since `out1.bin` and `out2.bin` are binary, we cannot view them using a text-viewer program, such as `cat` or` more`;
+you will need to use a hex editor to view (and edit) them.
+
+- **Task 1A.** Please use a hex editor to view these two output files, and describe your observations.
+- **Task 1B.** If the length of your prefix file is not multiple of 64, what is going to happen? Explain.
+- **Task 1C.** Create a prefix file with exactly 64 bytes, and run the collision tool again, and see what happens. Explain.
+- **Task 1D.** Is the data (128 bytes) generated by `md5collgen` completely different for the two output files?
+Please explain your answer and also identify all the bytes that are different.
+
+#### Task 2: Understanding MD5’s Property
+
+In this task, we will try to understand some of the properties of the MD5 algorithm.
+These properties are important for us to conduct further tasks in this lab.
+MD5 is a quite complicated algorithm, but from very high level, it is not so complicated.
+As Figure 2 shows, the MD5 algorithm divides the input data into blocks of 64 bytes,
+and then computes the hash iteratively on these blocks.
+The core of the MD5 algorithm is a compression function,
+which takes two inputs, a 64-byte data block and the outcome of the previous iteration.
+The compression function produces a 128-bit _Intermediate Hash Value_, or $$IHV$$;
+this output is then fed into the next iteration.
+If the current iteration is the last one, the $$IHV$$ will be the final hash value.
+The $$IHV$$ input for the first iteration ($$IHV_0$$) is a fixed value.
+
+<center class="mt-4 mb-4"><img src="../assets/lab10_md5.png" width="600" alt="Overview of how the md5 algorithm works."></center>
+
+Based on how MD5 works, we can derive the following property of the MD5 algorithm:
+Given two inputs $$M$$ and $$N$$, if $$\mathtt{MD5}(M) = \mathtt{MD5}(N)$$,
+i.e., the MD5 hashes of $$M$$ and $$N$$ are the same,
+then for any input $$T$$, $$\mathtt{MD5}(M ∥ T) = \mathtt{MD5}(N ∥ T)$$, where $$∥$$ represents concatenation.
+That is, if inputs $$M$$ and $$N$$ have the same hash,
+adding the same suffix $$T$$ to them will result in two outputs that have the same hash value.
+This property holds not only for the MD5 hash algorithm, but also for many other hash algorithms.
+
+_**Your job in this task**_ is to design an experiment to demonstrates that this property holds for MD5.
+
+**NOTE:**
+You can use the `cat` command to concatenate two files (binary or text files) into one.
+The following command concatenates the contents of `file2` to the contents of `file1`,
+and places the result in `file3`.
 
 ```bash
-BIGNUM *a = BN_new()
+$ cat file1 file2 > file3
 ```
 
-There are a number of ways to assign a value to a `BIGNUM` variable:
+#### Task 3: Generating Two Executable Files with the Same MD5 Hash
+
+In this task, you are given the following C program.
+Your job is to create two different versions of this program,
+such that the contents of their `xyz` arrays are different,
+but the hash values of the executables are the same.
 
 ```bash
-// Assign a value from a decimal number string
-BN_dec2bn(&a, "12345678901112231223");
-
-// Assign a value from a hex number string
-BN_hex2bn(&a, "2A3B4C55FF77889AED3F");
-
-// Generate a random number of 128 bits
-BN_rand(a, 128, 0, 0);
-
-// Generate a random prime number of 128 bits
-BN_generate_prime_ex(a, 128, 1, NULL, NULL, NULL);
-```
-
-Print out a big number:
-
-```bash
-void printBN(char *msg, BIGNUM * a)
-{
-  // Convert the BIGNUM to number string
-  char * number_str = BN_bn2dec(a);
-
-  // Print out the number string
-  printf("%s %s\n", msg, number_str);
-
-  // Free the dynamically allocated memory
-  OPENSSL_free(number_str);
-}
-```
-
-Compute $$res = a−b$$ and $$res = a+b$$:
-
-```bash
-BN_sub(res, a, b);
-BN_add(res, a, b);
-```
-
-_Notice that a `BN_CTX` structure is needed in the following API calls._
-
-Compute $$res = a ∗ b$$:  
-
-```bash
-BN_mul(res, a, b, ctx)
-```
-
-Compute $$res = a * b\ mod\ n$$:
-
-```bash
-BN_mod_mul(res, a, b, n, ctx)
-```
-
-Compute $$res = a^c\ mod\ n$$:
-
-```bash
-BN_mod_exp(res, a, c, n, ctx)
-```
-
-Compute modular inverse, i.e., given $$a$$, find $$b$$, such that $$a*b\ mod\ n = 1$$.
-The value $$b$$ is called the inverse of $$a$$, with respect to modular $$n$$.
-
-```bash
-BN_mod_inverse(b, a, n, ctx);
-```
-
-##### A Complete Example
-{:.mt-3}
-
-Here, we show a complete example.
-In this example, we initialize three `BIGNUM` variables,
-$$a$$, $$b$$, and $$n$$;
-we then compute $$a * b$$ and $$(a^b mod\ n)$$.
-
-```bash
-// bn_sample.c
-
-// To compile this example program, run:
-//    $ gcc bn_sample.c -lcrypto
-
 #include <stdio.h>
-#include <openssl/bn.h>
-#define NBITS 256
 
-void printBN(char *msg, BIGNUM * a)
-{
-  // Use BN_bn2hex(a) for hex string
-  // Use BN_bn2dec(a) for decimal string
-  char * number_str = BN_bn2hex(a);
-  printf("%s %s\n", msg, number_str);
-  OPENSSL_free(number_str);
-}
+unsigned char xyz[200] = {
+    /* The actual contents of this array are up to you */
+};
 
-int main ()
-{
-  BN_CTX *ctx = BN_CTX_new();
-  BIGNUM *a = BN_new();
-  BIGNUM *b = BN_new();
-  BIGNUM *n = BN_new();
-  BIGNUM *res = BN_new();
-
-  // Initialize a, b, n
-  BN_generate_prime_ex(a, NBITS, 1, NULL, NULL, NULL);
-  BN_dec2bn(&b, "273489463796838501848592769467194369268");
-  BN_rand(n, NBITS, 0, 0);
-
-  // res = a*b
-  BN_mul(res, a, b, ctx);
-  printBN("a * b = ", res);
-
-  // res = aˆb mod n
-  BN_mod_exp(res, a, b, n, ctx);
-  printBN("aˆc mod n = ", res);
-
-  return 0;
+int main() {
+    int i;
+    for (i=0; i<200; i++){
+        printf("%x", xyz[i]);
+    }
+    printf("\n");
 }
 ```
 
-#### Task 1: Deriving the Private Key
-Let $$p$$, $$q$$, and $$e$$ be three prime numbers.
-Let $$n = p*q$$.
-We will use $$(e, n)$$ as the public key.
-Please calculate the private key $$d$$.
-The hexadecimal values of $$p$$, $$q$$, and $$e$$ are listed below.
+You may choose to work at the source code level,
+i.e., generating two versions of the above C program,
+such that after compilation, their corresponding executable files have the same MD5 hash value.
+However, it may be easier to directly work on the binary level.
+To do so, you can put some random values in the `xyz` array, then compile the above code to binary.
+Then you can use a hex editor tool to modify the content of the `xyz` array directly in the binary file.
+
+**NOTE:**
+Finding where the contents of the array are stored in the binary is not easy.
+However, if we fill the array with some fixed values, we can easily find them in the binary.
+For example, the following code fills the array with `0x41`, which is the ASCII value for letter A.
+It should not be difficult to locate 200 A's in the binary.
 
 ```bash
-p = F7E75FDC469067FFDC4E847C51F452DF
-q = E85CED54AF57E53E092113E62F436F4F
-e = 0D88C3
+unsigned char xyz[200] = {
+    0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41,
+    0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41,
+    0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41,
+    ... (omitted) ...
+    0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41,
+}
 ```
 
-_**NOTE:** It should be noted that although $$p$$ and $$q$$ used in this task are quite large numbers,
-they are not large enough to be secure.
-We intentionally make them small for the sake of simplicity.
-In practice, these numbers should be at least 512 bits long (the ones used here are only 128 bits)._
+##### Task 3 Guidelines
+From inside the array, we need to find two locations from where we can divide the executable file into three parts:
+(1) a prefix,
+(2) a 128-byte region, and
+(3) a suffix.
+The length of the prefix needs to be a multiple of 64 bytes.
+See Figure 3 for an illustration of how the file is divided.
 
-#### Task 2: Encrypting a Message
-Let $$(e, n)$$ be the public key.
-Please encrypt the message **"A top secret!"** (the quotations should not be included).
-We need to convert this ASCII string to a hex string, and then convert the hex string to a `BIGNUM` using the hex-to-bn API `BN_hex2bn()`.
-The following python command can be used to convert a plain ASCII string to a hex string.
+<center class="mt-4 mb-4"><img src="../assets/lab10_prefix_data_suffix.png" width="600" alt="Overview of how the md5 algorithm works."></center>
+
+We can run `md5collgen` on the prefix to generate two outputs that have the same MD5 hash value.
+Let us use $$P$$ and $$Q$$ to represent the second part (each having 128 bytes) of these outputs
+(i.e., the part after the prefix).
+Therefore, we have the following:
+
+$$\mathtt{MD5} (prefix ∥ P) = \mathtt{MD5} (prefix ∥ Q)$$
+
+Based on the property of MD5 that we explored in the previous task,
+we know that if we append the same suffix to the above two outputs,
+the resultant data will also have the same hash value.
+Basically, the following is true for any suffix:
+
+$$\mathtt{MD5} (prefix ∥ P ∥ suffix) = \mathtt{MD5} (prefix ∥ Q ∥ suffix)$$
+
+Therefore, we just need to use $$P$$ and $$Q$$ to replace 128 bytes of the array (between the two dividing points),
+and we will be able to create two binary programs that have the same hash value.
+Their outputs, however, are different, because they each print out their own arrays, which have different contents.
+
+##### Task 3 Tools
+You can use a hex editor (e.g., `bless`) to view the binary executable file and find the location of the array.
+For dividing a binary file, there are some tools (e.g., `head` and `tail`)
+that we can use to divide a file from a particular location.
+You can look at their manuals to learn how to use them.
+We give three examples in the following:
+
+```bash
+$ head -c 3200 a.out > prefix   # saves the first 3200 bytes of `a.out` to `prefix`
+$ tail -c 100 a.out > suffix    # saves the last 100 bytes of `a.out` to `suffix`
+$ tail -c +3300 a.out > suffix  # saves the data from the 3300th byte to the end of the file `a.out` to `suffix`
+```
+
+With these two commands, we can divide a binary file into pieces from any location.
+If we need to glue some pieces together, we can use the `cat` command.
+
+**NOTE:**
+If you use `bless` to copy-and-paste a block of data from one binary file to another file,
+the menu item _"Edit &rarr; Select Range"_ is quite handy,
+because you can select a block of data using a starting point and a range,
+instead of manually counting how many bytes are selected.
+
+#### Task 4: Making the Two Programs Behave Differently
+
+In the previous task, we have successfully created two programs that have the same MD5 hash,
+but their behaviors are different.
+However, their differences are only in the data they print out;
+they still execute the same sequence of instructions.
+In this task, we would like to achieve something more interesting...
+
+_**Motivation:**_
+Assume that you have created some new software that does good things.
+You send the software to a trusted authority to get certified.
+The authority conducts a comprehensive testing of your software,
+and concludes that your software is indeed doing the good things you claimed it would do.
+At such a time, the authority will present you with a certificate, stating that your program is indeed good.
+To prevent you from changing your program after getting the certificate,
+the MD5 hash value of your program is also included in the certificate;
+the certificate is then signed by the authority,
+so that you cannot change anything on the certificate, or your program, without rendering the signature invalid.
+
+Now suppose that you also have some malicious software that you would like to get certified by the authority.
+You have zero chance to achieve this goal if you simply send your malicious software to the authority.
+(They can look at the code and try running it and see that you code is malicious.)
+However, you noticed that the authority uses the MD5 algorithm to generate the hash values that are stored in the certificates.
+_(Lightbulb!)_
+You devise the plan to prepare two different programs.
+One program will always execute benign instructions and do good things,
+while the other program will execute malicious instructions and cause damage when executed.
+If you can find a way to get these two programs to share the same MD5 hash value,
+you can then send the benign version to the authority for certification.
+Since this version does good things, it will pass the certification,
+and you will get a certificate that contains the hash value of your benign program.
+But because your malicious program has the same hash value,
+this certificate is also valid for your malicious program.
+In this way, you can successfully obtain a valid certificate for your malicious program!
+Since everyone trusts software that is signed by the trusted certificate authority,
+they will have no issues or concerns when downloading and executing your (malicious) program.
+
+_**The objective of this task**_ is to launch the attack described above.
+Namely, you need to create two programs that share the same MD5 hash.
+However, one program will always execute benign instructions,
+while the other program will execute malicious instructions.
+In your work, what benign/malicious instructions are executed is not important;
+it is sufficient to demonstrate that the instructions executed by these two programs are _**different**_.
+
+##### Task 4 Guidelines
+
+Creating two completely different programs that produce the same MD5 hash value is quite hard.
+The two hash-colliding programs produced by `md5collgen` need to share the same prefix;
+moreover, as we can see from the previous task,
+if we need to add some meaningful suffix to the outputs produced by `md5collgen`,
+the suffix added to both programs also needs to be the same.
+These are the limitations of the MD5 collision generation program that we use.
+Although there are other more complicated and more advanced tools that can eliminate some limitations,
+such as accepting two different prefixes [[2]],
+they demand much more computing power, so they are out of the scope for this lab.
+We need to find a way to generate two different programs within the limitations noted above.
+
+There are many ways to achieve the above goal.
+We provide one approach as a reference, but students are encouraged to come up their own ideas.
+We may consider rewarding students extra credit for their own (successful) ideas.
+In our approach, we create two arrays `X` and `Y`.
+We compare the contents of these two arrays;
+if they are the same, the benign code is executed;
+otherwise, the malicious code is executed.
+Consider the following pseudo-code:
 
 ```python
-$ python -c 'print("A top secret!".encode("hex"))'
-4120746f702073656372657421
+Array X;
+Array Y;
+
+main() {
+    if (X’s contents and Y’s contents are the same)
+        run benign code;
+    else
+        run malicious code;
+    return;
+}
 ```
 
-The public key values are listed below (in hexadecimal).
-We also provide the private key $$d$$ to help you verify your encryption result.
+We can initialize the arrays `X` and `Y` with some values
+that can help us find their locations in the executable binary file.
+Our job is to change the contents of these two arrays,
+so we can generate two different versions that have the same MD5 hash.
+In one version, the contents of `X` and `Y` are the same, so the benign code is executed;
+in the other version, the contents of `X` and `Y` are different, so the malicious code is executed.
+We can achieve this goal using a technique similar to the one used in Task 3.
+Figure 4 illustrates what the two versions of the program look like.
 
-```python
-n = DCBFFE3E51F62E09CE7032E2677A78946A849DC4CDDE3A4D0CB81629242FB1A5
-e = 010001 (this hex value equals to decimal 65537)
-M = A top secret!
-d = 74D806F9F3A62BAE331FFE3F0A68AFE35B3D2E4794148AACBC26AA381CD7D30D
-```
+<center class="mt-4 mb-4"><img src="../assets/lab10_collision.png" width="600" alt="Overview of how the md5 algorithm works."></center>
 
-#### Task 3: Decrypting a Message
-The public/private keys used in this task are the same as the ones used in Task 2.
-
-Please decrypt the following ciphertext $$C$$, and convert it back to a plain ASCII string.
-
-```bash
-C = 8C0F971DF2F3672B28811407E2DABBE1DA0FEBBBDFC7DCB67396567EA1E2493F
-```
-
-You can use the following python command to convert a hex string back to to a plain ASCII string.
-
-```python
-$ python  -c 'print("4120746f702073656372657421".decode("hex"))'
-A top secret!
-```
-
-#### Task 4: Signing a Message
-The public/private keys used in this task are the same as the ones used in Task 2.
-
-Please generate a signature for the following message $$M$$
-(please directly sign this message, instead of signing its hash value):
-
-```bash
-M = I owe you $2000.
-```
-
-Please make a slight change to the message $$M$$, such as changing $2000 to $3000, and sign the modified message.
-
-Compare both signatures and describe what you observe.
-
-#### Task 5: Verifying a Signature
-
-Bob receives a message **$$M$$ = "Launch a missile."** from Alice, with her signature $$S$$.
-We know that Alice's public key is $$(e, n)$$.
-
-Please verify whether the signature is indeed Alice's or not.
-
-The public key and signature (hexadecimal) are as follows:
-
-```bash
-M = Launch a missile.
-S = 643D6F34902D9C7EC90CB0B2BCA36C47FA37165C0005CAB026C0542CBDB6802F
-e = 010001 (this hex value equals to decimal 65537)
-n = AE1CD4DC432798D933779FBD46C6E1247F0CF1233595113AA51B450F18116115
-```
-
-Suppose that the signature is corrupted, such that the last byte of the signature changes from **2F** to **3F**,
-i.e, only one bit is changed.
-Please repeat this task, and describe what will happen during the verification process.
-
-#### Task 6: Manually Verifying an X.509 Certificate
-In this task, we will manually verify an X.509 certificate using a program that you write.
-An X.509 certificate contains data about a public key and an issuer's signature over the data.
-We will download a real X.509 certificate from a web server,
-get its issuer's public key,
-and then use this public key to verify the signature on the certificate.
-
-##### Step 1: Download a certificate from a real web server
-We use the `www.example.org` server in this document.
-Students should choose a different web server that has a different certificate than the one used in this document.
-(It should be noted that `www.example.com` shares the same certificate with `www.example.org`).
-We can download certificates using a browser or use the following command:
-
-```bash
-$ openssl s_client -connect www.example.org:443 -showcerts
-
-Certificate chain
-  0 s:/C=US/ST=California/L=Los Angeles/O=Internet Corporation for Assigned Names and Numbers/OU=Technology/CN=www.example.org
-    i:/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
------BEGIN CERTIFICATE-----
-MIIF8jCCBNqgAwIBAgIQDmTF+8I2reFLFyrrQceMsDANBgkqhkiG9w0BAQsFADBw
-MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
-......
-wDSiIIWIWJiJGbEeIO0TIFwEVWTOnbNl/faPXpk5IRXicapqiII=
------END CERTIFICATE-----
-  1 s:/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
-    i:/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert High Assurance EV Root CA
------BEGIN CERTIFICATE-----
-MIIEsTCCA5mgAwIBAgIQBOHnpNxc8vNtwCtCuF0VnzANBgkqhkiG9w0BAQsFADBs
-MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
-......
-cPUeybQ=
------END CERTIFICATE-----
-```
-
-Assume, for example, that the result of the command contains two certificates.
-The subject field (the entry starting with `s:`) of the certificate is `www.example.org`, i.e., this is `www.example.org`'s certificate.
-The issuer field (the entry starting with `i:`) provides the issuer's information.
-The subject field of the second certificate is the same as the issuer field of the first certificate.
-Basically, the second certificate belongs to an intermediate CA.
-In this task, we will use the CA's certificate to verify a server certificate.
-
-If you only get one certificate back using the above command, that means the certificate you get is signed by a root CA.
-Root CAs' certificates can be obtained from the Firefox browser installed in our SEED VM.
-Go to Edit &rarr; Preferences &rarr; Privacy and then Security &rarr; View Certificates.
-Search for the name of the issuer and download its certificate.
-
-Copy and paste each of the certificates
-_(the text between the line containing `"Begin CERTIFICATE"` and the line containing `"END CERTIFICATE"`, including these two lines)_ to a file.
-Let us call the first one `c0.pem` and the second one `c1.pem`.
-
-##### Step 2: Extract the public key $$(e, n)$$ from the issuer's certificate
-The `openssl` program provides commands to extract certain attributes from X.509 certificates.
-We can extract the value of $$n$$ using the `-modulus` flag.
-There is no specific command to extract $$e$$, but we can print out all the fields and can easily find the value of $$e$$.
-
-```bash
-# For modulus (n):
-$ openssl x509 -in c1.pem -noout -modulus
-
-# Print out all the fields, find the exponent (e):
-$ openssl x509 -in c1.pem -text -noout
-```
-
-##### Step 3: Extract the signature from the server’s certificate
-There is no specific `openssl` command to extract the signature field.
-However, we can print out all the fields and then copy and paste the signature block into a file
-_(**NOTE:** if the signature algorithm used in the certificate is not based on RSA, you should find another certificate)._
-
-```bash
-$ openssl x509 -in c0.pem -text -noout
-...
-Signature Algorithm: sha256WithRSAEncryption
-  84:a8:9a:11:a7:d8:bd:0b:26:7e:52:24:7b:b2:55:9d:ea:30:
-  89:51:08:87:6f:a9:ed:10:ea:5b:3e:0b:c7:2d:47:04:4e:dd:
-  ......
-  5c:04:55:64:ce:9d:b3:65:fd:f6:8f:5e:99:39:21:15:e2:71:
-  aa:6a:88:82
-```
-
-We need to remove the spaces and colons from the data so that we can get a hex-string that we can feed into our program.
-The following commands can help us to achieve this goal.
-The `tr` command is a Linux utility tool for string operations.
-In this case, the `-d` option is used to delete ":" and "space" characters from the data.
-
-```bash
-$ cat signature | tr -d '[:space:]:'
-84a89a11a7d8bd0b267e52247bb2559dea30895108876fa9ed10ea5b3e0bc7
-......
-5c045564ce9db365fdf68f5e99392115e271aa6a8882
-```
-
-##### Step 4: Extract the body of the server’s certificate
-A Certificate Authority (CA) generates the signature for a server certificate by first computing the hash of the certificate, and then signing the hash.
-To verify the signature, we also need to generate the hash from a certificate.
-Since the hash is generated before the signature is computed, we need to exclude the signature block of a certificate when computing the hash.
-Finding out what part of the certificate is used to generate the hash is quite challenging without a good understanding of the format of the certificate.
-
-X.509 certificates are encoded using the [**ASN.1 (Abstract Syntax Notation.One)**](https://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One) standard,
-so if we can parse the ASN.1 structure, we can easily extract any field from a certificate.
-The `openssl` program has a subcommand called `asn1parse`, which can be used to parse an X.509 certificate.
-
-Print the entire ASN.1 structure:
-```bash
-$ openssl asn1parse -i -in c0.pem
-```
-
-Print the ASN.1 structure starting at octet 4 and write the result out to a file:
-```bash
-$ openssl asn1parse -i -in c0.pem -strparse 4 -out c0_body.bin -noout
-```
-
-Compute a hash:
-```bash
-$ sha256sum c0_body.bin
-```
-
-##### Step 5: Verify the signature
-Now we have all the information, including the CA's public key, the CA's signature, and the body of the server's certificate.
-We can run our own program to verify whether the signature is valid or not.
-While `openssl` does provide a command to verify the certificate, students are required to use their own programs to do the verification.
+From Figure 4, we know that these two binary files have the same MD5 hash value,
+as long as $$P$$ and $$Q$$ are generated accordingly.
+In the first version, we make the contents of arrays `X` and `Y` the same,
+while in the second version, we make their contents different.
+Therefore, the only thing we need to change is the contents of these two arrays;
+there is no need to change the logic of the programs.
 
 ### Submission
 You need to submit a detailed lab report to describe what you have done and what you have observed, including relevant screenshots and code snippets.
