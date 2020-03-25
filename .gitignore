@@ -8,7 +8,8 @@ package-lock.json
 .jekyll-cache/
 
 # ignore the csci476 code, which I like to store in a directory internal to this website.
+code
 code/csci476-code/
+code-admin
 
 # specific executables
-code
