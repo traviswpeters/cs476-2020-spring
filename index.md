@@ -180,7 +180,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 <!-- Week 01  -->
 
 <tr>
-<td markdown="span">**Week 01**</td>
+<td id="week01" markdown="span">**Week 01**<a class="far fa-link" href="#week01"></a></td>
 <td markdown="span" class="note">Introduction & Security Overview</td>
 <td markdown="span"></td>
 </tr>
@@ -203,7 +203,7 @@ Review + Unix Security Basics [slides][slides02]{:.slides}
 <!-- Week 02  -->
 
 <tr>
-<td markdown="span">**Week 02**</td>
+<td id="week02" markdown="span">**Week 02**<a class="far fa-link" href="#week02"></a></td>
 <td markdown="span" class="note">Software Security --- Privileged Programs, Environment Variables, and Attacks via Program Inputs</td>
 <td markdown="span" class="note">**Reading:** Chapters 1 & 2</td>
 </tr>
@@ -227,7 +227,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <!-- Week 03  -->
 
 <tr>
-<td markdown="span">**Week 03**</td>
+<td id="week03" markdown="span">**Week 03**<a class="far fa-link" href="#week03"></a></td>
 <td markdown="span" class="note">Software Security --- The Shellshock Attack</td>
 <td markdown="span" class="note">
 **Reading:** Chapters 3 & 9, [CVE-2014-6271](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271), [shellshocker.net](https://www.minttm.com/takeover-shellshocker-net)
@@ -249,7 +249,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <!-- Week 04  -->
 
 <tr>
-<td markdown="span">**Week 04**</td>
+<td id="week04" markdown="span">**Week 04**<a class="far fa-link" href="#week04"></a></td>
 <td markdown="span" class="note">Software Security --- Buffer Overflow Vulnerabilities, Attacks, and Defenses</td>
 <td markdown="span" class="note">**Reading:** Chapter 4</td>
 </tr>
@@ -267,7 +267,7 @@ The Set-UID Mechanism & Environment Variables (Part II) [slides][slides04]{:.sli
 <!-- Week 05  -->
 
 <tr>
-<td markdown="span">**Week 05**</td>
+<td id="week05" markdown="span">**Week 05**<a class="far fa-link" href="#week05"></a></td>
 <td markdown="span" class="note">Software Security --- The Return-to-libc Attack & Return-Oriented Programming</td>
 <td markdown="span" class="note">**Reading:** Chapter 5</td>
 </tr>
@@ -289,7 +289,7 @@ In-Class Active Learning for Lab 04 (Wrapping up our first Return-to-libc Attack
 <!-- Week 06  -->
 
 <tr>
-<td markdown="span">**Week 06**</td>
+<td id="week06" markdown="span">**Week 06**<a class="far fa-link" href="#week06"></a></td>
 <td markdown="span" class="note">Software Security --- Wrapping up The Return-to-libc Attack & Return-Oriented Programming + CTF!</td>
 <td markdown="span"></td>
 <!-- <td markdown="span" class="note">Software Security --- Format String Vulnerabilities, Attacks, and Defenses</td> -->
@@ -317,7 +317,7 @@ Buffer Overflow CTF *(in class)* [slides][slides12]{:.slides}
 <!-- Week 07  -->
 
 <tr>
-<td markdown="span">**Week 07**</td>
+<td id="week07" markdown="span">**Week 07**<a class="far fa-link" href="#week07"></a></td>
 <td markdown="span" class="note">Network & Web Security --- SQL Injection Attacks & Countermeasures</td>
 <td markdown="span" class="note">**Reading:** Chapter 12</td>
 </tr>
@@ -340,7 +340,7 @@ SQL Injection Attacks & Countermeasures (Part II) [slides][slides14]{:.slides}
 <!-- Week 08  -->
 
 <tr>
-<td markdown="span">**Week 08**</td>
+<td id="week08" markdown="span">**Week 08**<a class="far fa-link" href="#week08"></a></td>
 <td markdown="span" class="note">Network & Web Security --- Packet Sniffing and Spoofing</td>
 <td markdown="span" class="note">**Reading:** Chapter 15</td>
 </tr>
@@ -362,7 +362,7 @@ Packet Sniffing & Spoofing (Part II) [slides][slides16]{:.slides}
 <!-- Week 09  -->
 
 <tr>
-<td markdown="span">**Week 09**</td>
+<td id="week09" markdown="span">**Week 09**<a class="far fa-link" href="#week09"></a></td>
 <td markdown="span" class="note">Network & Web Security --- Attacks on the TCP Protocol</td>
 <td markdown="span" class="note">**Reading:** Chapter 16</td>
 </tr>
@@ -384,7 +384,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <!-- Week 10  -->
 
 <tr>
-<td markdown="span">**Week 10**</td>
+<td id="week10" markdown="span">**Week 10**<a class="far fa-link" href="#week10"></a></td>
 <td markdown="span" class="note">Enjoy the Break!</td>
 <td markdown="span"></td>
 </tr>
@@ -402,7 +402,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <!-- Week 11  -->
 
 <tr>
-<td markdown="span">**Week 11**</td>
+<td id="week11" markdown="span">**Week 11**<a class="far fa-link" href="#week11"></a></td>
 <td markdown="span" class="note">Welcome Back + Intro to Cryptography </td>
 <td markdown="span" class="note">Get started reading Chapters 21-23</td>
 </tr>
@@ -426,7 +426,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <!-- Week 12  -->
 
 <tr>
-<td markdown="span">**Week 12**</td>
+<td id="week12" markdown="span">**Week 12**<a class="far fa-link" href="#week12"></a></td>
 <td markdown="span" class="note">Crypto --- Secret-Key Encryption</td>
 <td markdown="span" class="note">**Reading:** Chapter 21</td>
 </tr>
@@ -447,7 +447,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <!-- Week 13  -->
 
 <tr>
-<td markdown="span">**Week 13**</td>
+<td id="week13" markdown="span">**Week 13**<a class="far fa-link" href="#week13"></a></td>
 <td markdown="span" class="note">Crypto --- Hashing</td>
 <td markdown="span" class="note">**Reading:** Chapter 22</td>
 </tr>
@@ -465,7 +465,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <!-- Week 14  -->
 
 <tr>
-<td markdown="span">**Week 14**</td>
+<td id="week14" markdown="span">**Week 14**<a class="far fa-link" href="#week14"></a></td>
 <!-- <td markdown="span" class="note">Recent Topics in Security --- The Heartbleed Bug and Attack</td> -->
 <!-- <td markdown="span" class="note">**Reading:** Chapter 20, [Official Website](http://heartbleed.com), [CVE-2014-0160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2014-0160) </td> -->
 <td markdown="span" class="note">Crypto --- Public Key Cryptography</td>
@@ -485,7 +485,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <!-- Week 15  -->
 
 <tr>
-<td markdown="span">**Week 15**</td>
+<td id="week15" markdown="span">**Week 15**<a class="far fa-link" href="#week15"></a></td>
 <!-- <td markdown="span" class="note">Recent Topics in Security --- The Meltdown and Spectre Attacks</td> -->
 <!-- <td markdown="span" class="note">**Reading:** Chapters 13 & 14, [Official Website](https://meltdownattack.com)</td> -->
 <td markdown="span" class="note">TBD</td>
@@ -505,7 +505,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <!-- Week 16  -->
 
 <tr>
-<td markdown="span">**Week 16**</td>
+<td id="week16" markdown="span">**Week 16**<a class="far fa-link" href="#week16"></a></td>
 <td markdown="span" class="note">Course Wrap-Up</td>
 <td markdown="span"></td>
 </tr>
@@ -523,7 +523,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <!-- Week 17  -->
 
 <tr>
-<td markdown="span">**Week 17**</td>
+<td id="week17" markdown="span">**Week 17**<a class="far fa-link" href="#week17"></a></td>
 <td markdown="span" class="note">Finals Week</td>
 <td markdown="span"></td>
 </tr>
