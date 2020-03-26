@@ -318,3 +318,13 @@ a.fa-link:hover { color: #777777; }
   top: 0px;
   left: 0px;
 }
+
+table ul {
+  margin: 0px;
+  padding: 0px;
+}
+table li {
+  list-style-type: none;
+  /* margin: 0px; */
+  /* padding: 0px; */
+}

@@ -409,10 +409,10 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <tr>
 <td markdown="span">03/24/2020</td>
 <td markdown="span" markdown="1">
-[Video: Welcome & Updates](https://montana.techsmithrelay.com/tdUR){:.video} <br/>
-[Video: Intro to Cryptography](https://montana.techsmithrelay.com/FJGc){:.video} <br/>
-[Video (YouTube): What is Cryptography - Introduction to Cryptography](https://www.youtube.com/watch?v=68Pqir_moqA){:.video} <br/>
-[Video (YouTube): History and Evolution of Cryptography and Cryptanalysis](https://www.youtube.com/watch?v=z9Qi5mDSYb8){:.video}
+- [<i class="fas fa-play-circle"></i> 1. Welcome & Updates](https://montana.techsmithrelay.com/tdUR) <span class="text-muted">(11:46)</span>
+- [<i class="fas fa-play-circle"></i> 2. Intro to Cryptography](https://montana.techsmithrelay.com/FJGc) <span class="text-muted">(13:08)</span>
+- [<i class="fas fa-play-circle"></i> 3. What is Cryptography - Introduction to Cryptography (YouTube)](https://www.youtube.com/watch?v=68Pqir_moqA) <span class="text-muted">(4:31)</span>
+- [<i class="fas fa-play-circle"></i> 4. History and Evolution of Cryptography and Cryptanalysis (YouTube)](https://www.youtube.com/watch?v=z9Qi5mDSYb8) <span class="text-muted">(5:49)</span>
 {:.m-0}
 </td>
 <td markdown="span"></td>
