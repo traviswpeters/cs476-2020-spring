@@ -409,7 +409,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <tr>
 <td markdown="span">03/24/2020</td>
 <td markdown="span" markdown="1">
-- [<i class="fas fa-play-circle"></i> 1. Welcome & Updates](https://montana.techsmithrelay.com/tdUR) <span class="text-muted">(11:46)</span>
+- [<i class="fas fa-play-circle"></i> 1. Welcome Back Message & Course Updates](https://montana.techsmithrelay.com/tdUR) <span class="text-muted">(11:46)</span>
 - [<i class="fas fa-play-circle"></i> 2. Intro to Cryptography](https://montana.techsmithrelay.com/FJGc) <span class="text-muted">(13:08)</span>
 - [<i class="fas fa-play-circle"></i> 3. What is Cryptography - Introduction to Cryptography (YouTube)](https://www.youtube.com/watch?v=68Pqir_moqA) <span class="text-muted">(4:31)</span>
 - [<i class="fas fa-play-circle"></i> 4. History and Evolution of Cryptography and Cryptanalysis (YouTube)](https://www.youtube.com/watch?v=z9Qi5mDSYb8) <span class="text-muted">(5:49)</span>
@@ -419,7 +419,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 </tr>
 <tr>
 <td markdown="span">03/26/2020</td>
-<td markdown="span">**No Class. ~~NCUR 2020 @ MSU --- please attend!~~**</td>
+<td markdown="span">**No Class. ~~NCUR 2020 @ MSU --- please attend!~~** _NCUR Cancelled. (Still) No Class._{:.text-danger}</td>
 <td markdown="span">**[Lab 08] Due**</td>
 </tr>
 
