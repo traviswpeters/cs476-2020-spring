@@ -420,7 +420,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <tr>
 <td markdown="span">03/26/2020</td>
 <td markdown="span">**No Class. ~~NCUR 2020 @ MSU --- please attend!~~** _NCUR Cancelled. (Still No Class)._{:.text-danger}</td>
-<td markdown="span">**[Lab 08] Due: Mar 26, 2020 11:59 PM**</td>
+<td markdown="span">**[Lab 08] Due: Mar 29, 2020 11:59 PM**</td>
 </tr>
 
 <!-- Week 12  -->
