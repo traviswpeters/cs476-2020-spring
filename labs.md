@@ -36,7 +36,34 @@ We, along with over a thousand other educational institutions around the world, 
   For all labs, you should submit your lab report as a **PDF** to **D2L** before the class on the due day.
   We may ask (randomly) selected students to give a demonstration.
 
-## Tips for Lab Reports
+## Labs
+
+<ul>
+{% assign sorted_pages = site.pages | sort: 'title' %}
+{% for page in sorted_pages %}
+{% for tag in page.tags %}
+{% if tag == "labs" %}
+<li><a href="{{ site.baseurl }}{{ page.url }}">{{page.title}}</a></li>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</ul>
+
+#### Extra Credit
+
+<ul>
+{% assign sorted_pages = site.pages | sort: 'title' %}
+{% for page in sorted_pages %}
+{% for tag in page.tags %}
+{% if tag == "extra-credit" %}
+<li><a href="{{ site.baseurl }}{{ page.url }}">{{page.title}}</a></li>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</ul>
+
+
+## Tips for Writing Lab Reports
 
 - Lab reports should be concise, but detailed enough to convince graders that you've completed each task.
 - If a question/task asks for you to provide explanations, or describe observations, you must do this.
@@ -62,34 +89,6 @@ Example Structure of a Lab Report:
 > _...observations / conclusions..._  
 
 > ...
-
-## Labs
-
-<ul>
-{% assign sorted_pages = site.pages | sort: 'title' %}
-{% for page in sorted_pages %}
-{% for tag in page.tags %}
-{% if tag == "labs" %}
-<li><a href="{{ site.baseurl }}{{ page.url }}">{{page.title}}</a></li>
-{% endif %}
-{% endfor %}
-{% endfor %}
-</ul>
-
-## Extra Credit
-
-<ul>
-{% assign sorted_pages = site.pages | sort: 'title' %}
-{% for page in sorted_pages %}
-{% for tag in page.tags %}
-{% if tag == "extra-credit" %}
-<li><a href="{{ site.baseurl }}{{ page.url }}">{{page.title}}</a></li>
-{% endif %}
-{% endfor %}
-{% endfor %}
-</ul>
-
-
 
 {% comment %}
 
