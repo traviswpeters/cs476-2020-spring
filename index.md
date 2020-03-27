@@ -419,8 +419,8 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 </tr>
 <tr>
 <td markdown="span">03/26/2020</td>
-<td markdown="span">**No Class. ~~NCUR 2020 @ MSU --- please attend!~~** _NCUR Cancelled. (Still) No Class._{:.text-danger}</td>
-<td markdown="span">**[Lab 08] Due**</td>
+<td markdown="span">**No Class. ~~NCUR 2020 @ MSU --- please attend!~~** _NCUR Cancelled. (Still No Class)._{:.text-danger}</td>
+<td markdown="span">**[Lab 08] Due: Mar 26, 2020 11:59 PM**</td>
 </tr>
 
 <!-- Week 12  -->
@@ -453,13 +453,16 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 </tr>
 <tr>
 <td markdown="span">04/07/2020</td>
-<td markdown="span"></td>
+<td markdown="span" markdown="1">
+<!-- - [<i class="fas fa-play-circle"></i> How secure is 256 bit security? (YouTube)](https://www.youtube.com/watch?v=S9JGmA5_unY) <span class="text-muted">(5:05)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> But how does bitcoin actually work? (YouTube)](https://www.youtube.com/watch?v=bBC-nXj3Ng4) <span class="text-muted">(26:20)</span> -->
+</td>
 <td markdown="span"></td>
 </tr>
 <tr>
 <td markdown="span">04/09/2020</td>
 <td markdown="span"></td>
-<td markdown="span">**[Lab 09] Due**</td>
+<td markdown="span">**[Lab 09] Due: Apr 12, 2020 11:59 PM**</td>
 </tr>
 
 <!-- Week 14  -->
@@ -479,7 +482,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <tr>
 <td markdown="span">04/16/2020</td>
 <td markdown="span"></td>
-<td markdown="span">**[Lab 10] Due**</td>
+<td markdown="span">**[Lab 10] Due: Apr 19, 2020 11:59 PM**</td>
 </tr>
 
 <!-- Week 15  -->
@@ -499,7 +502,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <tr>
 <td markdown="span">04/23/2020</td>
 <td markdown="span"></td>
-<td markdown="span">**[Lab 11] Due**</td>
+<td markdown="span">**[Lab 11] Due: Apr 26, 2020 11:59 PM**</td>
 </tr>
 
 <!-- Week 16  -->
@@ -517,7 +520,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <tr>
 <td markdown="span">04/30/2020</td>
 <td markdown="span">Final Exam Review — ~~_Come with questions and topics you’d like to review!_{:.text-muted}~~</td>
-<td markdown="span">_**([Lab 12] Due?)**_</td>
+<td markdown="span">_**([Lab 12] Due: May 3, 2020 11:59 PM?)**_</td>
 </tr>
 
 <!-- Week 17  -->
