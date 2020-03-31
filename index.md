@@ -2,55 +2,6 @@
 layout: default
 ---
 
-<div markdown="1" style="background: rgba(0, 120, 0, .1)">
-##  Spring 2020 Course Updates _(NEW!)_
-{:.titletext}
-Re: Moving to Remote Learning!
-{:.subtitletext}
-
-As you may have heard, starting on 3/23 (the Monday after "Spring" Break),
-MSU will be transitioning to online delivery of courses in order to help slow the spread of the COVID-19 virus (a.k.a., Coronavirus).
-For CSCI 476, the big change is that we won't be meeting in person anymore &#128532;.
-Instead, I will record a series of videos each week and post them to our course website (here!).
-I'll also hold office hours virtually, instead of in-person office hours.
-Other than that, not too much will change _(hopefully...)_.
-
-**Course Updates:**
-
-  - I will hold virtual office hours in my "Personal Room" on [**_WebEx_**](https://montana.webex.com/meet/w52k448).
-    - _Currently I plan to be on Webex during my regular office hours: **Tuesday/Thursday 4:30 pm – 6:00 pm**._
-  - You can use my [**_Calendly_**](https://calendly.com/traviswpeters) link to schedule an alternative meeting time if you can't meet during office hours.
-    - _Preferably, start with a 15 minute slot; we can use more time if needed._
-  - I will continue to update the [**_Schedule_**](https://www.traviswpeters.com/cs476/#schedule) as I have been all semester.
-    - _In lieu of in-class lectures, I will post a series of recorded mini-lectures to the appropriate week/day so you can watch them at your convenience._
-  - I will continue to update the [**_Labs_**](https://www.traviswpeters.com/cs476/labs) page as I have been all semester.
-    - _Since all of our labs are done on a VM that runs atop a personal machine, we should be able to proceed with labs as usual._
-      _Please contact me **ASAP** if this is not the case for you._
-  - We will continue to use [**_Slack_**](https://csci476-sp2020.slack.com) for discussions and questions about lectures, labs, and so forth.
-    - _I will make email announcements via our course mailing list on rare occasion if I need to get news out quickly to all._
-
-**MSU Updates:**  
-  - MSU is maintaining a helpful page for students: [**_Students: Learn Anywhere_**](http://ato.montana.edu/learnanywhere/students/index-old.html)
-  - The [_**GSoC Student Success Center**_](https://www.cs.montana.edu/student-success-center.html) is still operating (virtually).
-  - The [_**last day to drop a class is April 14th**_](http://www.montana.edu/registrar/drop.html).
-  - You can [_**request to have your final grade be pass/fail**_](https://www.montana.edu/health/coronavirus/archived-comms.html#email24) as opposed to a letter grade by filling out a form and submitting to the Registrar's office.
-
-**Expectations for Instructor:**  
-I understand that this may be a difficult transition for you, but I will do my best to maintain consistent communication with you,
-including updating you on any and all course changes or upcoming assignments to keep you on track.
-I will keep the schedule (below) updated with relevant links, readings, and so forth.
-Please bear with me as I am learning how to conduct our course remotely
-(e.g., recording and posting mini-lectures, organizing virtual office hours, etc.).
-
-**Expectations for Students:**  
-Although you may be new to online learning, it requires that you be more disciplined in completing the work at your own time and pace.
-Please make sure to check this website and our course Slack workspace regularly.
-I don't foresee this class taking more time when it is all said and done.
-It is increasingly important for you, however, to communicate with me if you are getting hung up on anything.
-I've posted a few ways that we can meet (e.g., my scheduled virtual office hours, using Calendly to schedule 1-on-1 time together) --- please utilize these opportunities!
-
-</div>
-
 ## About the Course
 
 This course introduces students to introductory topics in computer and network security.
@@ -431,13 +382,16 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <td markdown="span" class="note">**Reading:** Chapter 21</td>
 </tr>
 <tr>
-<td markdown="span">03/31/2020</td>
-<td markdown="span"></td>
-<td markdown="span"></td>
-</tr>
-<tr>
-<td markdown="span">04/02/2020</td>
-<td markdown="span"></td>
+<td markdown="span"><center>03/31/2020<br/>+<br/>04/02/2020</center></td>
+<td markdown="span" markdown="1">
+<!-- - [<i class="fas fa-play-circle"></i> **Review:** XOR Operator (YouTube)](https://www.youtube.com/watch?v=Vca83H_anBY) <span class="text-muted">(7:23)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> **Review:** Cryptography 101 - XOR Cipher? (YouTube)](https://www.youtube.com/watch?v=xK_SqWG9w-Y) <span class="text-muted">(5:33)</span> -->
+</td>
+<!-- <td markdown="span"></td> -->
+<!-- </tr> -->
+<!-- <tr> -->
+<!-- <td markdown="span">04/02/2020</td> -->
+<!-- <td markdown="span"></td> -->
 <td markdown="span">
 **~~NCUR 2020 Extra Credit Write-up Due~~** <br/>
 **[Extra Credit - Paper Review]**
@@ -452,16 +406,16 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <td markdown="span" class="note">**Reading:** Chapter 22</td>
 </tr>
 <tr>
-<td markdown="span">04/07/2020</td>
+<td markdown="span"><center>04/07/2020<br/>+<br/>04/09/2020</center></td>
 <td markdown="span" markdown="1">
 <!-- - [<i class="fas fa-play-circle"></i> How secure is 256 bit security? (YouTube)](https://www.youtube.com/watch?v=S9JGmA5_unY) <span class="text-muted">(5:05)</span> -->
 <!-- - [<i class="fas fa-play-circle"></i> But how does bitcoin actually work? (YouTube)](https://www.youtube.com/watch?v=bBC-nXj3Ng4) <span class="text-muted">(26:20)</span> -->
 </td>
-<td markdown="span"></td>
-</tr>
-<tr>
-<td markdown="span">04/09/2020</td>
-<td markdown="span"></td>
+<!-- <td markdown="span"></td> -->
+<!-- </tr> -->
+<!-- <tr> -->
+<!-- <td markdown="span">04/09/2020</td> -->
+<!-- <td markdown="span"></td> -->
 <td markdown="span">**[Lab 09] Due: Apr 12, 2020 11:59 PM**</td>
 </tr>
 
@@ -475,13 +429,14 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <td markdown="span" class="note">**Reading:** Chapter 23</td>
 </tr>
 <tr>
-<td markdown="span">04/14/2020</td>
+<!-- <td markdown="span">04/14/2020</td> -->
+<td markdown="span"><center>04/14/2020<br/>+<br/>04/16/2020</center></td>
 <td markdown="span"></td>
-<td markdown="span"></td>
-</tr>
-<tr>
-<td markdown="span">04/16/2020</td>
-<td markdown="span"></td>
+<!-- <td markdown="span"></td> -->
+<!-- </tr> -->
+<!-- <tr> -->
+<!-- <td markdown="span">04/16/2020</td> -->
+<!-- <td markdown="span"></td> -->
 <td markdown="span">**[Lab 10] Due: Apr 19, 2020 11:59 PM**</td>
 </tr>
 
@@ -495,13 +450,14 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <td markdown="span" class="note"></td>
 </tr>
 <tr>
-<td markdown="span">04/21/2020</td>
+<td markdown="span"><center>04/21/2020<br/>+<br/>04/23/2020</center></td>
+<!-- <td markdown="span">04/21/2020</td> -->
 <td markdown="span"></td>
-<td markdown="span"></td>
-</tr>
-<tr>
-<td markdown="span">04/23/2020</td>
-<td markdown="span"></td>
+<!-- <td markdown="span"></td> -->
+<!-- </tr> -->
+<!-- <tr> -->
+<!-- <td markdown="span">04/23/2020</td> -->
+<!-- <td markdown="span"></td> -->
 <td markdown="span">**[Lab 11] Due: Apr 26, 2020 11:59 PM**</td>
 </tr>
 
@@ -513,13 +469,14 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <td markdown="span"></td>
 </tr>
 <tr>
-<td markdown="span">04/28/2020</td>
+<td markdown="span"><center>04/28/2020<br/>+<br/>04/30/2020</center></td>
+<!-- <td markdown="span">04/28/2020</td> -->
 <td markdown="span"></td>
-<td markdown="span"></td>
-</tr>
-<tr>
-<td markdown="span">04/30/2020</td>
-<td markdown="span">Final Exam Review — ~~_Come with questions and topics you’d like to review!_{:.text-muted}~~</td>
+<!-- <td markdown="span"></td> -->
+<!-- </tr> -->
+<!-- <tr> -->
+<!-- <td markdown="span">04/30/2020</td> -->
+<!-- <td markdown="span">Final Exam Review — ~~_Come with questions and topics you’d like to review!_{:.text-muted}~~</td> -->
 <td markdown="span">_**([Lab 12] Due: May 3, 2020 11:59 PM?)**_</td>
 </tr>
 

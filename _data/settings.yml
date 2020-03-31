@@ -52,6 +52,7 @@ solutions: "files"
 
 menu:
 # - {name: 'Syllabus', url: ''}
+- {name: '<span class="text-success">COVID-19 Info <i>(New!)</i></span>', url: 'covid19'}
 - {name: 'Logistics', url: '#logistics'}
 - {name: 'Schedule', url: '#schedule'}
 - {name: 'Labs', url: 'labs'}
