@@ -384,8 +384,10 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <tr>
 <td markdown="span"><center>03/31/2020<br/>+<br/>04/02/2020</center></td>
 <td markdown="span" markdown="1">
-<!-- - [<i class="fas fa-play-circle"></i> **Review:** XOR Operator (YouTube)](https://www.youtube.com/watch?v=Vca83H_anBY) <span class="text-muted">(7:23)</span> -->
-<!-- - [<i class="fas fa-play-circle"></i> **Review:** Cryptography 101 - XOR Cipher? (YouTube)](https://www.youtube.com/watch?v=xK_SqWG9w-Y) <span class="text-muted">(5:33)</span> -->
+- [<i class="fas fa-play-circle"></i> **Review:** XOR Operator (YouTube)](https://www.youtube.com/watch?v=Vca83H_anBY) <span class="text-muted">(7:23)</span>
+- [<i class="fas fa-play-circle"></i> **Review:** Cryptography 101 - XOR Cipher? (YouTube)](https://www.youtube.com/watch?v=xK_SqWG9w-Y) <span class="text-muted">(5:33)</span>
+- [<i class="fas fa-play-circle"></i> 1. Intro to Secret Key Encryption](https://montana.techsmithrelay.com/iWCI) <span class="text-muted">(4:07)</span>
+- [<i class="fas fa-play-circle"></i> 2. Substitution Ciphers](https://montana.techsmithrelay.com/ZWNl) <span class="text-muted">(23:07)</span>
 </td>
 <!-- <td markdown="span"></td> -->
 <!-- </tr> -->
