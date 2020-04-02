@@ -390,7 +390,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 - [<i class="fas fa-play-circle"></i> 2. Substitution Ciphers](https://montana.techsmithrelay.com/ZWNl) <span class="text-muted">(23:07)</span>
 - [<i class="fas fa-play-circle"></i> 3. Block Ciphers and Modes of Operation](https://montana.techsmithrelay.com/tmHq) <span class="text-muted">(50:50)</span>
 - [<i class="fas fa-play-circle"></i> 4. Padding](https://montana.techsmithrelay.com/bTYJ) <span class="text-muted">(14:02)</span>
-<!-- - [<i class="fas fa-play-circle"></i> 5. Initialization Vectors & Common Mistakes](https://montana.techsmithrelay.com/) <span class="text-muted">(50:50)</span> -->
+- [<i class="fas fa-play-circle"></i> 5. Initialization Vectors & Common Mistakes](https://montana.techsmithrelay.com/7R9e) <span class="text-muted">(17:24)</span>
 <!-- - [<i class="fas fa-play-circle"></i> 6. Programming Using Crypto APIs](https://montana.techsmithrelay.com/) <span class="text-muted">(50:50)</span> -->
 </td>
 <!-- <td markdown="span"></td> -->
@@ -401,6 +401,9 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <td markdown="span">
 **~~NCUR 2020 Extra Credit Write-up Due~~** <br/>
 **[Extra Credit - Paper Review]**
+<br/><br/>
+**Reading:**
+[All About XOR](https://accu.org/index.php/journals/1915) _(lots of great information about the XOR operation)_
 </td>
 </tr>
 
