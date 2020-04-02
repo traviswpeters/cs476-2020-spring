@@ -388,6 +388,10 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 - [<i class="fas fa-play-circle"></i> **Review:** Cryptography 101 - XOR Cipher? (YouTube)](https://www.youtube.com/watch?v=xK_SqWG9w-Y) <span class="text-muted">(5:33)</span>
 - [<i class="fas fa-play-circle"></i> 1. Intro to Secret Key Encryption](https://montana.techsmithrelay.com/iWCI) <span class="text-muted">(4:07)</span>
 - [<i class="fas fa-play-circle"></i> 2. Substitution Ciphers](https://montana.techsmithrelay.com/ZWNl) <span class="text-muted">(23:07)</span>
+- [<i class="fas fa-play-circle"></i> 3. Block Ciphers and Modes of Operation](https://montana.techsmithrelay.com/tmHq) <span class="text-muted">(50:50)</span>
+- [<i class="fas fa-play-circle"></i> 4. Padding](https://montana.techsmithrelay.com/bTYJ) <span class="text-muted">(14:02)</span>
+<!-- - [<i class="fas fa-play-circle"></i> 5. Initialization Vectors & Common Mistakes](https://montana.techsmithrelay.com/) <span class="text-muted">(50:50)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 6. Programming Using Crypto APIs](https://montana.techsmithrelay.com/) <span class="text-muted">(50:50)</span> -->
 </td>
 <!-- <td markdown="span"></td> -->
 <!-- </tr> -->
