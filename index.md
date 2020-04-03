@@ -360,6 +360,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <tr>
 <td markdown="span">03/24/2020</td>
 <td markdown="span" markdown="1">
+- [slides][slides19]{:.slides}
 - [<i class="fas fa-play-circle"></i> 1. Welcome Back Message & Course Updates](https://montana.techsmithrelay.com/tdUR) <span class="text-muted">(11:46)</span>
 - [<i class="fas fa-play-circle"></i> 2. Intro to Cryptography](https://montana.techsmithrelay.com/FJGc) <span class="text-muted">(13:08)</span>
 - [<i class="fas fa-play-circle"></i> 3. What is Cryptography - Introduction to Cryptography (YouTube)](https://www.youtube.com/watch?v=68Pqir_moqA) <span class="text-muted">(4:31)</span>
@@ -384,6 +385,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <tr>
 <td markdown="span"><center>03/31/2020<br/>+<br/>04/02/2020</center></td>
 <td markdown="span" markdown="1">
+- [slides][slides20]{:.slides}
 - [<i class="fas fa-play-circle"></i> **Review:** XOR Operator (YouTube)](https://www.youtube.com/watch?v=Vca83H_anBY) <span class="text-muted">(7:23)</span>
 - [<i class="fas fa-play-circle"></i> **Review:** Cryptography 101 - XOR Cipher? (YouTube)](https://www.youtube.com/watch?v=xK_SqWG9w-Y) <span class="text-muted">(5:33)</span>
 - [<i class="fas fa-play-circle"></i> 1. Intro to Secret Key Encryption](https://montana.techsmithrelay.com/iWCI) <span class="text-muted">(4:07)</span>
@@ -391,7 +393,9 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 - [<i class="fas fa-play-circle"></i> 3. Block Ciphers and Modes of Operation](https://montana.techsmithrelay.com/tmHq) <span class="text-muted">(50:50)</span>
 - [<i class="fas fa-play-circle"></i> 4. Padding](https://montana.techsmithrelay.com/bTYJ) <span class="text-muted">(14:02)</span>
 - [<i class="fas fa-play-circle"></i> 5. Initialization Vectors & Common Mistakes](https://montana.techsmithrelay.com/7R9e) <span class="text-muted">(17:24)</span>
-<!-- - [<i class="fas fa-play-circle"></i> 6. Programming Using Crypto APIs](https://montana.techsmithrelay.com/) <span class="text-muted">(50:50)</span> -->
+- [<i class="fas fa-play-circle"></i> 6. Programming Using Crypto APIs (Part I)](https://montana.techsmithrelay.com/PwiE) <span class="text-muted">(11:42)</span>
+- [<i class="fas fa-play-circle"></i> 7. Programming Using Crypto APIs (Part II)](https://montana.techsmithrelay.com/cjgP) <span class="text-muted">(20:23)</span>
+
 </td>
 <!-- <td markdown="span"></td> -->
 <!-- </tr> -->
@@ -541,6 +545,15 @@ _More Schedule Details Coming Soon..._
 [slides16]: files/cs476-16-network-security.pdf
 [slides17]: files/cs476-17-network-security.pdf
 [slides18]: files/cs476-18-network-security.pdf
+
+<!-- Intro to Crypto -->
+[slides19]: files/cs476-19-crypto-intro.pdf
+<!-- Symmetric Key Encryption -->
+[slides20]: files/cs476-20-crypto-symmetric.pdf
+<!-- Hashing -->
+[slides21]: files/cs476-21-crypto-hashing.pdf
+<!-- Asymmetric Key Encryption -->
+[slides22]: files/cs476-22-crypto-asymmetric.pdf
 
 <!-- labs -->
 [Lab 00]: labs/lab00
