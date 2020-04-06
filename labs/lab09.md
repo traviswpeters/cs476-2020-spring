@@ -306,7 +306,10 @@ he does use a different IV for each plaintext, but unfortunately, the IVs he gen
 Your job is to construct a message $$P2$$, and ask Bob to encrypt it and give you the resulting ciphertext.
 Your objective then is to use this opportunity to figure out whether the actual content of $$P1$$ is "Yes" or "No".
 
-_**Hint:**_
+_**Hint 1:** You will need to manually pad the message since we will perform XOR operations with various 16 bytes values._
+_For ideas on how to pad your message, recall our discussion of PKCS#5._
+
+_**Hint 2:**_
 _Having trouble getting started?_
 _Be sure to check out the textbook sections on initialization vectors._
 _Also, you can read this Wikipedia page for ideas:_
