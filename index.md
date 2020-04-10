@@ -395,13 +395,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 - [<i class="fas fa-play-circle"></i> 5. Initialization Vectors & Common Mistakes](https://montana.techsmithrelay.com/7R9e) <span class="text-muted">(17:24)</span>
 - [<i class="fas fa-play-circle"></i> 6. Programming Using Crypto APIs (Part I)](https://montana.techsmithrelay.com/PwiE) <span class="text-muted">(11:42)</span>
 - [<i class="fas fa-play-circle"></i> 7. Programming Using Crypto APIs (Part II)](https://montana.techsmithrelay.com/cjgP) <span class="text-muted">(20:23)</span>
-
 </td>
-<!-- <td markdown="span"></td> -->
-<!-- </tr> -->
-<!-- <tr> -->
-<!-- <td markdown="span">04/02/2020</td> -->
-<!-- <td markdown="span"></td> -->
 <td markdown="span">
 **~~NCUR 2020 Extra Credit Write-up Due~~** <br/>
 **[Extra Credit - Paper Review]**
@@ -421,14 +415,19 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <tr>
 <td markdown="span"><center>04/07/2020<br/>+<br/>04/09/2020</center></td>
 <td markdown="span" markdown="1">
-<!-- - [<i class="fas fa-play-circle"></i> How secure is 256 bit security? (YouTube)](https://www.youtube.com/watch?v=S9JGmA5_unY) <span class="text-muted">(5:05)</span> -->
-<!-- - [<i class="fas fa-play-circle"></i> But how does bitcoin actually work? (YouTube)](https://www.youtube.com/watch?v=bBC-nXj3Ng4) <span class="text-muted">(26:20)</span> -->
+- [slides][slides21]{:.slides}
+- [<i class="fas fa-play-circle"></i> 1. Introduction to One-way Hash Functions (Part I)](https://montana.techsmithrelay.com/VdN5) <span class="text-muted">(14:06)</span>
+- [<i class="fas fa-play-circle"></i> 2. Introduction to One-way Hash Functions (Part II)](https://montana.techsmithrelay.com/D2Z9) <span class="text-muted">(22:05)</span>
+- [<i class="fas fa-play-circle"></i> 3. Check your intuition: The birthday problem (YouTube)](https://www.youtube.com/watch?v=KtT_cgMzHx8) <span class="text-muted">(5:06)</span>
+- [<i class="fas fa-play-circle"></i> 4. How secure is 256 bit security? (YouTube)](https://www.youtube.com/watch?v=S9JGmA5_unY) <span class="text-muted">(5:05)</span>
+- [<i class="fas fa-play-circle"></i> 5. Application: Integrity Verification](https://montana.techsmithrelay.com/CGZr) <span class="text-muted">(10:50)</span>
+- [<i class="fas fa-play-circle"></i> 6. Application: Commitments](https://montana.techsmithrelay.com/OHQG) <span class="text-muted">(8:42)</span>
+- [<i class="fas fa-play-circle"></i> 7. Application: Password Verification](https://montana.techsmithrelay.com/YIkN) <span class="text-muted">(21:35)</span>
+- [<i class="fas fa-play-circle"></i> 8. Application: But how does bitcoin actually work? (YouTube)](https://www.youtube.com/watch?v=bBC-nXj3Ng4) <span class="text-muted">(26:20)</span>
+
+<!-- - [<i class="fas fa-play-circle"></i> 9. Message Authentication Code (MAC)](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 10. Hash Collision Attacks](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
 </td>
-<!-- <td markdown="span"></td> -->
-<!-- </tr> -->
-<!-- <tr> -->
-<!-- <td markdown="span">04/09/2020</td> -->
-<!-- <td markdown="span"></td> -->
 <td markdown="span">**[Lab 09] Due: Apr 12, 2020 11:59 PM**</td>
 </tr>
 
@@ -436,20 +435,17 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 
 <tr>
 <td id="week14" markdown="span">**Week 14**<a class="far fa-link" href="#week14"></a></td>
-<!-- <td markdown="span" class="note">Recent Topics in Security --- The Heartbleed Bug and Attack</td> -->
-<!-- <td markdown="span" class="note">**Reading:** Chapter 20, [Official Website](http://heartbleed.com), [CVE-2014-0160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2014-0160) </td> -->
 <td markdown="span" class="note">Crypto --- Public Key Cryptography</td>
 <td markdown="span" class="note">**Reading:** Chapter 23</td>
 </tr>
 <tr>
-<!-- <td markdown="span">04/14/2020</td> -->
 <td markdown="span"><center>04/14/2020<br/>+<br/>04/16/2020</center></td>
-<td markdown="span"></td>
-<!-- <td markdown="span"></td> -->
-<!-- </tr> -->
-<!-- <tr> -->
-<!-- <td markdown="span">04/16/2020</td> -->
-<!-- <td markdown="span"></td> -->
+<td markdown="span" markdown="1">
+<!-- - [slides][slides22]{:.slides} -->
+<!-- - [<i class="fas fa-play-circle"></i> 1. ...](https://montana.techsmithrelay.com/VdN5) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 2. ...](https://montana.techsmithrelay.com/VdN5) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 3. ...](https://montana.techsmithrelay.com/VdN5) <span class="text-muted">(:)</span> -->
+</td>
 <td markdown="span">**[Lab 10] Due: Apr 19, 2020 11:59 PM**</td>
 </tr>
 
@@ -457,20 +453,12 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 
 <tr>
 <td id="week15" markdown="span">**Week 15**<a class="far fa-link" href="#week15"></a></td>
-<!-- <td markdown="span" class="note">Recent Topics in Security --- The Meltdown and Spectre Attacks</td> -->
-<!-- <td markdown="span" class="note">**Reading:** Chapters 13 & 14, [Official Website](https://meltdownattack.com)</td> -->
 <td markdown="span" class="note">TBD</td>
 <td markdown="span" class="note"></td>
 </tr>
 <tr>
 <td markdown="span"><center>04/21/2020<br/>+<br/>04/23/2020</center></td>
-<!-- <td markdown="span">04/21/2020</td> -->
 <td markdown="span"></td>
-<!-- <td markdown="span"></td> -->
-<!-- </tr> -->
-<!-- <tr> -->
-<!-- <td markdown="span">04/23/2020</td> -->
-<!-- <td markdown="span"></td> -->
 <td markdown="span">**[Lab 11] Due: Apr 26, 2020 11:59 PM**</td>
 </tr>
 
@@ -483,13 +471,7 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 </tr>
 <tr>
 <td markdown="span"><center>04/28/2020<br/>+<br/>04/30/2020</center></td>
-<!-- <td markdown="span">04/28/2020</td> -->
 <td markdown="span"></td>
-<!-- <td markdown="span"></td> -->
-<!-- </tr> -->
-<!-- <tr> -->
-<!-- <td markdown="span">04/30/2020</td> -->
-<!-- <td markdown="span">Final Exam Review — ~~_Come with questions and topics you’d like to review!_{:.text-muted}~~</td> -->
 <td markdown="span">_**([Lab 12] Due: May 3, 2020 11:59 PM?)**_</td>
 </tr>
 
@@ -513,6 +495,12 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 {% comment %}
 _More Schedule Details Coming Soon..._
 {:.alert .alert-primary .text-center}
+
+<!-- <td markdown="span" class="note">Recent Topics in Security --- The Heartbleed Bug and Attack</td> -->
+<!-- <td markdown="span" class="note">**Reading:** Chapter 20, [Official Website](http://heartbleed.com), [CVE-2014-0160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2014-0160) </td> -->
+
+<!-- <td markdown="span" class="note">Recent Topics in Security --- The Meltdown and Spectre Attacks</td> -->
+<!-- <td markdown="span" class="note">**Reading:** Chapters 13 & 14, [Official Website](https://meltdownattack.com)</td> -->
 {% endcomment %}
 
 <!-- slides -->
