@@ -424,9 +424,8 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 - [<i class="fas fa-play-circle"></i> 6. Application: Commitments](https://montana.techsmithrelay.com/OHQG) <span class="text-muted">(8:42)</span>
 - [<i class="fas fa-play-circle"></i> 7. Application: Password Verification](https://montana.techsmithrelay.com/YIkN) <span class="text-muted">(21:35)</span>
 - [<i class="fas fa-play-circle"></i> 8. Application: But how does bitcoin actually work? (YouTube)](https://www.youtube.com/watch?v=bBC-nXj3Ng4) <span class="text-muted">(26:20)</span>
-
-<!-- - [<i class="fas fa-play-circle"></i> 9. Message Authentication Code (MAC)](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
-<!-- - [<i class="fas fa-play-circle"></i> 10. Hash Collision Attacks](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+- [<i class="fas fa-play-circle"></i> 9. Message Authentication Code (MAC)](https://montana.techsmithrelay.com/GrPy) <span class="text-muted">(14:41)</span>
+- [<i class="fas fa-play-circle"></i> 10. Hash Collision Attacks](https://montana.techsmithrelay.com/wOgU) <span class="text-muted">(25:08)</span>
 </td>
 <td markdown="span">**[Lab 09] Due: Apr 12, 2020 11:59 PM**</td>
 </tr>
