@@ -440,10 +440,22 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <tr>
 <td markdown="span"><center>04/14/2020<br/>+<br/>04/16/2020</center></td>
 <td markdown="span" markdown="1">
+Please fill out: [**Google Survey - Late Semester Check-in**](https://forms.gle/ZoomXfCuAPyTjTQW7)
 <!-- - [slides][slides22]{:.slides} -->
-<!-- - [<i class="fas fa-play-circle"></i> 1. ...](https://montana.techsmithrelay.com/VdN5) <span class="text-muted">(:)</span> -->
-<!-- - [<i class="fas fa-play-circle"></i> 2. ...](https://montana.techsmithrelay.com/VdN5) <span class="text-muted">(:)</span> -->
-<!-- - [<i class="fas fa-play-circle"></i> 3. ...](https://montana.techsmithrelay.com/VdN5) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 1. Introduction to Public Key Cryptography](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 2. Diffie-Hellman Key Exchange](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 3. The RSA Algorithm (Part I): Modulo Operation](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 4. The RSA Algorithm (Part II): Euler’s Theorem](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 5. The RSA Algorithm (Part III): Extended Euclidean Algorithm](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 6. The RSA Algorithm (Part IV): How it works](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 7. The RSA Algorithm (Part V): Example on small and large number](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 8. Using OpenSSL Tools to Conduct RSA Operations](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 9. RSA and Padding](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 10. Digital Signatures](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 11. Programming using Public-Key Cryptography APIs](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 12. Applications (Part I): Authentication](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 13. Applications (Part II): HTTPS and TLS/SSL](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+<!-- - [<i class="fas fa-play-circle"></i> 14. Applications (Part III): Chip Technology Used in Credit Cards](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
 </td>
 <td markdown="span">**[Lab 10] Due: Apr 19, 2020 11:59 PM**</td>
 </tr>
