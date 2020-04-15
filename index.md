@@ -434,13 +434,30 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 
 <tr>
 <td id="week14" markdown="span">**Week 14**<a class="far fa-link" href="#week14"></a></td>
-<td markdown="span" class="note">Crypto --- Public Key Cryptography</td>
-<td markdown="span" class="note">**Reading:** Chapter 23</td>
+<td markdown="span" class="note"></td>
+<td markdown="span" class="note"></td>
 </tr>
 <tr>
 <td markdown="span"><center>04/14/2020<br/>+<br/>04/16/2020</center></td>
 <td markdown="span" markdown="1">
 Please fill out: [**Google Survey - Late Semester Check-in**](https://forms.gle/ZoomXfCuAPyTjTQW7)
+
+No new videos.
+Extra time to wrap up _hashing_.
+</td>
+<td markdown="span">**[Lab 10] Due: Apr 19, 2020 11:59 PM**</td>
+</tr>
+
+<!-- Week 15  -->
+
+<tr>
+<td id="week15" markdown="span">**Week 15**<a class="far fa-link" href="#week15"></a></td>
+<td markdown="span" class="note">Crypto --- Public Key Cryptography</td>
+<td markdown="span" class="note">**Reading:** Chapter 23</td>
+</tr>
+<tr>
+<td markdown="span"><center>04/21/2020<br/>+<br/>04/23/2020</center></td>
+<td markdown="span" markdown="1">
 <!-- - [slides][slides22]{:.slides} -->
 <!-- - [<i class="fas fa-play-circle"></i> 1. Introduction to Public Key Cryptography](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
 <!-- - [<i class="fas fa-play-circle"></i> 2. Diffie-Hellman Key Exchange](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
@@ -457,19 +474,6 @@ Please fill out: [**Google Survey - Late Semester Check-in**](https://forms.gle/
 <!-- - [<i class="fas fa-play-circle"></i> 13. Applications (Part II): HTTPS and TLS/SSL](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
 <!-- - [<i class="fas fa-play-circle"></i> 14. Applications (Part III): Chip Technology Used in Credit Cards](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
 </td>
-<td markdown="span">**[Lab 10] Due: Apr 19, 2020 11:59 PM**</td>
-</tr>
-
-<!-- Week 15  -->
-
-<tr>
-<td id="week15" markdown="span">**Week 15**<a class="far fa-link" href="#week15"></a></td>
-<td markdown="span" class="note">TBD</td>
-<td markdown="span" class="note"></td>
-</tr>
-<tr>
-<td markdown="span"><center>04/21/2020<br/>+<br/>04/23/2020</center></td>
-<td markdown="span"></td>
 <td markdown="span">**[Lab 11] Due: Apr 26, 2020 11:59 PM**</td>
 </tr>
 
@@ -482,12 +486,18 @@ Please fill out: [**Google Survey - Late Semester Check-in**](https://forms.gle/
 </tr>
 <tr>
 <td markdown="span"><center>04/28/2020<br/>+<br/>04/30/2020</center></td>
-<td markdown="span"></td>
-<td markdown="span">_**([Lab 12] Due: May 3, 2020 11:59 PM?)**_</td>
+<td markdown="span" markdown="1">
+</td>
+<td markdown="span">
+<!-- _**([Lab 12] Due: May 3, 2020 11:59 PM?)**_ -->
+_**[Final Lab] <br/>
+Released: May 1, 2020<br/>
+Due: May 8, 2020 11:59 PM**_
+</td>
 </tr>
 
 <!-- Week 17  -->
-
+<!--
 <tr>
 <td id="week17" markdown="span">**Week 17**<a class="far fa-link" href="#week17"></a></td>
 <td markdown="span" class="note">Finals Week</td>
@@ -495,10 +505,15 @@ Please fill out: [**Google Survey - Late Semester Check-in**](https://forms.gle/
 </tr>
 <tr>
 <td markdown="span">05/08/2020</td>
-<td markdown="span">**Final Exam** - ~~{{site.data.settings.finalexamdate}}~~</td>
-<td markdown="span"></td>
+<td markdown="span">
+**Final Lab**
+~~**Final Exam** - {{site.data.settings.finalexamdate}}~~
+</td>
+<td markdown="span">
+_**[Final Lab] Due: May 3, 2020 11:59 PM?)**_
+</td>
 </tr>
-
+ -->
 
 </tbody>
 </table>
@@ -570,6 +585,7 @@ _More Schedule Details Coming Soon..._
 [Lab 12]: labs/lab12
 [NCUR 2020 Extra Credit Write-up]: labs/xc-ncur
 [Extra Credit - Paper Review]: labs/xc-paper-review
+[Final Lab]: labs/final
 
 <!-- code examples, provided code, etc. -->
 [probe.c]: code/probe.c
@@ -579,30 +595,6 @@ _More Schedule Details Coming Soon..._
 
 <!-- exams -->
 [Sample Exam Coversheet]: {{site.data.settings.exams.files}}/exam-coversheet-sample.pdf
-
-## Communication
-
-We will use [Slack](https://slack.com) for all course communication (except for sensitive stuff like grades!).
-> **Why?** Two reasons:
-> (1) Because the majority of you indicated that you'd prefer to use Slack over other options, and
-> (2) Most students will not use a proper learning management system (LMS) such as Brightspace/D2L, Blackboard, or Canvas after they receive their diplomas.
-> On the other hand, students will almost certainly use a new collaboration tool at some point in their careers.
-> Why not introduce one of the most powerful and popular ones while you are still in school?
-
-Please **do** recall the link from above to sign up for our class's slack: {{site.data.settings.slackjoin}}
-
-Please **do not** send me messages via D2L.
-
-Please **do not** use e-mail *unless you absolutely have to*.
-
-I typically won't respond to emails or Slack direct messages (DMs) past 7 p.m.
-Generally speaking, I will not respond on weekends and certainly not immediately.
-Please do not expect an instant answer if you send me an email or DM in Slack.
-I sometimes go off the grid to focus---something that [a great deal of research suggests](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202) you do too.
-
-I definitely recommend using an appropriate channel (e.g., _**#labs**_) to discuss amongst yourselves.
-
-Don't know how to use slack? [Thank goodness for the Internet](https://www.youtube.com/results?search_query=how+to+use+slack), am I right?
 
 ## Grading
 {:.titletext}
@@ -615,9 +607,10 @@ I do not curve grades. The score you earn is the score you receive.
 
 The grade breakdown is as follows:
 
-- **Participation:** 10% _>> Engage in class/online discussions, ask questions, come to office hours, etc._{:.text-muted}
-- **Final Exam:** 25% _>> I'll share a practice exam as we get closer to the end of the term._{:.text-muted}
-- **Labs:** 65% _>> Labs (i.e., hands-on exercises) are the emphasis in this course. Start early, try stuff, talk with others... Most importantly, do them!_{:.text-muted}
+- **Participation:** 10% _>> Engage in class/online discussions, ask questions, come to office hours, provide feedback / respond to surveys, etc._{:.text-muted}
+- **Labs:** _75%_{:.text-danger} ~~65%~~ _>> Labs (i.e., hands-on exercises) are the emphasis in this course. Start early, try stuff, talk with others... Most importantly, do them!_{:.text-muted}
+- **Final Lab:** _15%_{:.text-danger} _>> A replacement for our "final exam". This will look and feel similar to other labs you’ve had this semester, but **must be completed individually**. Furthermore, **topics from throughout the semester are all “fair game”**. As with all labs this semester, this “final lab” will have a mixture of short-answer problems, as well as command line / programming tasks._{:.text-muted}
+- ~~**Final Exam:** 25% _>> I'll share a practice exam as we get closer to the end of the term._{:.text-muted}~~
 
 #### Lab Grading Policy
 
@@ -634,7 +627,9 @@ A grade of incomplete is earned where no solution is present, or where the solut
 
 Submit assignments in **D2L**.
 
-Assignments are **due @ 3:00pm** on the due date. _>> Due dates are before class starts on Thursdays this semester; this deadline should give you time to get to class on time :-)_{:.text-muted}
+Assignments are **due @ 11:59pm**{:.text-danger} ~~**@ 3:00pm**~~ on the due date.
+_>> Due dates are at the end of the weekend; this deadline should give you one full week (including a weekend) to complete assignments._{:.text-muted}
+<!-- _>> Due dates are before class starts on Thursdays this semester; this deadline should give you time to get to class on time :-)_{:.text-muted} -->
 
 You can submit an assignment an unlimited number of times. Graders will only grade your most recent submission.
 
@@ -661,6 +656,30 @@ For example, if an assignment is due at 3pm on Thursday, you cannot apply your l
 **No submissions (late pass or no late pass) will be accepted 48 hours after the original deadline.**
 
 <!-- **Note:** this cannot be used to receive full credit on any assignment checkpoints. -->
+
+## Communication
+
+We will use [Slack](https://slack.com) for all course communication (except for sensitive stuff like grades!).
+> **Why?** Two reasons:
+> (1) Because the majority of you indicated that you'd prefer to use Slack over other options, and
+> (2) Most students will not use a proper learning management system (LMS) such as Brightspace/D2L, Blackboard, or Canvas after they receive their diplomas.
+> On the other hand, students will almost certainly use a new collaboration tool at some point in their careers.
+> Why not introduce one of the most powerful and popular ones while you are still in school?
+
+Please **do** recall the link from above to sign up for our class's slack: {{site.data.settings.slackjoin}}
+
+Please **do not** send me messages via D2L.
+
+Please **do not** use e-mail *unless you absolutely have to*.
+
+I typically won't respond to emails or Slack direct messages (DMs) past 7 p.m.
+Generally speaking, I will not respond on weekends and certainly not immediately.
+Please do not expect an instant answer if you send me an email or DM in Slack.
+I sometimes go off the grid to focus---something that [a great deal of research suggests](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202) you do too.
+
+I definitely recommend using an appropriate channel (e.g., _**#labs**_) to discuss amongst yourselves.
+
+Don't know how to use slack? [Thank goodness for the Internet](https://www.youtube.com/results?search_query=how+to+use+slack), am I right?
 
 ## Getting help
 
@@ -691,7 +710,6 @@ When we aren't using computers for in-class activities, I recommend (and researc
 ## Academic Honesty
 
 Please review [MSU's Code of Conduct, Policies, Regulations, & Reports](http://catalog.montana.edu/code-conduct-policies-regulations-reports/).
-
 A couple of clarifications and additions:
 - Although you may discuss and design with others, the work you hand in (e.g., code, write-ups) must be entirely your own.
 - Anything you submit that did not originate from you must be accompanied by attribution.
