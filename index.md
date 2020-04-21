@@ -363,8 +363,8 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 - [slides][slides19]{:.slides}
 - [<i class="fas fa-play-circle"></i> 1. Welcome Back Message & Course Updates](https://montana.techsmithrelay.com/tdUR) <span class="text-muted">(11:46)</span>
 - [<i class="fas fa-play-circle"></i> 2. Intro to Cryptography](https://montana.techsmithrelay.com/FJGc) <span class="text-muted">(13:08)</span>
-- [<i class="fas fa-play-circle"></i> 3. What is Cryptography - Introduction to Cryptography (YouTube)](https://www.youtube.com/watch?v=68Pqir_moqA) <span class="text-muted">(4:31)</span>
-- [<i class="fas fa-play-circle"></i> 4. History and Evolution of Cryptography and Cryptanalysis (YouTube)](https://www.youtube.com/watch?v=z9Qi5mDSYb8) <span class="text-muted">(5:49)</span>
+- [<i class="fas fa-play-circle"></i> 3. What is Cryptography - Introduction to Cryptography](https://www.youtube.com/watch?v=68Pqir_moqA) <span class="text-muted">(4:31) --- YouTube</span>
+- [<i class="fas fa-play-circle"></i> 4. History and Evolution of Cryptography and Cryptanalysis](https://www.youtube.com/watch?v=z9Qi5mDSYb8) <span class="text-muted">(5:49) --- YouTube</span>
 {:.m-0}
 </td>
 <td markdown="span"></td>
@@ -386,8 +386,8 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 <td markdown="span"><center>03/31/2020<br/>+<br/>04/02/2020</center></td>
 <td markdown="span" markdown="1">
 - [slides][slides20]{:.slides}
-- [<i class="fas fa-play-circle"></i> **Review:** XOR Operator (YouTube)](https://www.youtube.com/watch?v=Vca83H_anBY) <span class="text-muted">(7:23)</span>
-- [<i class="fas fa-play-circle"></i> **Review:** Cryptography 101 - XOR Cipher? (YouTube)](https://www.youtube.com/watch?v=xK_SqWG9w-Y) <span class="text-muted">(5:33)</span>
+- [<i class="fas fa-play-circle"></i> Review: XOR Operator](https://www.youtube.com/watch?v=Vca83H_anBY) <span class="text-muted">(7:23) --- YouTube</span>
+- [<i class="fas fa-play-circle"></i> Review: Cryptography 101 - XOR Cipher?](https://www.youtube.com/watch?v=xK_SqWG9w-Y) <span class="text-muted">(5:33) --- YouTube</span>
 - [<i class="fas fa-play-circle"></i> 1. Intro to Secret Key Encryption](https://montana.techsmithrelay.com/iWCI) <span class="text-muted">(4:07)</span>
 - [<i class="fas fa-play-circle"></i> 2. Substitution Ciphers](https://montana.techsmithrelay.com/ZWNl) <span class="text-muted">(23:07)</span>
 - [<i class="fas fa-play-circle"></i> 3. Block Ciphers and Modes of Operation](https://montana.techsmithrelay.com/tmHq) <span class="text-muted">(50:50)</span>
@@ -418,12 +418,12 @@ TCP Attacks (Part II) --- TCP Reset Attacks, TCP Hijacking Attacks [slides][slid
 - [slides][slides21]{:.slides}
 - [<i class="fas fa-play-circle"></i> 1. Introduction to One-way Hash Functions (Part I)](https://montana.techsmithrelay.com/VdN5) <span class="text-muted">(14:06)</span>
 - [<i class="fas fa-play-circle"></i> 2. Introduction to One-way Hash Functions (Part II)](https://montana.techsmithrelay.com/D2Z9) <span class="text-muted">(22:05)</span>
-- [<i class="fas fa-play-circle"></i> 3. Check your intuition: The birthday problem (YouTube)](https://www.youtube.com/watch?v=KtT_cgMzHx8) <span class="text-muted">(5:06)</span>
-- [<i class="fas fa-play-circle"></i> 4. How secure is 256 bit security? (YouTube)](https://www.youtube.com/watch?v=S9JGmA5_unY) <span class="text-muted">(5:05)</span>
+- [<i class="fas fa-play-circle"></i> 3. Check your intuition: The birthday problem](https://www.youtube.com/watch?v=KtT_cgMzHx8) <span class="text-muted">(5:06) --- YouTube</span>
+- [<i class="fas fa-play-circle"></i> 4. How secure is 256 bit security?](https://www.youtube.com/watch?v=S9JGmA5_unY) <span class="text-muted">(5:05) --- YouTube</span>
 - [<i class="fas fa-play-circle"></i> 5. Application: Integrity Verification](https://montana.techsmithrelay.com/CGZr) <span class="text-muted">(10:50)</span>
 - [<i class="fas fa-play-circle"></i> 6. Application: Commitments](https://montana.techsmithrelay.com/OHQG) <span class="text-muted">(8:42)</span>
 - [<i class="fas fa-play-circle"></i> 7. Application: Password Verification](https://montana.techsmithrelay.com/YIkN) <span class="text-muted">(21:35)</span>
-- [<i class="fas fa-play-circle"></i> 8. Application: But how does bitcoin actually work? (YouTube)](https://www.youtube.com/watch?v=bBC-nXj3Ng4) <span class="text-muted">(26:20)</span>
+- [<i class="fas fa-play-circle"></i> 8. Application: But how does bitcoin actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4) <span class="text-muted">(26:20) --- YouTube</span>
 - [<i class="fas fa-play-circle"></i> 9. Message Authentication Code (MAC)](https://montana.techsmithrelay.com/GrPy) <span class="text-muted">(14:41)</span>
 - [<i class="fas fa-play-circle"></i> 10. Hash Collision Attacks](https://montana.techsmithrelay.com/wOgU) <span class="text-muted">(25:08)</span>
 </td>
@@ -459,8 +459,13 @@ Extra time to wrap up _hashing_.
 <td markdown="span"><center>04/21/2020<br/>+<br/>04/23/2020</center></td>
 <td markdown="span" markdown="1">
 <!-- - [slides][slides22]{:.slides} -->
-<!-- - [<i class="fas fa-play-circle"></i> 1. Introduction to Public Key Cryptography](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
-<!-- - [<i class="fas fa-play-circle"></i> 2. Diffie-Hellman Key Exchange](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+- [<i class="fas fa-play-circle"></i> 1. Introduction to Public Key Cryptography](https://montana.techsmithrelay.com/BiFm) <span class="text-muted">(11:21)</span>
+- [<i class="fas fa-play-circle"></i> 2. Diffie-Hellman Key Exchange](https://montana.techsmithrelay.com/bpww) <span class="text-muted">(16:40)</span>
+- [<i class="fas fa-play-circle"></i> 3. The RSA Algorithm (Overview)](https://montana.techsmithrelay.com/Sm8j) <span class="text-muted">(16:05)</span>
+<br/>_Our textbook's coverage of the RSA algorithm is a fine reference, but it is quite condensed and abstract._
+<br/>_I think Eddie Woo's two videos on this topic offer fantastic insight and intuition:_
+- [<i class="fas fa-play-circle"></i> 4. The RSA Encryption Algorithm (1 of 2: Computing an Example)](https://www.youtube.com/watch?v=4zahvcJ9glg) <span class="text-muted">(8:39) --- YouTube</span>
+- [<i class="fas fa-play-circle"></i> 5. The RSA Encryption Algorithm (2 of 2: Generating the Keys)](https://www.youtube.com/watch?v=oOcTVTpUsPQ) <span class="text-muted">(11:54) --- YouTube</span>
 <!-- - [<i class="fas fa-play-circle"></i> 3. The RSA Algorithm (Part I): Modulo Operation](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
 <!-- - [<i class="fas fa-play-circle"></i> 4. The RSA Algorithm (Part II): Euler’s Theorem](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
 <!-- - [<i class="fas fa-play-circle"></i> 5. The RSA Algorithm (Part III): Extended Euclidean Algorithm](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
@@ -473,6 +478,8 @@ Extra time to wrap up _hashing_.
 <!-- - [<i class="fas fa-play-circle"></i> 12. Applications (Part I): Authentication](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
 <!-- - [<i class="fas fa-play-circle"></i> 13. Applications (Part II): HTTPS and TLS/SSL](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
 <!-- - [<i class="fas fa-play-circle"></i> 14. Applications (Part III): Chip Technology Used in Credit Cards](https://montana.techsmithrelay.com/) <span class="text-muted">(:)</span> -->
+
+<!-- [What Are Relative Prime Numbers in Math?](https://www.youtube.com/watch?v=3kg-fRncPAM) -->
 </td>
 <td markdown="span">**[Lab 11] Due: Apr 26, 2020 11:59 PM**</td>
 </tr>
