@@ -458,7 +458,9 @@ Extra time to wrap up _hashing_.
 <tr>
 <td markdown="span"><center>04/21/2020<br/>+<br/>04/23/2020</center></td>
 <td markdown="span" markdown="1">
-<!-- - [slides][slides22]{:.slides} -->
+**Course Evaluation Link:** [https://montana.campuslabs.com/eval-home/cei/csci/476/001](https://montana.campuslabs.com/eval-home/cei/csci/476/001){:.text-danger}
+
+- [slides][slides22]{:.slides}
 - [<i class="fas fa-play-circle"></i> 1. Introduction to Public Key Cryptography](https://montana.techsmithrelay.com/BiFm) <span class="text-muted">(11:21)</span>
 - [<i class="fas fa-play-circle"></i> 2. Diffie-Hellman Key Exchange](https://montana.techsmithrelay.com/bpww) <span class="text-muted">(16:40)</span>
 - [<i class="fas fa-play-circle"></i> 3. The RSA Algorithm (Overview)](https://montana.techsmithrelay.com/Sm8j) <span class="text-muted">(16:05)</span>
@@ -494,6 +496,7 @@ Extra time to wrap up _hashing_.
 <tr>
 <td markdown="span"><center>04/28/2020<br/>+<br/>04/30/2020</center></td>
 <td markdown="span" markdown="1">
+**Course Evaluation Link:** [https://montana.campuslabs.com/eval-home/cei/csci/476/001](https://montana.campuslabs.com/eval-home/cei/csci/476/001){:.text-danger}
 </td>
 <td markdown="span">
 <!-- _**([Lab 12] Due: May 3, 2020 11:59 PM?)**_ -->
