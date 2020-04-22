@@ -483,7 +483,7 @@ Extra time to wrap up _hashing_.
 
 <!-- [What Are Relative Prime Numbers in Math?](https://www.youtube.com/watch?v=3kg-fRncPAM) -->
 </td>
-<td markdown="span">**[Lab 11] Due: Apr 26, 2020 11:59 PM**</td>
+<td markdown="span">**[Lab 11] Due: May 1, 2020 11:59 PM**</td>
 </tr>
 
 <!-- Week 16  -->
