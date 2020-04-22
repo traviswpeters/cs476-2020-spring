@@ -4,7 +4,7 @@ localurl: './lab11_SEEDLab_Crypto_RSA.pdf'
 seedurl: 'https://seedsecuritylabs.org/Labs_16.04/'
 layout: default
 tags: [labs, seed, cryptography, exploration]
-published: False
+published: True
 ---
 
 ## {{page.title}}
@@ -220,7 +220,8 @@ int main ()
 Let $$p$$, $$q$$, and $$e$$ be three prime numbers.
 Let $$n = p*q$$.
 We will use $$(e, n)$$ as the public key.
-Please calculate the private key $$d$$.
+Using the big number APIs, please calculate the private key $$d$$.
+
 The hexadecimal values of $$p$$, $$q$$, and $$e$$ are listed below.
 
 ```bash
@@ -228,6 +229,7 @@ p = F7E75FDC469067FFDC4E847C51F452DF
 q = E85CED54AF57E53E092113E62F436F4F
 e = 0D88C3
 ```
+**Hint:** Euler's formula is useful here ;)
 
 _**NOTE:** It should be noted that although $$p$$ and $$q$$ used in this task are quite large numbers,
 they are not large enough to be secure.
@@ -236,22 +238,30 @@ In practice, these numbers should be at least 512 bits long (the ones used here 
 
 #### Task 2: Encrypting a Message
 Let $$(e, n)$$ be the public key.
-Please encrypt the message **"A top secret!"** (the quotations should not be included).
-We need to convert this ASCII string to a hex string, and then convert the hex string to a `BIGNUM` using the hex-to-bn API `BN_hex2bn()`.
-The following python command can be used to convert a plain ASCII string to a hex string.
+Please encrypt the message $$m$$ provided below.
+After you encrypt the message, you should decrypt it (we provide you with the private key, $$d$$) to verify that you can recover the message.
+
+_**Note:**_ We first need to convert this ASCII string to a hex string, and then convert the hex string to a `BIGNUM` using the hex-to-bn API `BN_hex2bn()`.
+You can use whatever utility is easiest for you to do this conversion (e.g., `xxd`, `python`).
+For reference, I recommend the following python commands that can be used to convert a plain ASCII string to a hex string and vice versa.
 
 ```python
+# convert ASCII to hex-encoded string
 $ python -c 'print("A top secret!".encode("hex"))'
 4120746f702073656372657421
+
+# convert hex-encoded string ("decode") to ASCII
+$ python -c 'print("4120746f702073656372657421".decode("hex"))'
+A top secret!
 ```
 
 The public key values are listed below (in hexadecimal).
 We also provide the private key $$d$$ to help you verify your encryption result.
 
 ```python
-n = DCBFFE3E51F62E09CE7032E2677A78946A849DC4CDDE3A4D0CB81629242FB1A5
+m = A top secret!
 e = 010001 (this hex value equals to decimal 65537)
-M = A top secret!
+n = DCBFFE3E51F62E09CE7032E2677A78946A849DC4CDDE3A4D0CB81629242FB1A5
 d = 74D806F9F3A62BAE331FFE3F0A68AFE35B3D2E4794148AACBC26AA381CD7D30D
 ```
 
@@ -262,13 +272,6 @@ Please decrypt the following ciphertext $$C$$, and convert it back to a plain AS
 
 ```bash
 C = 8C0F971DF2F3672B28811407E2DABBE1DA0FEBBBDFC7DCB67396567EA1E2493F
-```
-
-You can use the following python command to convert a hex string back to to a plain ASCII string.
-
-```python
-$ python  -c 'print("4120746f702073656372657421".decode("hex"))'
-A top secret!
 ```
 
 #### Task 4: Signing a Message
@@ -305,18 +308,20 @@ Suppose that the signature is corrupted, such that the last byte of the signatur
 i.e, only one bit is changed.
 Please repeat this task, and describe what will happen during the verification process.
 
-#### Task 6: Manually Verifying an X.509 Certificate
+#### Task 6 (Extra Credit): Manually Verifying an X.509 Certificate
 In this task, we will manually verify an X.509 certificate using a program that you write.
 An X.509 certificate contains data about a public key and an issuer's signature over the data.
 We will download a real X.509 certificate from a web server,
-get its issuer's public key,
-and then use this public key to verify the signature on the certificate.
+get its issuer's public key (certificates for Certificate Authorities can be downloaded from your browser),
+and then use this public key to verify the signature on the certificate you downloaded.
 
 ##### Step 1: Download a certificate from a real web server
 We use the `www.example.org` server in this document.
-Students should choose a different web server that has a different certificate than the one used in this document.
-(It should be noted that `www.example.com` shares the same certificate with `www.example.org`).
-We can download certificates using a browser or use the following command:
+Students should choose a different web server (e.g., `www.montana.edu`, `www.google.com`)
+that has a different certificate than the one used in this document.
+_(In the case of the examples shown here, note that `www.example.com` shares the same certificate with `www.example.org`)._
+
+We can download certificates using a browser (Google it!) or use the following command:
 
 ```bash
 $ openssl s_client -connect www.example.org:443 -showcerts
@@ -325,18 +330,12 @@ Certificate chain
   0 s:/C=US/ST=California/L=Los Angeles/O=Internet Corporation for Assigned Names and Numbers/OU=Technology/CN=www.example.org
     i:/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
 -----BEGIN CERTIFICATE-----
-MIIF8jCCBNqgAwIBAgIQDmTF+8I2reFLFyrrQceMsDANBgkqhkiG9w0BAQsFADBw
-MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
-......
-wDSiIIWIWJiJGbEeIO0TIFwEVWTOnbNl/faPXpk5IRXicapqiII=
+...snip...
 -----END CERTIFICATE-----
   1 s:/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
     i:/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert High Assurance EV Root CA
 -----BEGIN CERTIFICATE-----
-MIIEsTCCA5mgAwIBAgIQBOHnpNxc8vNtwCtCuF0VnzANBgkqhkiG9w0BAQsFADBs
-MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
-......
-cPUeybQ=
+...snip...
 -----END CERTIFICATE-----
 ```
 
