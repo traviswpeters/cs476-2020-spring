@@ -497,6 +497,7 @@ Extra time to wrap up _hashing_.
 <td markdown="span"><center>04/28/2020<br/>+<br/>04/30/2020</center></td>
 <td markdown="span" markdown="1">
 **Course Evaluation Link:** [https://montana.campuslabs.com/eval-home/cei/csci/476/001](https://montana.campuslabs.com/eval-home/cei/csci/476/001){:.text-danger}
+- [<i class="fas fa-play-circle"></i> Course Wrap-Up _(Final Video...)_](https://montana.techsmithrelay.com/xYPl) <span class="text-muted">(21:41)</span>
 </td>
 <td markdown="span">
 <!-- _**([Lab 12] Due: May 3, 2020 11:59 PM?)**_ -->
