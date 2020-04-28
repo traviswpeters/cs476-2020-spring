@@ -545,6 +545,7 @@ _More Schedule Details Coming Soon..._
 <!-- slides -->
 
 <!-- Introductions + Basics -->
+
 <!-- TODO: COMPSEC BOOTCAMP (1st week...) -->
 [slides01]: files/cs476-01-intro2sec.pdf
 [slides02]: files/cs476-02-intro2sec.pdf
@@ -552,6 +553,7 @@ _More Schedule Details Coming Soon..._
 [slides04]: files/cs476-04-setuid-envvars.pdf
 [slides05]: files/cs476-05-shellshock.pdf
 [slides06]: files/cs476-06-shellshock.pdf
+
 <!--Buffer Overflow / Return-Oriented Programming -->
 [slides07]: files/cs476-07-buffer-overflow.pdf
 [slides08]: files/cs476-08-buffer-overflow.pdf
@@ -563,14 +565,17 @@ _More Schedule Details Coming Soon..._
 [diagram4]: files/Non-Conventional_Enter_Leave_Sequence.pdf
 [slides11]: files/cs476-11-rtlibc-and-rop.pdf
 [slides12]: files/cs476-12-CTF.pdf
+
 <!-- Web Security -->
 [slides13]: files/cs476-13-sql-attacks.pdf
 [slides14]: files/cs476-14-sql-attacks.pdf
+
 <!-- Network Security -->
 [slides15]: files/cs476-15-network-security.pdf
 [slides16]: files/cs476-16-network-security.pdf
 [slides17]: files/cs476-17-network-security.pdf
 [slides18]: files/cs476-18-network-security.pdf
+
 <!-- Intro to Crypto -->
 [slides19]: files/cs476-19-crypto-intro.pdf
 <!-- Symmetric Key Encryption -->
@@ -579,6 +584,7 @@ _More Schedule Details Coming Soon..._
 [slides21]: files/cs476-21-crypto-hashing.pdf
 <!-- Asymmetric Key Encryption -->
 [slides22]: files/cs476-22-crypto-asymmetric.pdf
+
 <!-- Wrap-up -->
 [slides23]: files/cs476-23-course-wrap-up.pdf
 
