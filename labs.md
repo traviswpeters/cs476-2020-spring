@@ -39,6 +39,7 @@ We, along with over a thousand other educational institutions around the world, 
 ## Labs
 
 <ul>
+<!-- all normal labs -->
 {% assign sorted_pages = site.pages | sort: 'title' %}
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
@@ -47,6 +48,8 @@ We, along with over a thousand other educational institutions around the world, 
 {% endif %}
 {% endfor %}
 {% endfor %}
+<!-- + final lab -->
+<li><a href="{{ site.baseurl }}/labs/final.html">Final Lab</a></li>
 </ul>
 
 #### Extra Credit
