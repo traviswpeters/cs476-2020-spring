@@ -127,7 +127,8 @@ and you will demonstrate your understanding of the Set-UID mechanism as well as 
 [`audit.c`]: https://gist.github.com/traviswpeters/76be624297fb69a30254042f712d6d0a
 [`audit2.c`]: https://gist.github.com/traviswpeters/e9786c9d8ff9cea79a78c76343953e93
 
-<!-- <script src="https://gist.github.com/traviswpeters/76be624297fb69a30254042f712d6d0a.js"></script> -->
+(For these tasks, you'll need [`audit.c`] and [`audit2.c`].
+Both programs are "gists" stored on GitHub - click the link to access them.)
 
 ##### Task 2.1 [2 point]
 
